@@ -1,24 +1,27 @@
 #include "../includes/asteroids.h"
-class Frame
+using namespace std;
+
+class Frame //Castletons frame class
 {
 	SDL_Surface *image2;
-	SDL_Rect src,dest;
+	SDL_Rect src, dest;
 	int time;
 	public:
 	long getTime() { return time; }
-	void init (string fname,SDL_Surface *screen,long newTime=LONG_MAX /*ms*/)
+	void init (string fname, SDL_Surface *screen, long newTime=LONG_MAX /*ms*/)
 	{
 		time = newTime;
 		SDL_Surface *image;
 		int colorKey;
 		image = SDL_LoadBMP(fname.c_str());
-		image2 = SDL_MapRGB(screen -> format, 0,0,255);
-		colorKey = SDL_ConvertSurface(image,screen -> format, SDL_HWSURFACE);
+		image2 = SDL_ConvertSurface(image,screen -> format, SDL_HWSURFACE);
+		colorKey = SDL_MapRGB(screen -> format, 0,0,255);	
 		SDL_SetColorKey(image2, SDL_SRCCOLORKEY,colorKey);
 		SDL_FreeSurface(image);
-		src.x=0; src.y=0; src.w=image2->w; src.h=image2 -> h;
+		src.x=0; src.y=0; src.w=image2->w; src.h=image2->h;
 		dest.x=0; dest.y=0; dest.w = image2 -> w; dest.h = image2 -> h;
 	}
+	
 	void draw(SDL_Surface *screen,int x, int y)
 	{
 		dest.x=x; dest.y=y;
@@ -26,16 +29,16 @@ class Frame
 	}
 };
 
-class Animation
+class Animation //Castletons animation class
 {
 	vector<Frame> frames;
 	long totalTime;
 	public:
-	void init(String fname,SDL_Surface *screen)
+	void init(string fname,SDL_Surface *screen)
 	{
 		int n;
 		ifstream in(fname.c_str());
-		in >> in;
+		in >> n;
 		totalTime=0;
 		for(int i=0; i<n; i++)
 		{
@@ -45,14 +48,14 @@ class Animation
 			totalTime+=t;
 			Frame f;
 			f.init(f2name,screen,t);
-			frames.insert(frames.end(),f;)
+			frames.insert(frames.end(),f);
 		}
 		in.close();
 	}
-	void draw(SDL_Surface *screen,int x, int y, long elapsed /*ms*/)
+	void draw(SDL_Surface *screen,int x, int y, long elapsed) //ms
 	{
 		long currentFrameTime=elapsed % totalTime;
-		for(int i=1; i<frames.size(); i++)
+		for(int i=0; i<frames.size(); i++)
 		{
 			if(frames[i].getTime() > currentFrameTime)
 			{
@@ -63,9 +66,9 @@ class Animation
 		}
 	}
 };
-using namespace std;
+
 int main(int argc, char** argv)
 {
-	cout << "Hurpa Derp" << endl;
+	
 	return 0;
 }
