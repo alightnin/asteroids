@@ -3,8 +3,8 @@
 
 using namespace std;
 
-const string music_path;
-
+string music_path;
+ 
 class Frame //Castletons frame class
 {
 	SDL_Surface *image2;
@@ -71,18 +71,49 @@ class Animation //Castletons animation class
 	}
 };
 
-void init() //Initialize the SDL and all of its components
+bool init_video(SDL_Surface* _screen) //Initialize the SDL and all of its components
 {
+	bool success = true;
+	//init SDL_Video and SDL_Mixer
+	if(SDL_Init(SDL_INIT_VIDEO) == -1 ) success = false;
 	
+	//init the screen
+	_screen = SDL_SetVideoMode(SCREENWIDTH, SCREENHEIGHT, BPP, SDL_DOUBLEBUF|SDL_HWSURFACE);
+	
+	//check that screen_buffer was succesfully inited
+	if(_screen == NULL) success = false;
+	
+	//init SDL_ttf
+	//if(TTF_Init() == -1) success = false;
+	
+	//Set the window caption
+	SDL_WM_SetCaption( "Insert Insightful Caption Here", NULL );
+	
+	return success;
 }
 
-int main(int argc, char** argv)
+void cleanup()
 {
-	int SCREENWIDTH = 640;
-	int SCREENHEIGHT = 480;
-
-	SDL_Init(SDL_INIT_VIDEO); //init SDL Video and Audio
-	mix_yo_shit();
+	cleanup_audio();
 	SDL_Quit();
-	return 0;
+}
+
+int main()
+{
+	SDL_Surface* screen = NULL;
+	//SDL_Surface* screen_buffer;
+	
+	//Init audio and video
+	if(init_video(screen) != false && init_audio() !=false)
+	{
+		mix_yo_shit(); //do stuff
+		
+		cleanup(); //free everything
+		return 0;
+	}
+	else
+	{
+		cout << "Unable to init SDL: %s\n" << SDL_GetError();
+		return 1;
+	}
 }
