@@ -1,5 +1,9 @@
-#include "../includes/asteroids.h"
+#include "../includes/game.h"
+#include "../includes/includes.h"
+
 using namespace std;
+
+const string music_path;
 
 class Frame //Castletons frame class
 {
@@ -67,8 +71,18 @@ class Animation //Castletons animation class
 	}
 };
 
-int main(int argc, char** argv)
+void init() //Initialize the SDL and all of its components
 {
 	
+}
+
+int main(int argc, char** argv)
+{
+	int SCREENWIDTH = 640;
+	int SCREENHEIGHT = 480;
+
+	SDL_Init(SDL_INIT_VIDEO); //init SDL Video and Audio
+	mix_yo_shit();
+	SDL_Quit();
 	return 0;
 }
