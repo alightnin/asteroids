@@ -1,6 +1,8 @@
 #ifndef ASTEROIDS_H  //double include protection
 #define ASTEROIDS_H
 
+	#include "../includes/includes.h"
+
 	//Video settings (will change for every architecture)
 	#define BPP 32
 	#define SCREENWIDTH 640

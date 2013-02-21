@@ -1,5 +1,4 @@
 #include "../includes/game.h"
-#include "../includes/includes.h"
 
 using namespace std;
 
@@ -71,14 +70,17 @@ class Animation //Castletons animation class
 	}
 };
 
-bool init_video(SDL_Surface* _screen) //Initialize the SDL and all of its components
+bool init(SDL_Surface* _screen) //Initialize the SDL and all of its components
 {
 	bool success = true;
 	//init SDL_Video and SDL_Mixer
-	if(SDL_Init(SDL_INIT_VIDEO) == -1 ) success = false;
+	if(SDL_Init(SDL_INIT_VIDEO|SDL_INIT_AUDIO) == -1) success = false;
 	
 	//init the screen
 	_screen = SDL_SetVideoMode(SCREENWIDTH, SCREENHEIGHT, BPP, SDL_DOUBLEBUF|SDL_HWSURFACE);
+	
+	//init the mixer
+	if(Mix_OpenAudio(AUDIOSAMPLERATE, AUDIO_S16SYS , STEREO, CHUNKSIZE) == -1) success = false;
 	
 	//check that screen_buffer was succesfully inited
 	if(_screen == NULL) success = false;
@@ -92,23 +94,47 @@ bool init_video(SDL_Surface* _screen) //Initialize the SDL and all of its compon
 	return success;
 }
 
-void cleanup()
+void cleanup(SDL_Surface* _Screen)
 {
 	cleanup_audio();
+	SDL_FreeSurface(_Screen);
 	SDL_Quit();
 }
 
 int main()
 {
+	bool quit = false;
+	Mix_Music* track = NULL;
+	SDL_Event event;
 	SDL_Surface* screen = NULL;
 	//SDL_Surface* screen_buffer;
 	
 	//Init audio and video
-	if(init_video(screen) != false && init_audio() !=false)
+	if(init(screen) != false)
 	{
 		mix_yo_shit(); //do stuff
-		
-		cleanup(); //free everything
+		if(load_file("../music/Toxicity.mp3") == true) cout << "File succesfully loaded\n";
+		//While the user hasn't quit
+		    while(quit == false)
+		    {
+		        //While there's an event to handle
+		        while(SDL_PollEvent( &event ))
+		        {
+		            //If the user has Xed out the window
+		            if(event.type == SDL_QUIT)
+		            {
+		                //Quit the program
+		                quit = true;
+		            }
+		            if(event.type == SDL_KEYDOWN)
+		            {
+		            	if(event.key.keysym.sym == SDLK_ESCAPE) quit = true;
+		            	if(event.key.keysym.sym == SDLK_SPACE) play_audio();
+		            }
+		        }
+		        SDL_Delay(50);
+		    }
+		cleanup(screen); //free everything
 		return 0;
 	}
 	else
