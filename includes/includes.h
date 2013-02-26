@@ -23,6 +23,7 @@
 		#include <string>
 		#include <vector>
 
+		using namespace std;
 	#elif defined _WIN64
 		//64 bit Windows includes go here
 		#include "SDL.h"
