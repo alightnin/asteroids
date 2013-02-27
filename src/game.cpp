@@ -101,7 +101,7 @@ void cleanup(SDL_Surface* _Screen)
 	SDL_Quit();
 }
 
-int main()
+int main(int argc, char** argv)
 {
 	bool quit = false;
 	Mix_Music* track = NULL;

@@ -24,7 +24,7 @@ bool init_audio()
 */
 void mix_yo_shit()
 {
-	cout << "Spit your game and drop your shit!\n";
+	cout << "Audio running\n";
 }
 
 bool check_files() //FINISH ME
