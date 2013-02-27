@@ -3,3 +3,6 @@
 
 # Elf Binary
 asteroids_n_stuff
+
+#Windows binary
+*.exe
