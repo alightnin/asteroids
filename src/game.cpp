@@ -131,7 +131,11 @@ int main(int argc, char** argv)
 		            if(event.type == SDL_KEYDOWN)
 		            {
 		            	if(event.key.keysym.sym == SDLK_ESCAPE) quit = true;
-		            	if(event.key.keysym.sym == SDLK_SPACE) play_audio();
+		            	if(event.key.keysym.sym == SDLK_SPACE)
+						{
+								cout << " _ Keypress detected\n";
+								play_audio();
+						}
 		            }
 		        }
 		        SDL_Delay(50);

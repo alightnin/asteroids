@@ -42,6 +42,7 @@ bool load_file(char* filepath) // Loads the file passed into the fcn into memory
 
 bool play_audio()
 {
+	cout << " _ Keypress detected\n";
 	bool success = true;
 	if(Mix_PlayMusic(music, 1) == -1) success = false;
 	return success;
