@@ -58,7 +58,7 @@ class Animation //Castletons animation class
 	void draw(SDL_Surface *screen,int x, int y, long elapsed) //ms
 	{
 		long currentFrameTime=elapsed % totalTime;
-		for(int i=0; i<frames.size(); i++)
+		for(unsigned int i=0; i<frames.size(); i++)
 		{
 			if(frames[i].getTime() > currentFrameTime)
 			{
@@ -89,7 +89,7 @@ bool init(SDL_Surface* _screen) //Initialize the SDL and all of its components
 	//if(TTF_Init() == -1) success = false;
 	
 	//Set the window caption
-	SDL_WM_SetCaption( "Insert Insightful Caption Here", NULL );
+	SDL_WM_SetCaption( "Asteroids_N_Stuff", NULL );
 	
 	return success;
 }
@@ -104,6 +104,7 @@ void cleanup(SDL_Surface* _Screen)
 int main(int argc, char** argv)
 {
 	bool quit = false;
+	int i = 0;
 	Mix_Music* track = NULL;
 	SDL_Event event;
 	SDL_Surface* screen = NULL;
@@ -117,6 +118,7 @@ int main(int argc, char** argv)
 		//While the user hasn't quit
 		    while(quit == false)
 		    {
+		    	cout << i++ << " " << endl;
 		        //While there's an event to handle
 		        while(SDL_PollEvent( &event ))
 		        {

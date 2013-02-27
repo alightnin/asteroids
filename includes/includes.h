@@ -1,10 +1,22 @@
 #ifndef INCLUDES_H  //double include protection
 #define INCLUDES_H
 
-	#ifdef __linux__
+	//Trying to use the same includes across mulitple OSes
+	#include <SDL/SDL.h>
+	#include <SDL/SDL_mixer.h>
+	#include <climits>
+	#include <iostream>
+	#include <fstream>
+	#include <string>
+	#include <vector>
+
+	using namespace std;
+
+
+	/*#ifdef __linux__
 		//Linux includes go here (assumed to be 64 bit linux)
-		#include "../includes/linux/SDL.h"
-		#include "../includes/linux/SDL_mixer.h"
+		#include <SDL/SDL.h>
+		#include <SDL/SDL_mixer.h>
 		#include <climits>
 		#include <iostream>
 		#include <fstream>
@@ -28,4 +40,5 @@
 		//64 bit Windows includes go here
 		#include "SDL.h"
 	#endif
+	*/
 #endif
