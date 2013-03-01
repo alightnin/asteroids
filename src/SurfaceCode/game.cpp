@@ -20,7 +20,7 @@ int Game::OnExecute(){
     SDL_Event Event;
 
     while(Running){
-        while(SDL_PollEvent(&Event)){
+        while(SDL_PollEvent(&Event)) {
             OnEvent(&Event);
         }
 

@@ -13,15 +13,15 @@ bool Game::OnInit(){
         printf("Unable to set Video");
         return false;
     }
-    if((background = CSurface::OnLoad("star.bmp")) == NULL){
-        printf("Unable to load background");
-        return false;
-    }
-    if((asteroidImage = CSurface::OnLoad("asteroid.bmp")) == NULL){
+	if((background = CSurface::OnLoad("Images/star.bmp")) == NULL){
+		printf("Unable to load background");
+		return false;
+	}
+    if((asteroidImage = CSurface::OnLoad("Images/asteroid.bmp")) == NULL){
         printf("Unable to load asteroid");
         return false;
     }
-    if((playerShip = CSurface::OnLoad("ship1.bmp")) == NULL){
+    if((playerShip = CSurface::OnLoad("Images/ship1.bmp")) == NULL){
         printf("Unable to load player ship");
         return false;
     }

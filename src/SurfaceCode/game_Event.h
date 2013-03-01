@@ -1,7 +1,7 @@
 #ifndef _GAME_EVENT_H_
     #define _GAME_EVENT_H_
 
-#include <SDL.h>
+#include <..\..\includes\windows\SDL.h>
 
 class game_Event {
     public:

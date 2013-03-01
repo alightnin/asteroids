@@ -3,16 +3,16 @@
 #include <fstream>
 
 void Game::OnEvent(SDL_Event* Event){
-    game_Event::OnEvent(Event);
+    //game_Event::OnEvent(Event);
 
 }
 
 void Game::OnExit(){
     Running = false;
 }
-
+/*This is where we need to create an Event function for a key press
 void Game::OnKeyDown(SDLKey sym, SDLMod mod, Uint16 unicode){
-    /*This is where we need to create an Event function for a key press
+    
     Pseudo code
 
     if(SDLK_UP) ship.y--
@@ -24,5 +24,5 @@ void Game::OnKeyDown(SDLKey sym, SDLMod mod, Uint16 unicode){
         fire.animation();
     }
 
-    Code not written yet*/
-}
+
+}    Code not written yet*/
