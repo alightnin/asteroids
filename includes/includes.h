@@ -3,8 +3,11 @@
 
 		#ifdef __linux__
 		//Linux includes go here (assumed to be 64 bit linux)
-		#include <../includes/linux/SDL.h>
-		#include <../includes/linux/SDL_mixer.h>
+		#include <SDL/SDL.h>
+		#include <SDL/SDL_mixer.h>
+		//#include <../includes/linux/SDL.h>
+		//#include <../includes/linux/SDL_mixer.h>
+		
 		#include <climits>
 		#include <iostream>
 		#include <fstream>

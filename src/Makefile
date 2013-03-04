@@ -3,7 +3,7 @@ INCLUDES=
 CFLAGS=-O0 $(INCLUDES) -g -Wall -Wextra
 LPATHS=-L../lib/linux/
 LDFLAGS:=-lSDL -lSDL_mixer
-SOURCES=game.cpp mixer.cpp 
+SOURCES=CSurface.cpp game.cpp game_OnInit.cpp mixer.cpp  
 OBJECTS=$(SOURCES:.c=.o)
 BINARY=asteroids_n_stuff
 
