@@ -23,8 +23,6 @@ int Game::OnExecute(){
         while(SDL_PollEvent(&Event)) {
             OnEvent(&Event);
         }
-
-        OnLoop();
         OnRender();
         SDL_Delay(1);
     }

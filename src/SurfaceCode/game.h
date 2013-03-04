@@ -1,6 +1,6 @@
 #ifndef _GAME_H_
     #define _GAME_H_
-#include "..\..\includes\windows\SDL.h"
+#include "..\..\includes\includes.h"
 #include "CSurface.h"
 //#include "game_Event.h"
 class Game{
@@ -27,8 +27,6 @@ public:
     //void OnKeyDown(SDLKey sym, SDLMod mod, Uint16 unicode);
 
     void OnExit();
-
-    void OnLoop();
 
     void OnRender();
 

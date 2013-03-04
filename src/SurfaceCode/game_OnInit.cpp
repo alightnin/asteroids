@@ -4,6 +4,52 @@
 
 using namespace std;
 
+void Game::OnCleanup(){
+    SDL_FreeSurface(background);
+    SDL_FreeSurface(asteroidImage);
+    SDL_FreeSurface(playerShip);
+    SDL_FreeSurface(aiShip);
+
+    SDL_FreeSurface(screen);
+
+    SDL_Quit();
+}
+
+void Game::OnEvent(SDL_Event* Event){
+    if(Event->type == SDL_QUIT){
+		Running = false;
+	}
+
+}
+
+void Game::OnExit(){
+    Running = false;
+}
+/*This is where we need to create an Event function for a key press
+void Game::OnKeyDown(SDLKey sym, SDLMod mod, Uint16 unicode){
+    
+    Pseudo code
+
+    if(SDLK_UP) ship.y--
+    if(SDLK_DOWN) ship.y++
+    if(SDLK_LEFT) ship Rotate left
+    if(SDLK_RIGHT) ship. Rotate right
+    if(SDLK_SPACE){
+        CSurface::OnLoad("bullet")
+        fire.animation();
+    }
+
+
+}    Code not written yet*/
+
+void Game::OnRender(){
+    CSurface::OnDraw(screen, background, 0, 0);
+
+    CSurface::OnDraw(screen, asteroidImage, 200, 100);
+    CSurface::OnDraw(screen, playerShip, 512, 384);
+    SDL_Flip(screen);
+}
+
 bool Game::OnInit(){
     if(SDL_Init(SDL_INIT_EVERYTHING) < 0){
         printf("Unable to init");
