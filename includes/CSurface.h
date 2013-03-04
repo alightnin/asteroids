@@ -1,7 +1,7 @@
 #ifndef _CSURFACE_H_
 #define _CSURFACE_H_
 
-#include "..\..\includes\includes.h"
+#include "..\includes\includes.h"
 
 class CSurface{
 public:

@@ -1,6 +1,4 @@
-#include "CSurface.h"
-#include <iostream>
-#include <fstream>
+#include "../includes/CSurface.h"
 
 CSurface::CSurface(){
 }
