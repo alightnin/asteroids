@@ -27,20 +27,20 @@ private:
 public:
     Game();
 
-    int OnExecute();
+    int Execute();
 
 public:
-    bool OnInit();
+    bool Init();
 
-    void OnEvent(SDL_Event* Event);
+    void Event(SDL_Event* _Event);
 
     //void OnKeyDown(SDLKey sym, SDLMod mod, Uint16 unicode);
 
-    void OnExit();
+    void Exit();
 
-    void OnRender();
+    void Render();
 
-    void OnCleanup();
+    void Cleanup();
 };
 	
 #endif

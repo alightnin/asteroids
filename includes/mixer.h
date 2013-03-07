@@ -12,8 +12,6 @@
 
 //function prototypes go here
 	bool init_audio(); //Init the SDL_Audio stuff and set up SDL Mixer
-
-	void mix_yo_shit(); //Stub function to put audio playback in
 	
 	bool check_files(); //Will search the path specified by the user and all subdirectories for recognized audio files and build a list of these files
 	

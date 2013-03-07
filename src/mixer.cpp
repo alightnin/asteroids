@@ -3,11 +3,6 @@
 //The music that will be played
 Mix_Music *music = NULL; 
 
-//The sound effects that will be used
-Mix_Chunk *scratch = NULL;
-Mix_Chunk *high = NULL;
-Mix_Chunk *med = NULL;
-Mix_Chunk *low = NULL; 
 
 //added to Init video function
 /*
@@ -22,16 +17,18 @@ bool init_audio()
 	return success;
 }
 */
-void mix_yo_shit()
-{
-	cout << "Audio running\n";
-}
 
 bool check_files() //FINISH ME
 {
 	return false;
 }
-	
+
+void cleanup_audio()
+{
+	//Close SDL_Mixer
+	Mix_CloseAudio();
+}
+
 bool load_file(char* filepath) // Loads the file passed into the fcn into memory
 {
 	bool success = true;
@@ -42,7 +39,6 @@ bool load_file(char* filepath) // Loads the file passed into the fcn into memory
 
 bool play_audio()
 {
-	cout << " _ Keypress detected\n";
 	bool success = true;
 	if(Mix_PlayMusic(music, 1) == -1) success = false;
 	return success;
@@ -51,10 +47,4 @@ bool play_audio()
 bool stop_audio() //FINISH ME
 {
 	return false;
-}
-
-void cleanup_audio()
-{
-	//Close SDL_Mixer
-	Mix_CloseAudio();
 }

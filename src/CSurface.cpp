@@ -1,14 +1,14 @@
 #include "../includes/CSurface.h"
 
-CSurface::CSurface(){
-}
+CSurface::CSurface() {} //primary constructor
 
-SDL_Surface* CSurface::OnLoad(const char* File){
+SDL_Surface* CSurface::Load_bmp(const char* File)
+{
     SDL_Surface* Surf_Temp = NULL;
     SDL_Surface* Surf_Return = NULL;
 
     if((Surf_Temp = SDL_LoadBMP(File)) == NULL){
-        printf("Unable to Load BMP");
+    	cerr << "Unable to Load BMP\n";
         return NULL;
     }
 
@@ -19,9 +19,26 @@ SDL_Surface* CSurface::OnLoad(const char* File){
     return Surf_Return;
 }
 
-bool CSurface::OnDraw(SDL_Surface* dest, SDL_Surface* src, int X, int Y){
+SDL_Surface* CSurface::Load_png(const char* File)
+{
+    SDL_Surface* Surf_Temp = NULL;
+    SDL_Surface* Surf_Return = NULL;
+
+    if((Surf_Temp = IMG_Load(File)) == NULL){
+    	cerr << "Unable to Load BMP\n";
+        return NULL;
+    }
+
+    Surf_Return = SDL_DisplayFormat(Surf_Temp);
+    SDL_FreeSurface(Surf_Temp);
+
+
+    return Surf_Return;
+}
+
+bool CSurface::Draw(SDL_Surface* dest, SDL_Surface* src, int X, int Y){
     if(dest == NULL || src == NULL){
-        printf("Unable to draw");
+        cerr << "Unable to draw\n";
         return false;
     }
 
@@ -35,7 +52,7 @@ bool CSurface::OnDraw(SDL_Surface* dest, SDL_Surface* src, int X, int Y){
     return true;
 }
 
-bool CSurface::OnDraw(SDL_Surface* dest, SDL_Surface* src, int X, int Y, int X2, int Y2, int W, int H){
+bool CSurface::Draw(SDL_Surface* dest, SDL_Surface* src, int X, int Y, int X2, int Y2, int W, int H){
     if(dest == NULL || src == NULL){
         return false;
     }

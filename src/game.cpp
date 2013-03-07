@@ -4,44 +4,46 @@ using namespace std;
 
 //string music_path;  not used yet
 
-Game::Game(){
+Game::Game()
+{
     background = NULL;
     asteroidImage = NULL;
     playerShip = NULL;
     aiShip = NULL;
-
-
     screen = NULL;
 
     Running = true;
 }
 
 
-int Game::OnExecute(){
-    if(OnInit() == false){
+int Game::Execute() //main game function
+{ 
+    if(Init() == false) //if SDL isn't initialized then fail
+    {  
         return -1;
     }
 
-    SDL_Event Event;
+    SDL_Event _Event;
 
-    while(Running){
-		mix_yo_shit(); //do stuff
+    while(Running) //Main game loop
+    {
 		if(load_file("../music/Toxicity.mp3") == true) printf("File succesfully loaded\n");
-        while(SDL_PollEvent(&Event)) {
-            OnEvent(&Event);
+        while(SDL_PollEvent(&_Event)) //poll loop
+        {
+            Event(&_Event);
         }
-        OnRender();
+        Render();
         SDL_Delay(50);
     }
 
-    OnCleanup();
+    Cleanup();
 
     return 0;
 }
 
 int main(int argc, char* argv[]){
     Game LSDasteroids;
-    LSDasteroids.OnExecute();
+    LSDasteroids.Execute();
 
     return 0;
 }

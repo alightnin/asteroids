@@ -3,10 +3,10 @@
 * Put the mixer functions in a class
 * Get space ship moving w/ acceleration
 * Get the asteroids moving
-* Get asteroids to move
 * Add collision detection
-* Get Fast Fourier Transform library
+# Get Fast Fourier Transform library (DONE I have this in a separate folder on the linux branch only so as not to break anything)
 * Write code to analyze live audio w/ FFT
 * Add functionality to change the size and color of asteroids
 * Come up with cool sounding name
 * Get ship to shoot
+* Compile libfftw3 for windows

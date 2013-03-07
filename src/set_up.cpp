@@ -1,9 +1,7 @@
-#include "../includes/game.h"
-#include "../includes/CSurface.h"
+#include "../includes/set_up.h"
 
-using namespace std;
-
-void Game::OnCleanup(){
+void Game::Cleanup() //Free all SDL resources
+{
 	cleanup_audio();
     SDL_FreeSurface(background);
     SDL_FreeSurface(asteroidImage);
@@ -15,22 +13,24 @@ void Game::OnCleanup(){
     SDL_Quit();
 }
 
-void Game::OnEvent(SDL_Event* Event){
-    if(Event->type == SDL_QUIT){
+void Game::Event(SDL_Event* _Event) //Check for events
+{
+    if(_Event->type == SDL_QUIT){
 		Running = false;
 	}
-	if(Event->type == SDL_KEYDOWN){
-		if(Event->key.keysym.sym == SDLK_ESCAPE)
-			Running = false;
-		if(Event->key.keysym.sym == SDLK_SPACE){
-			cout << " _ Keypress detected\n";
+	if(_Event->type == SDL_KEYDOWN)
+		{
+			if(_Event->key.keysym.sym == SDLK_ESCAPE) Running = false;
+			if(_Event->key.keysym.sym == SDLK_SPACE)
+		{
 			play_audio();
 		}
 	}
 
 }
 
-void Game::OnExit(){
+void Game::Exit()
+{
     Running = false;
 }
 /*This is where we need to create an Event function for a key press
@@ -50,15 +50,18 @@ void Game::OnKeyDown(SDLKey sym, SDLMod mod, Uint16 unicode){
 
 }    Code not written yet*/
 
-void Game::OnRender(){
-    CSurface::OnDraw(screen, background, 0, 0);
+void Game::Render() //Draw the main ship and background
+{
+    CSurface::Draw(screen, background, 0, 0);
 
-    CSurface::OnDraw(screen, asteroidImage, SCREENWIDTH / 4, SCREENHEIGHT / 6);
-    CSurface::OnDraw(screen, playerShip, SCREENWIDTH / 2 , SCREENHEIGHT / 2);
+    CSurface::Draw(screen, asteroidImage, SCREENWIDTH / 4, SCREENHEIGHT / 6);
+    CSurface::Draw(screen, playerShip, SCREENWIDTH / 2 , SCREENHEIGHT / 2);
     SDL_Flip(screen);
 }
 
-bool Game::OnInit(){
+bool Game::Init() //Set up the SDL and load resources
+{
+	//fft set up will go here too
     if(SDL_Init(SDL_INIT_EVERYTHING) < 0){
         printf("Unable to init");
         return false;
@@ -68,15 +71,15 @@ bool Game::OnInit(){
         return false;
     }
 	
-	if((background = CSurface::OnLoad("../Images/star.bmp")) == NULL){
+	if((background = CSurface::Load_bmp("../Images/star.bmp")) == NULL){
 		printf("Unable to load background");
 		return false;
 	}
-    if((asteroidImage = CSurface::OnLoad("../Images/asteroid.bmp")) == NULL){
+    if((asteroidImage = CSurface::Load_bmp("../Images/asteroid.bmp")) == NULL){
         printf("Unable to load asteroid");
         return false;
     }
-    if((playerShip = CSurface::OnLoad("../Images/ship1.bmp")) == NULL){
+    if((playerShip = CSurface::Load_bmp("../Images/ship1.bmp")) == NULL){
         printf("Unable to load player ship");
         return false;
     }

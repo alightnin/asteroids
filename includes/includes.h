@@ -4,12 +4,14 @@
 		#ifdef __linux__
 		//Linux includes go here (assumed to be 64 bit linux)
 		#include <SDL/SDL.h>
+		#include <SDL/SDL_image.h>
 		#include <SDL/SDL_mixer.h>
 		//#include <../includes/linux/SDL.h>
 		//#include <../includes/linux/SDL_mixer.h>
 		
 		#include <climits>
 		#include <iostream>
+		#include "../includes/fftw/fftw3.h" //fast fourier transform library
 		#include <fstream>
 		#include <string>
 		#include <vector>
