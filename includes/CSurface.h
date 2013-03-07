@@ -6,12 +6,12 @@
 class CSurface
 {
 public:
-    CSurface();
+    CSurface(); //primary constructor
 
 public:
-    static SDL_Surface* Load_bmp(const char* File);
+    static SDL_Surface* Load_bmp(const char* File); //Load a bmp file into an SDL_Surface
     
-    static SDL_Surface* Load_png(const char* File);
+    static SDL_Surface* Load_png(const char* File);	//Load a png(may work for others) file into an SDL_Surface
 
     static bool Draw(SDL_Surface* dest, SDL_Surface* src, int X, int Y);
 

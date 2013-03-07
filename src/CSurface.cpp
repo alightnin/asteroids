@@ -1,6 +1,6 @@
 #include "../includes/CSurface.h"
 
-CSurface::CSurface() {} //primary constructor
+CSurface::CSurface() {} 
 
 SDL_Surface* CSurface::Load_bmp(const char* File)
 {

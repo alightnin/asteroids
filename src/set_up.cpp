@@ -15,16 +15,36 @@ void Game::Cleanup() //Free all SDL resources
 
 void Game::Event(SDL_Event* _Event) //Check for events
 {
-    if(_Event->type == SDL_QUIT){
+    if(_Event->type == SDL_QUIT)
+    {
 		Running = false;
 	}
 	if(_Event->type == SDL_KEYDOWN)
 		{
+			switch (_Event->key.keysym.sym)
+			{
+				case SDLK_ESCAPE: Running = false;
+					break;
+				case SDLK_SPACE: play_audio(); //will be replaced later
+					break;
+				case SDLK_w: cout << "w\n"; //Move ship forward
+					break;
+				case SDLK_a: cout << "a\n"; //Rotate ship anti clockwise
+					break;
+				case SDLK_s: cout << "s\n"; //Rotate ship clockwise
+					break;
+				case SDLK_d: cout << "d\n"; //Reverse /slow down ship
+					break;	
+				default://do nothing;
+					break;
+			}
+			/*
 			if(_Event->key.keysym.sym == SDLK_ESCAPE) Running = false;
 			if(_Event->key.keysym.sym == SDLK_SPACE)
 		{
 			play_audio();
 		}
+		*/
 	}
 
 }
