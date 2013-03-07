@@ -21,6 +21,7 @@
 	#elif defined _WIN32
 		//32 bit Windows includes go here
 		#include "../includes/windows/SDL.h"
+		#include "../includes/windows/SDL_image.h"
 		#include "../includes/windows/SDL_mixer.h"
 		#include <climits>
 		#include <iostream>
