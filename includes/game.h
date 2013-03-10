@@ -24,11 +24,22 @@ private:
     SDL_Surface* asteroidImage;
     SDL_Surface* playerShip;
     SDL_Surface* aiShip;
+    
+    ////////////////////////// timer attributes to keep track of movement
+    long int start, end;
+    double deltaTime;
+    //////////////////////////
 public:
     Game();
 
     int Execute();
-
+    
+    //////////////////////// polar coordinates to move and rotate ship
+    double a_x, a_y, a_r;
+    double v_x, v_y, v_r, v_theta_r;
+    double p_x, p_y, p_r, theta_r;
+    ////////////////////////
+    
 public:
     bool Init();
 
@@ -37,6 +48,10 @@ public:
     //void OnKeyDown(SDLKey sym, SDLMod mod, Uint16 unicode);
 
     void Exit();
+    
+    //////////////////// //update function (redraws ship)
+    void Update(double dt);
+    ////////////////////
 
     void Render();
 

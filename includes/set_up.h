@@ -5,6 +5,8 @@
 	#include "../includes/game.h"
 	#include "../includes/CSurface.h"
 
+    #define INERTIA .1
+
 	/*####################
 	 * Function prototypes commented out to fix compiler error
 	 *#####################
