@@ -108,7 +108,7 @@ void Game::Render() //Draw the main ship and background
 {
     CSurface::Draw(screen, background, 0, 0);
     CSurface::Draw(screen, asteroidImage, SCREENWIDTH / 4, SCREENHEIGHT / 6);
-    CSurface::Draw(screen, playerShip, p_x , p_y);
+    CSurface::Draw(screen, playerShip, p_x, p_y);
     SDL_Flip(screen);
 }
 
