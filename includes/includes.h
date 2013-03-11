@@ -15,6 +15,7 @@
 		#include <fstream>
 		#include <string>
 		#include <vector>
+		#include <math.h>
 
 		using namespace std;
 
@@ -28,6 +29,7 @@
 		#include <fstream>
 		#include <string>
 		#include <vector>
+		#include <math.h>
 
 		using namespace std;
 	#elif defined _WIN64

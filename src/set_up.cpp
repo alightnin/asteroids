@@ -27,17 +27,17 @@ void Game::Event(SDL_Event* _Event) //Check for events
 				break;
 			case SDLK_SPACE: play_audio(); //will be replaced later
 				break;
-			case SDLK_w: cout << "w\n"; //Move ship forward
-				a_y = -50.0;
+			case SDLK_w: cout << "w\n"; //speed up
+				thrust = true;
 				break;
-			case SDLK_a: cout << "a\n"; //Rotate ship anti clockwise
-				a_x = -50.0;
+			case SDLK_a: cout << "a\n"; //turn -theta
+				theta_r += 0.1;
 				break;
-			case SDLK_s: cout << "s\n"; //Rotate ship clockwise
-				a_y = 50.0;
+			case SDLK_s: cout << "s\n"; //slow down
+				decel = true;
 				break;
-			case SDLK_d: cout << "d\n"; //Reverse /slow down ship
-				a_x = 50.0;
+			case SDLK_d: cout << "d\n"; //turn +theta
+				theta_r -= 0.1;
 				break;		
 			default://do nothing;
 				break;
@@ -47,19 +47,11 @@ void Game::Event(SDL_Event* _Event) //Check for events
 	{
 		switch (_Event->key.keysym.sym)
 		{
-			case SDLK_w: a_y = 0;
-				cout << "W UP!\n";
-				cout << "ay: " << a_y << endl;
+			case SDLK_w: 
+				thrust = false;
 				break;
-			case SDLK_s: a_y = 0;
-				cout << "S UP!\n";
-				cout << "ay: " << a_y << endl;
-				break;
-			case SDLK_d: a_x = 0;
-				cout << "ax: " << a_x << endl;
-				break;
-			case SDLK_a: a_x = 0;
-				cout << "ax: " << a_x << endl;
+			case SDLK_s: 
+				decel = false;
 				break;
 			default://do nothing;
 				break;
@@ -90,8 +82,16 @@ void Game::OnKeyDown(SDLKey sym, SDLMod mod, Uint16 unicode){
 
 void Game::Update(double dt)
 {
-	v_x += a_x * dt; 
-	v_y += a_y * dt;
+	if(thrust)
+	{
+		v_x -= sin(theta_r) * accel * dt; 
+		v_y -= cos(theta_r) * accel * dt;
+	}
+	else if(decel)
+	{
+		v_x += sin(theta_r) * accel * dt; 
+		v_y += cos(theta_r) * accel * dt;
+	}
 
 	if(v_x > 300)
 		v_x = 300;
@@ -112,10 +112,6 @@ void Game::Update(double dt)
 	if(p_y < 0) p_y = SCREENHEIGHT;
 	if(p_y > SCREENHEIGHT) p_y = 0;
 	
-	if(a_x > 0)  a_x -= INERTIA; //Stop acceleration if it is not being applied
-	if(a_x < 0)  a_x += INERTIA;
-	if(a_y > 0) a_y -= INERTIA; 
-	if(a_y < 0) a_y += INERTIA;
 }
 
 void Game::Render() //Draw the main ship and background
@@ -168,7 +164,8 @@ bool Game::Init() //Set up the SDL and load resources
     SDL_EnableKeyRepeat(1, SDL_DEFAULT_REPEAT_INTERVAL / 3);
     
     ////////////////////////
-    a_x = 0, a_y = 0; //init acceleration 
+    accel = 0; //init acceleration 
+    thrust = decel = false;
     v_x = 0, v_y = 0, v_theta_r = 0; //init velocity
     theta_r = 0; //init angle
     p_r = 0; //init radius

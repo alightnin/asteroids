@@ -35,9 +35,10 @@ public:
     int Execute();
     
     //////////////////////// polar coordinates to move and rotate ship
-    double a_x, a_y, a_r;
+    double accel, a_r;
     double v_x, v_y, v_r, v_theta_r;
     double p_x, p_y, p_r, theta_r;
+    bool thrust, decel;
     ////////////////////////
     
 public:
