@@ -38,7 +38,7 @@ int Game::Execute() //main game function
         }
         Update(deltaTime);
         Render();
-        SDL_Delay(50);
+        SDL_Delay(10);
     }
 
     Cleanup();

@@ -6,6 +6,7 @@
 		#include <SDL/SDL.h>
 		#include <SDL/SDL_image.h>
 		#include <SDL/SDL_mixer.h>
+		#include <SDL/SDL_rotozoom.h>
 		//#include <../includes/linux/SDL.h>
 		//#include <../includes/linux/SDL_mixer.h>
 		

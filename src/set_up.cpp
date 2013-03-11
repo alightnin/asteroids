@@ -27,17 +27,15 @@ void Game::Event(SDL_Event* _Event) //Check for events
 				break;
 			case SDLK_SPACE: play_audio(); //will be replaced later
 				break;
-			case SDLK_w: cout << "w\n"; //speed up
-				thrust = true;
+			case SDLK_w: //cout << "w\n"; //speed up
+				a_theta += 5;
 				break;
-			case SDLK_a: cout << "a\n"; //turn -theta
-				theta_r += 0.1;
+			case SDLK_a: //cout << "a\n"; //turn -theta
 				break;
-			case SDLK_s: cout << "s\n"; //slow down
-				decel = true;
+			case SDLK_s: //cout << "s\n"; //slow down
+				a_theta -= 2;
 				break;
-			case SDLK_d: cout << "d\n"; //turn +theta
-				theta_r -= 0.1;
+			case SDLK_d: //cout << "d\n"; //turn +theta
 				break;		
 			default://do nothing;
 				break;
@@ -47,11 +45,13 @@ void Game::Event(SDL_Event* _Event) //Check for events
 	{
 		switch (_Event->key.keysym.sym)
 		{
-			case SDLK_w: 
-				thrust = false;
+			case SDLK_w:
+				//cout << "W UP\n";
+				a_theta = 0;
 				break;
-			case SDLK_s: 
-				decel = false;
+			case SDLK_s:
+				//cout << "S UP\n";
+				a_theta = 0;
 				break;
 			default://do nothing;
 				break;
@@ -76,48 +76,37 @@ void Game::OnKeyDown(SDLKey sym, SDLMod mod, Uint16 unicode){
         CSurface::OnLoad("bullet")
         fire.animation();
     }
-
-
 }    Code not written yet*/
 
-void Game::Update(double dt)
+void Game::Update(double dt) //updates the ship position and physics for it to be redrawn
 {
-	if(thrust)
-	{
-		v_x -= sin(theta_r) * accel * dt; 
-		v_y -= cos(theta_r) * accel * dt;
-	}
-	else if(decel)
-	{
-		v_x += sin(theta_r) * accel * dt; 
-		v_y += cos(theta_r) * accel * dt;
-	}
-
-	if(v_x > 300)
-		v_x = 300;
-	else if(v_x < -300)
-		v_x = -300;
-
-	if(v_y > 300)
-		v_y = 300;
-	else if(v_y < -300)
-		v_y = -300;
-
-
-	p_x += v_x * dt;
-	p_y += v_y * dt;
 	
+	v_theta += a_theta * dt; //Calculate velocity as the integral of accelaration
+	v_x = sin(theta) * v_theta; //Calculate x-axis velocity
+	v_y = cos(theta) * v_theta; //Calculate y-axis velocity
+	p_x += v_x * dt; //convert velocity to position x-axis
+	p_y += v_y * dt; //convert velocity to position y-axis
+	
+	//Check that the ship is on screen if not move it to the other side
 	if(p_x < 0) p_x = SCREENWIDTH;
 	if(p_x > SCREENWIDTH) p_x = 0;
 	if(p_y < 0) p_y = SCREENHEIGHT;
 	if(p_y > SCREENHEIGHT) p_y = 0;
+	if(a_theta == 0) //slow the ship down over time
+	{
+			if(v_theta > 0) v_theta -= DRAG;
+			else if(v_theta < 0) v_theta += DRAG;
+			cout << "V: " << v_theta << endl;
+	}
 	
+	if(v_theta > 300) v_theta = 300; //limit the velocity
+	else if(v_theta < -300) v_theta = -300;
+	cout << "A: " << a_theta << endl;
 }
 
 void Game::Render() //Draw the main ship and background
 {
     CSurface::Draw(screen, background, 0, 0);
-
     CSurface::Draw(screen, asteroidImage, SCREENWIDTH / 4, SCREENHEIGHT / 6);
     CSurface::Draw(screen, playerShip, p_x , p_y);
     SDL_Flip(screen);
@@ -164,11 +153,9 @@ bool Game::Init() //Set up the SDL and load resources
     SDL_EnableKeyRepeat(1, SDL_DEFAULT_REPEAT_INTERVAL / 3);
     
     ////////////////////////
-    accel = 0; //init acceleration 
-    thrust = decel = false;
-    v_x = 0, v_y = 0, v_theta_r = 0; //init velocity
-    theta_r = 0; //init angle
-    p_r = 0; //init radius
+    a_theta = 0; //init acceleration 
+    v_x = 0, v_y = 0, v_theta = 0; //init velocity
+    theta = PI; // pi = move straight up (not sure why this works but it does)
     p_x = SCREENWIDTH / 2, p_y = SCREENHEIGHT / 2; //init position
     start = end = 0;
     ////////////////////////

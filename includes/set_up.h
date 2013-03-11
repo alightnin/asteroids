@@ -5,7 +5,8 @@
 	#include "../includes/game.h"
 	#include "../includes/CSurface.h"
 
-    #define INERTIA .1
+	#define DRAG 1
+    #define PI 3.14159265
 
 	/*####################
 	 * Function prototypes commented out to fix compiler error

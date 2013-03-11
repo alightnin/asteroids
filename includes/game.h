@@ -33,13 +33,10 @@ public:
     Game();
 
     int Execute();
-    
-    //////////////////////// polar coordinates to move and rotate ship
-    double accel, a_r;
-    double v_x, v_y, v_r, v_theta_r;
-    double p_x, p_y, p_r, theta_r;
-    bool thrust, decel;
-    ////////////////////////
+        
+    double a_theta; //Acceleration
+    double v_x, v_y, v_theta; //velocity
+    double p_x, p_y, theta; //Position
     
 public:
     bool Init();
