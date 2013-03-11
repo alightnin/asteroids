@@ -53,7 +53,7 @@ void Game::Event(SDL_Event* _Event) //Check for events
 				//cout << "S UP\n";
 				a_theta = 0;
 				break;
-			default://do nothing;
+			default: //do nothing;
 				break;
 		}
 	}
@@ -147,8 +147,8 @@ bool Game::Init() //Set up the SDL and load resources
 
 	SDL_WM_SetCaption( "Asteroids_N_Stuff", NULL ); 
 	
-    CSurface::Transparent(asteroidImage, 0, 0, 255);
-    CSurface::Transparent(playerShip, 0, 0, 255);
+    CSurface::Transparent(asteroidImage, 255, 0, 255);
+    CSurface::Transparent(playerShip, 255, 0, 255);
 
     SDL_EnableKeyRepeat(1, SDL_DEFAULT_REPEAT_INTERVAL / 3);
     
