@@ -124,7 +124,7 @@ bool Game::Init() //Set up the SDL and load resources
         return false;
     }
 	
-	if((background = CSurface::Load_bmp("../Images/star.bmp")) == NULL){
+	if((background = CSurface::Load_png("../Images/background001.png")) == NULL){
 		printf("Unable to load background");
 		return false;
 	}

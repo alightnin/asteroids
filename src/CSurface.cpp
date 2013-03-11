@@ -25,7 +25,7 @@ SDL_Surface* CSurface::Load_png(const char* File)
     SDL_Surface* Surf_Return = NULL;
 
     if((Surf_Temp = IMG_Load(File)) == NULL){
-    	cerr << "Unable to Load BMP\n";
+    	cerr << "Unable to Load PNG\n";
         return NULL;
     }
 
