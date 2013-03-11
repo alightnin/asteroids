@@ -29,12 +29,14 @@ void Game::Event(SDL_Event* _Event) //Check for events
 				break;
 			case SDLK_w: cout << "w\n"; //speed up
 				thrust = true;
+				m_y += 5;
 				break;
 			case SDLK_a: cout << "a\n"; //turn -theta
 				theta_r += 0.1;
 				break;
 			case SDLK_s: cout << "s\n"; //slow down
 				decel = true;
+				m_y -= 5;
 				break;
 			case SDLK_d: cout << "d\n"; //turn +theta
 				theta_r -= 0.1;
@@ -119,7 +121,7 @@ void Game::Render() //Draw the main ship and background
     CSurface::Draw(screen, background, 0, 0);
 
     CSurface::Draw(screen, asteroidImage, SCREENWIDTH / 4, SCREENHEIGHT / 6);
-    CSurface::Draw(screen, playerShip, p_x , p_y);
+    CSurface::Draw(screen, playerShip, 0, 0, m_x, m_y, SCREENWIDTH, SCREENHEIGHT);
     SDL_Flip(screen);
 }
 
@@ -169,7 +171,8 @@ bool Game::Init() //Set up the SDL and load resources
     v_x = 0, v_y = 0, v_theta_r = 0; //init velocity
     theta_r = 0; //init angle
     p_r = 0; //init radius
-    p_x = SCREENWIDTH / 2, p_y = SCREENHEIGHT / 2; //init position
+    p_x = SCREENWIDTH/2, p_y = SCREENHEIGHT/2; //init for the canvas
+	m_x = -400 , m_y = -300;//init positon for the ship
     start = end = 0;
     ////////////////////////
 

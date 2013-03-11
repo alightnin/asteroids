@@ -38,6 +38,7 @@ public:
     double accel, a_r;
     double v_x, v_y, v_r, v_theta_r;
     double p_x, p_y, p_r, theta_r;
+	double m_x , m_y;
     bool thrust, decel;
     ////////////////////////
     
