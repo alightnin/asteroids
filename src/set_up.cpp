@@ -29,14 +29,14 @@ void Game::Event(SDL_Event* _Event) //Check for events
 				break;
 			case SDLK_w: cout << "w\n"; //speed up
 				thrust = true;
-				m_y += 5;//just a test value to get ship moving
+				m_y += 1;//just a test value to get ship moving
 				break;
 			case SDLK_a: cout << "a\n"; //turn -theta
 				theta_r += 0.1;
 				break;
 			case SDLK_s: cout << "s\n"; //slow down
 				decel = true;
-				m_y -= 5;//just a test value to get ship moving
+				m_y -= 1;//just a test value to get ship moving
 				break;
 			case SDLK_d: cout << "d\n"; //turn +theta
 				theta_r -= 0.1;
