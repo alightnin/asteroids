@@ -25,6 +25,7 @@
 		#include "../includes/windows/SDL.h"
 		#include "../includes/windows/SDL_image.h"
 		#include "../includes/windows/SDL_mixer.h"
+		#include "../includes/windows/SDL_rotozoom.h"
 		#include <climits>
 		#include <iostream>
 		#include <fstream>
