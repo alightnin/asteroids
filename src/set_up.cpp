@@ -39,23 +39,23 @@ void Game::Event(SDL_Event* _Event) //Check for events
 				}
 				break;
 			case SDLK_w: //cout << "w\n"; //speed up
-				//a_theta += .5;
-				p_x-=sin(angle*PI/180.0)*2; 
-				p_y-=cos(angle*PI/180.0)*2;
+				a_theta += .05;
+				p_x-=sin(angle*PI/180.0)*(a_theta); 
+				p_y-=cos(angle*PI/180.0)*(a_theta);
 				
 				break;
 			case SDLK_a: //cout << "a\n"; //turn -theta
 				angle+=1;				
 				break;
 			case SDLK_s: //cout << "s\n"; //slow downdddd
-				//a_theta -= .2;
+				//a_theta -= .01;
 				p_x+= sin(angle*PI/180.0)*2;
 				p_y+= cos(angle*PI/180.0)*2;
 				break;
 			case SDLK_d: //cout << "d\n"; //turn +theta
 				angle-=1;
 				break;		
-			default://do nothing;
+			default: //do nothing;
 				break;
 		}
 		
