@@ -1,4 +1,5 @@
 #include "../includes/set_up.h"
+#include "../includes/game.h"
 
 void Game::Cleanup() //Free all SDL resources
 {
@@ -7,7 +8,7 @@ void Game::Cleanup() //Free all SDL resources
     SDL_FreeSurface(asteroidImage);
     SDL_FreeSurface(playerShip);
     SDL_FreeSurface(aiShip);
-
+	SDL_FreeSurface(rotate);
     SDL_FreeSurface(screen);
 
     SDL_Quit();
@@ -25,21 +26,39 @@ void Game::Event(SDL_Event* _Event) //Check for events
 		{
 			case SDLK_ESCAPE: Running = false;
 				break;
-			case SDLK_SPACE: play_audio(); //will be replaced later
+			case SDLK_SPACE: 
+				if(playing == false)
+				{
+					play_audio(); //will be replaced later
+					playing = true;
+				}
+				else
+				{
+					stop_audio();
+					playing = false;
+				}
 				break;
 			case SDLK_w: //cout << "w\n"; //speed up
-				a_theta += 5;
+				//a_theta += .5;
+				p_x-=sin(angle*PI/180.0)*2; 
+				p_y-=cos(angle*PI/180.0)*2;
+				
 				break;
 			case SDLK_a: //cout << "a\n"; //turn -theta
+				angle+=1;				
 				break;
-			case SDLK_s: //cout << "s\n"; //slow down
-				a_theta -= 2;
+			case SDLK_s: //cout << "s\n"; //slow downdddd
+				//a_theta -= .2;
+				p_x+= sin(angle*PI/180.0)*2;
+				p_y+= cos(angle*PI/180.0)*2;
 				break;
 			case SDLK_d: //cout << "d\n"; //turn +theta
+				angle-=1;
 				break;		
 			default://do nothing;
 				break;
 		}
+		
 	}
     else if(_Event->type == SDL_KEYUP)
 	{
@@ -80,7 +99,11 @@ void Game::OnKeyDown(SDLKey sym, SDLMod mod, Uint16 unicode){
 
 void Game::Update(double dt) //updates the ship position and physics for it to be redrawn
 {
+	rotate = rotozoomSurface(playerShip, angle, 1.0, 0); //call to update the rotation of the ship
+
 	
+	if(angle > 360)
+		angle -= 360; //keep our angle below 360
 	v_theta += a_theta * dt; //Calculate velocity as the integral of accelaration
 	v_x = sin(theta) * v_theta; //Calculate x-axis velocity
 	v_y = cos(theta) * v_theta; //Calculate y-axis velocity
@@ -108,7 +131,7 @@ void Game::Render() //Draw the main ship and background
 {
     CSurface::Draw(screen, background, 0, 0);
     CSurface::Draw(screen, asteroidImage, SCREENWIDTH / 4, SCREENHEIGHT / 6);
-    CSurface::Draw(screen, playerShip, p_x, p_y);
+    CSurface::Draw(screen, rotate, p_x, p_y);
     SDL_Flip(screen);
 }
 
@@ -152,10 +175,13 @@ bool Game::Init() //Set up the SDL and load resources
 
     SDL_EnableKeyRepeat(1, SDL_DEFAULT_REPEAT_INTERVAL / 3);
     
+	playing = false;
     ////////////////////////
+
     a_theta = 0; //init acceleration 
     v_x = 0, v_y = 0, v_theta = 0; //init velocity
     theta = PI; // pi = move straight up (not sure why this works but it does)
+	angle = 0; //angle to update which way the ship is facing
     p_x = SCREENWIDTH / 2, p_y = SCREENHEIGHT / 2; //init position
     start = end = 0;
     ////////////////////////

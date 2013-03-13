@@ -46,5 +46,6 @@ bool play_audio()
 
 bool stop_audio() //FINISH ME
 {
+	Mix_HaltMusic();
 	return false;
 }

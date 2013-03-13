@@ -24,6 +24,7 @@ private:
     SDL_Surface* asteroidImage;
     SDL_Surface* playerShip;
     SDL_Surface* aiShip;
+	SDL_Surface* rotate;
     
     ////////////////////////// timer attributes to keep track of movement
     long int start, end;
@@ -33,10 +34,12 @@ public:
     Game();
 
     int Execute();
-        
+     
     double a_theta; //Acceleration
+	double angle;
     double v_x, v_y, v_theta; //velocity
     double p_x, p_y, theta; //Position
+	bool playing;
     
 public:
     bool Init();

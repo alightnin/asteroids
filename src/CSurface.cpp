@@ -82,3 +82,4 @@ bool CSurface::Transparent(SDL_Surface* dest, int R, int G, int B){
 
     return true;
 }
+

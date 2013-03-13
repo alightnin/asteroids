@@ -11,7 +11,7 @@ Game::Game()
     playerShip = NULL;
     aiShip = NULL;
     screen = NULL;
-
+	rotate = NULL;
     Running = true;
 }
 
