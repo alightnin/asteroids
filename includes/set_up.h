@@ -5,7 +5,7 @@
 	#include "../includes/game.h"
 	#include "../includes/CSurface.h"
 
-	#define DRAG 1
+	#define DRAG .01
     #define PI 3.14159265
 
 	/*####################
