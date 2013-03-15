@@ -12,13 +12,17 @@
 		
 		#include <climits>
 		#include <iostream>
-		#include "../includes/fftw/fftw3.h" //fast fourier transform library
+	//#include "../includes/fftw/fftw3.h" //fast fourier transform library
 		#include <fstream>
 		#include <string>
 		#include <vector>
 		#include <math.h>
 
 		using namespace std;
+		
+		#define BPP 32
+		#define SCREENWIDTH 800
+		#define SCREENHEIGHT 600
 
 	#elif defined _WIN32
 		//32 bit Windows includes go here
@@ -34,6 +38,11 @@
 		#include <math.h>
 
 		using namespace std;
+		
+	#define BPP 32
+	#define SCREENWIDTH 800
+	#define SCREENHEIGHT 600
+		
 	#elif defined _WIN64
 		//64 bit Windows includes go here
 		//no compile

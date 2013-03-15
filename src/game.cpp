@@ -1,17 +1,15 @@
 #include "../includes/game.h"
 
-using namespace std;
-
 //string music_path;  not used yet
 
 Game::Game()
 {
     background = NULL;
     asteroidImage = NULL;
-    playerShip = NULL;
+    //playerShip = NULL;
     aiShip = NULL;
     screen = NULL;
-	rotate = NULL;
+	//rotate = NULL;
     Running = true;
 }
 
@@ -21,8 +19,11 @@ int Game::Execute() //main game function
     if(Init() == false) //if SDL isn't initialized then fail
     {  
         return -1;
-    }    
-
+    } 
+    start = 0;
+    deltaTime = 0;
+    end = 0;
+    
     if(load_file("../music/Toxicity.mp3") == true) printf("File succesfully loaded\n");
     SDL_Event _Event;
     while(Running) //Main game loop

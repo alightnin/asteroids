@@ -74,12 +74,12 @@ bool CSurface::Draw(SDL_Surface* dest, SDL_Surface* src, int X, int Y, int X2, i
 }
 
 bool CSurface::Transparent(SDL_Surface* dest, int R, int G, int B){
-    if(dest == NULL){
+    if(dest == NULL)
+    {
         return false;
     }
 
     SDL_SetColorKey(dest, SDL_SRCCOLORKEY | SDL_RLEACCEL, SDL_MapRGB(dest->format, R, G, B));
-
     return true;
 }
 

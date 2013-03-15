@@ -2,13 +2,8 @@
 #define ASTEROIDS_H
 
 	#include "../includes/includes.h"
-
-	//Video settings (will change for every architecture)
-	#define BPP 32
-	#define SCREENWIDTH 800
-	#define SCREENHEIGHT 600
-
 	#include "../includes/mixer.h"
+	#include "../includes/ship.h"
 
 	//Function prototypes go here
 	//bool init(SDL_Surface); //Initialize the SDL and all of its components
@@ -16,15 +11,15 @@
 class Game{
 private:
     bool Running;
-
     SDL_Surface* screen;
+    ship player_ship; //create player ship
 
 private:
     SDL_Surface* background;
     SDL_Surface* asteroidImage;
-    SDL_Surface* playerShip;
+    //SDL_Surface* playerShip;
     SDL_Surface* aiShip;
-	SDL_Surface* rotate;
+	//SDL_Surface* rotate;
     
     ////////////////////////// timer attributes to keep track of movement
     long int start, end;
@@ -34,14 +29,15 @@ public:
     Game();
 
     int Execute();
-     
+    
+    /*
     double a_theta; //Acceleration
-	double angle;
     double v_x, v_y, v_theta; //velocity
     double p_x, p_y, theta; //Position
-	bool playing;
+	*/
     
-public:
+    bool playing;
+    
     bool Init();
 
     void Event(SDL_Event* _Event);

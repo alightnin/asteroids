@@ -1,7 +1,7 @@
 * Add verbose commenting to all functions ( I can't tell what they all do just by looking at them)
 * Finish mixer functions
 * Put the mixer functions in a class
-* Get space ship moving w/ acceleration
+# Get space ship moving w/ acceleration
 * Get the asteroids moving
 * Add collision detection
 # Get Fast Fourier Transform library (DONE I have this in a separate folder on the linux branch only so as not to break anything)
