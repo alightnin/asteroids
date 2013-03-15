@@ -29,7 +29,7 @@ void ship::init()
 	
 	a_0 = 0; //init acceleration 
 	v_x = 0, v_y = 0, //init velocity
-	theta_rad = pi/2; // pi = move straight up (not sure why this works but it does)
+	theta_rad = 0; // pi = move straight up (not sure why this works but it does)
 	friction = 1.0;
 	p_x = SCREENWIDTH / 2; //init position
 	p_y = SCREENHEIGHT / 2; //init position
@@ -57,6 +57,9 @@ void ship::rotate(double theta_n_stuff)
 
 void ship::update(double dt)
 {
+	//if(theta_rad > (2 * pi)) theta_rad = 0;
+	//else if(theta_rad < 0) theta_rad = 2 * pi;
+	theta_deg = (theta_rad * 180) / pi; //Convert to degree pi for rotozoom
 	ship_img = rotozoomSurface(ship_buf,theta_deg, 1.0, 0); //call to update the rotation of the ship
 
 	/*
@@ -69,11 +72,10 @@ void ship::update(double dt)
 	
 	p_x += v_x * dt;
 	p_y += v_y * dt;
-	v_x += cos(theta_rad) * a_0 * dt;
-	v_y += sin(theta_rad+pi) * a_0 * dt;
+	v_x += cos(theta_rad+pi/2) * a_0 * dt;
+	v_y += -sin(theta_rad+pi/2) * a_0 * dt;
 	v_x *= friction;
 	v_y *= friction;
-	theta_deg = (theta_rad * pi) / 180; //Convert to degree pi for rotozoom
 	
 	cout << "theta: " << theta_deg<< " v_x: " << v_x << " v_y: " << v_y << " a_0: " << a_0 <<  " fric: " << friction << endl;
 	//Check that the ship is on screen if not move it to the other side

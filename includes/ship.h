@@ -4,7 +4,7 @@
 	#include "../includes/CSurface.h"
 	#include "../includes/includes.h"
 
-	#define pi 3.141592653589793115997963468544185161590576171875
+	#define pi M_PI
 
 	class ship
 	{

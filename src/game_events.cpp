@@ -99,18 +99,18 @@ void Game::Event(SDL_Event* _Event) //Check for events
 				}
 				break;
 			case SDLK_w: 
-				player_ship.accelerate(45);
+				player_ship.accelerate(60);
 				//a_theta += .05;	
 				break;
 			case SDLK_a: 
-				player_ship.rotate(55);
+				player_ship.rotate(.02);
 				//theta+= (PI * .7);				
 				break;
 			case SDLK_s: //cout << "s\n"; //slow down
-				player_ship.accelerate(-20);
+				player_ship.accelerate(-35);
 				break;
 			case SDLK_d: //cout << "d\n"; //turn +theta
-				player_ship.rotate(-55);
+				player_ship.rotate(-.02);
 				break;		
 			default: //do nothing;
 				break;
