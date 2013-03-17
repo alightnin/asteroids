@@ -23,6 +23,7 @@
 		#define BPP 32
 		#define SCREENWIDTH 800
 		#define SCREENHEIGHT 600
+		#define SOUND_VOLUME 128
 
 	#elif defined _WIN32
 		//32 bit Windows includes go here

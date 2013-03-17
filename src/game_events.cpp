@@ -100,6 +100,7 @@ void Game::Event(SDL_Event* _Event) //Check for events
 				break;
 			case SDLK_w: 
 				player_ship.accelerate(60);
+				play_engine();
 				//a_theta += .05;	
 				break;
 			case SDLK_a: 
