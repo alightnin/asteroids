@@ -6,3 +6,6 @@ asteroids_n_stuff
 
 #Windows binary
 *.exe
+
+#ignore stdout.txt
+stdout.txt
