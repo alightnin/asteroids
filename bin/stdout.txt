@@ -38,892 +38,481 @@ theta: 0 v_x: 0 v_y: 0 a_0: 0 fric: 1
 theta: 0 v_x: 0 v_y: 0 a_0: 0 fric: 1
 theta: 0 v_x: 0 v_y: 0 a_0: 0 fric: 1
 theta: 0 v_x: 0 v_y: 0 a_0: 0 fric: 1
-theta: 0 v_x: 5.51073e-017 v_y: -0.9 a_0: 60 fric: 1
-theta: 0 v_x: 1.02867e-016 v_y: -1.68 a_0: 60 fric: 1
-theta: 0 v_x: 1.50627e-016 v_y: -2.46 a_0: 60 fric: 1
-theta: 0 v_x: 1.98386e-016 v_y: -3.24 a_0: 60 fric: 1
-theta: 0 v_x: 2.42472e-016 v_y: -3.96 a_0: 60 fric: 1
-theta: 0 v_x: 2.86558e-016 v_y: -4.68 a_0: 60 fric: 1
-theta: 0 v_x: 3.34318e-016 v_y: -5.46 a_0: 60 fric: 1
-theta: 0 v_x: 3.78403e-016 v_y: -6.18 a_0: 60 fric: 1
-theta: 0 v_x: 4.18815e-016 v_y: -6.84 a_0: 60 fric: 1
-unable to load engine noisetheta: 0 v_x: 4.59227e-016 v_y: -7.5 a_0: 60 fric: 1
-unable to load engine noisetheta: 0 v_x: 4.99639e-016 v_y: -8.16 a_0: 60 fric: 1
-unable to load engine noisetheta: 0 v_x: 5.40051e-016 v_y: -8.82 a_0: 60 fric: 1
-unable to load engine noisetheta: 0 v_x: 5.80463e-016 v_y: -9.48 a_0: 60 fric: 1
-unable to load engine noisetheta: 0 v_x: 6.20875e-016 v_y: -10.14 a_0: 60 fric: 1
-unable to load engine noisetheta: 0 v_x: 6.61287e-016 v_y: -10.8 a_0: 60 fric: 1
-theta: 0 v_x: 7.01699e-016 v_y: -11.46 a_0: 60 fric: 1
-theta: 0 v_x: 7.42111e-016 v_y: -12.12 a_0: 60 fric: 1
-unable to load engine noisetheta: 0 v_x: 7.82523e-016 v_y: -12.78 a_0: 60 fric: 1
-unable to load engine noisetheta: 0 v_x: 8.22935e-016 v_y: -13.44 a_0: 60 fric: 1
-theta: 0 v_x: 8.63347e-016 v_y: -14.1 a_0: 60 fric: 1
-theta: 0 v_x: 9.03759e-016 v_y: -14.76 a_0: 60 fric: 1
-theta: 0 v_x: 9.44171e-016 v_y: -15.42 a_0: 60 fric: 1
-theta: 0 v_x: 9.84584e-016 v_y: -16.08 a_0: 60 fric: 1
-unable to load engine noisetheta: 0 v_x: 1.025e-015 v_y: -16.74 a_0: 60 fric: 1
-theta: 0 v_x: 1.06541e-015 v_y: -17.4 a_0: 60 fric: 1
-theta: 0 v_x: 1.10582e-015 v_y: -18.06 a_0: 60 fric: 1
-unable to load engine noisetheta: 0 v_x: 1.14623e-015 v_y: -18.72 a_0: 60 fric: 1
-unable to load engine noisetheta: 0 v_x: 1.19032e-015 v_y: -19.44 a_0: 60 fric: 1
-unable to load engine noisetheta: 0 v_x: 1.23073e-015 v_y: -20.1 a_0: 60 fric: 1
-unable to load engine noisetheta: 0 v_x: 1.27114e-015 v_y: -20.76 a_0: 60 fric: 1
-unable to load engine noisetheta: 0 v_x: 1.31155e-015 v_y: -21.42 a_0: 60 fric: 1
-unable to load engine noisetheta: 0 v_x: 1.35197e-015 v_y: -22.08 a_0: 60 fric: 1
-theta: 0 v_x: 1.39238e-015 v_y: -22.74 a_0: 60 fric: 1
-theta: 0 v_x: 1.43279e-015 v_y: -23.4 a_0: 60 fric: 1
-unable to load engine noisetheta: 0 v_x: 1.4732e-015 v_y: -24.06 a_0: 60 fric: 1
-unable to load engine noisetheta: 0 v_x: 1.51361e-015 v_y: -24.72 a_0: 60 fric: 1
-theta: 0 v_x: 1.5577e-015 v_y: -25.44 a_0: 60 fric: 1
-theta: 0 v_x: 1.59811e-015 v_y: -26.1 a_0: 60 fric: 1
-theta: 0 v_x: 1.63852e-015 v_y: -26.76 a_0: 60 fric: 1
-theta: 0 v_x: 1.67894e-015 v_y: -27.42 a_0: 60 fric: 1
-theta: 0 v_x: 1.71935e-015 v_y: -28.08 a_0: 60 fric: 1
-theta: 0 v_x: 1.75976e-015 v_y: -28.74 a_0: 60 fric: 1
-unable to load engine noisetheta: 0 v_x: 1.80017e-015 v_y: -29.4 a_0: 60 fric: 1
-unable to load engine noisetheta: 0 v_x: 1.84058e-015 v_y: -30.06 a_0: 60 fric: 1
-unable to load engine noisetheta: 0 v_x: 1.881e-015 v_y: -30.72 a_0: 60 fric: 1
-unable to load engine noisetheta: 0 v_x: 1.92508e-015 v_y: -31.44 a_0: 60 fric: 1
-unable to load engine noisetheta: 0 v_x: 1.96549e-015 v_y: -32.1 a_0: 60 fric: 1
-unable to load engine noisetheta: 0 v_x: 2.00591e-015 v_y: -32.76 a_0: 60 fric: 1
-unable to load engine noisetheta: 0 v_x: 2.04632e-015 v_y: -33.42 a_0: 60 fric: 1
-theta: 0 v_x: 2.08673e-015 v_y: -34.08 a_0: 60 fric: 1
-theta: 1.14592 v_x: -0.015599 v_y: -34.8598 a_0: 60 fric: 1
-theta: 1.14592 v_x: -0.0311979 v_y: -35.6397 a_0: 60 fric: 1
-theta: 2.29183 v_x: -0.0623896 v_y: -36.4191 a_0: 60 fric: 1
-theta: 3.43775 v_x: -0.109162 v_y: -37.1977 a_0: 60 fric: 1
-theta: 4.58366 v_x: -0.171495 v_y: -37.9752 a_0: 60 fric: 1
-theta: 5.72958 v_x: -0.249365 v_y: -38.7513 a_0: 60 fric: 1
-theta: 6.87549 v_x: -0.342741 v_y: -39.5257 a_0: 60 fric: 1
-theta: 8.02141 v_x: -0.451584 v_y: -40.298 a_0: 60 fric: 1
-theta: 9.16732 v_x: -0.575852 v_y: -41.0681 a_0: 60 fric: 1
-theta: 10.3132 v_x: -0.704754 v_y: -41.7764 a_0: 60 fric: 1
-theta: 11.4592 v_x: -0.847796 v_y: -42.4821 a_0: 60 fric: 1
-theta: 12.6051 v_x: -1.01801 v_y: -43.2433 a_0: 60 fric: 1
-theta: 13.751 v_x: -1.20342 v_y: -44.0009 a_0: 60 fric: 1
-theta: 14.8969 v_x: -1.38852 v_y: -44.6967 a_0: 60 fric: 1
-theta: 16.0428 v_x: -1.60408 v_y: -45.4463 a_0: 60 fric: 1
-theta: 17.1887 v_x: -1.83458 v_y: -46.1915 a_0: 60 fric: 1
-theta: 18.3346 v_x: -2.07995 v_y: -46.9319 a_0: 60 fric: 1
-theta: 19.4806 v_x: -2.32006 v_y: -47.6107 a_0: 60 fric: 1
-theta: 20.6265 v_x: -2.57369 v_y: -48.2845 a_0: 60 fric: 1
-theta: 21.7724 v_x: -2.86301 v_y: -49.0089 a_0: 60 fric: 1
-theta: 22.9183 v_x: -3.16676 v_y: -49.7273 a_0: 60 fric: 1
-theta: 24.0642 v_x: -3.46035 v_y: -50.3848 a_0: 60 fric: 1
-theta: 25.2101 v_x: -3.76702 v_y: -51.0362 a_0: 60 fric: 1
-theta: 26.3561 v_x: -4.1133 v_y: -51.7351 a_0: 60 fric: 1
-theta: 27.502 v_x: -4.47349 v_y: -52.427 a_0: 60 fric: 1
-theta: 28.6479 v_x: -4.81868 v_y: -53.0588 a_0: 60 fric: 1
-theta: 29.7938 v_x: -5.17643 v_y: -53.6836 a_0: 60 fric: 1
-theta: 30.9397 v_x: -5.57746 v_y: -54.3527 a_0: 60 fric: 1
-theta: 32.0856 v_x: -5.99178 v_y: -55.0135 a_0: 60 fric: 1
-theta: 33.2316 v_x: -6.38636 v_y: -55.6158 a_0: 60 fric: 1
-theta: 34.3775 v_x: -6.7929 v_y: -56.21 a_0: 60 fric: 1
-theta: 35.5234 v_x: -7.24611 v_y: -56.8448 a_0: 60 fric: 1
-theta: 36.6693 v_x: -7.71192 v_y: -57.4705 a_0: 60 fric: 1
-theta: 37.8152 v_x: -8.15336 v_y: -58.0393 a_0: 60 fric: 1
-theta: 38.9611 v_x: -8.6061 v_y: -58.5991 a_0: 60 fric: 1
-theta: 40.107 v_x: -9.10859 v_y: -59.1957 a_0: 60 fric: 1
-theta: 41.253 v_x: -9.62291 v_y: -59.7821 a_0: 60 fric: 1
-theta: 42.3989 v_x: -10.1084 v_y: -60.3138 a_0: 60 fric: 1
-theta: 43.5448 v_x: -10.0073 v_y: -59.7107 a_0: 0 fric: 0.99
-theta: 44.6907 v_x: -9.90724 v_y: -59.1136 a_0: 0 fric: 0.99
-theta: 45.8366 v_x: -9.80816 v_y: -58.5224 a_0: 0 fric: 0.99
-theta: 46.9825 v_x: -9.71008 v_y: -57.9372 a_0: 0 fric: 0.99
-theta: 48.1285 v_x: -9.61298 v_y: -57.3578 a_0: 0 fric: 0.99
-theta: 49.2744 v_x: -9.51685 v_y: -56.7842 a_0: 0 fric: 0.99
-theta: 50.4203 v_x: -9.42168 v_y: -56.2164 a_0: 0 fric: 0.99
-theta: 51.5662 v_x: -9.32747 v_y: -55.6542 a_0: 0 fric: 0.99
-theta: 52.7121 v_x: -9.23419 v_y: -55.0977 a_0: 0 fric: 0.99
-theta: 53.858 v_x: -9.14185 v_y: -54.5467 a_0: 0 fric: 0.99
-theta: 55.0039 v_x: -9.05043 v_y: -54.0012 a_0: 0 fric: 0.99
-theta: 56.1499 v_x: -8.95993 v_y: -53.4612 a_0: 0 fric: 0.99
-theta: 57.2958 v_x: -8.87033 v_y: -52.9266 a_0: 0 fric: 0.99
-theta: 58.4417 v_x: -8.78162 v_y: -52.3974 a_0: 0 fric: 0.99
-theta: 59.5876 v_x: -8.69381 v_y: -51.8734 a_0: 0 fric: 0.99
-theta: 60.7335 v_x: -8.60687 v_y: -51.3547 a_0: 0 fric: 0.99
-theta: 61.8794 v_x: -8.5208 v_y: -50.8411 a_0: 0 fric: 0.99
-theta: 63.0254 v_x: -8.43559 v_y: -50.3327 a_0: 0 fric: 0.99
-theta: 64.1713 v_x: -8.35124 v_y: -49.8294 a_0: 0 fric: 0.99
-theta: 65.3172 v_x: -8.26772 v_y: -49.3311 a_0: 0 fric: 0.99
-theta: 66.4631 v_x: -8.18505 v_y: -48.8378 a_0: 0 fric: 0.99
-theta: 67.609 v_x: -8.1032 v_y: -48.3494 a_0: 0 fric: 0.99
-theta: 68.7549 v_x: -8.02216 v_y: -47.8659 a_0: 0 fric: 0.99
-theta: 69.9009 v_x: -7.94194 v_y: -47.3872 a_0: 0 fric: 0.99
-theta: 71.0468 v_x: -7.86252 v_y: -46.9134 a_0: 0 fric: 0.99
-theta: 72.1927 v_x: -7.7839 v_y: -46.4442 a_0: 0 fric: 0.99
-theta: 73.3386 v_x: -7.70606 v_y: -45.9798 a_0: 0 fric: 0.99
-theta: 74.4845 v_x: -7.629 v_y: -45.52 a_0: 0 fric: 0.99
-theta: 75.6304 v_x: -7.55271 v_y: -45.0648 a_0: 0 fric: 0.99
-theta: 76.7763 v_x: -7.47718 v_y: -44.6141 a_0: 0 fric: 0.99
-theta: 77.9223 v_x: -7.40241 v_y: -44.168 a_0: 0 fric: 0.99
-theta: 79.0682 v_x: -7.32839 v_y: -43.7263 a_0: 0 fric: 0.99
-theta: 80.2141 v_x: -7.2551 v_y: -43.2891 a_0: 0 fric: 0.99
-theta: 81.36 v_x: -7.18255 v_y: -42.8562 a_0: 0 fric: 0.99
-theta: 82.5059 v_x: -7.11073 v_y: -42.4276 a_0: 0 fric: 0.99
-theta: 83.6518 v_x: -7.03962 v_y: -42.0033 a_0: 0 fric: 0.99
-theta: 84.7978 v_x: -6.96922 v_y: -41.5833 a_0: 0 fric: 0.99
-theta: 85.9437 v_x: -6.89953 v_y: -41.1675 a_0: 0 fric: 0.99
-theta: 87.0896 v_x: -6.83053 v_y: -40.7558 a_0: 0 fric: 0.99
-theta: 88.2355 v_x: -6.76223 v_y: -40.3482 a_0: 0 fric: 0.99
-theta: 89.3814 v_x: -6.69461 v_y: -39.9447 a_0: 0 fric: 0.99
-theta: 90.5273 v_x: -6.62766 v_y: -39.5453 a_0: 0 fric: 0.99
-theta: 90.5273 v_x: -6.56138 v_y: -39.1498 a_0: 0 fric: 0.99
-theta: 90.5273 v_x: -6.49577 v_y: -38.7583 a_0: 0 fric: 0.99
-theta: 90.5273 v_x: -6.43081 v_y: -38.3708 a_0: 0 fric: 0.99
-theta: 90.5273 v_x: -6.3665 v_y: -37.9871 a_0: 0 fric: 0.99
-theta: 90.5273 v_x: -7.02648 v_y: -37.981 a_0: 60 fric: 1
-theta: 90.5273 v_x: -7.80644 v_y: -37.9738 a_0: 60 fric: 1
-theta: 90.5273 v_x: -8.52641 v_y: -37.9672 a_0: 60 fric: 1
-theta: 90.5273 v_x: -9.36638 v_y: -37.9594 a_0: 60 fric: 1
-theta: 90.5273 v_x: -10.1463 v_y: -37.9523 a_0: 60 fric: 1
-theta: 90.5273 v_x: -10.8063 v_y: -37.9462 a_0: 60 fric: 1
-theta: 90.5273 v_x: -11.4663 v_y: -37.9401 a_0: 60 fric: 1
-theta: 90.5273 v_x: -12.1263 v_y: -37.934 a_0: 60 fric: 1
-theta: 90.5273 v_x: -12.7862 v_y: -37.928 a_0: 60 fric: 1
-unable to load engine noisetheta: 90.5273 v_x: -13.4462 v_y: -37.9219 a_0: 60 fric: 1
-unable to load engine noisetheta: 90.5273 v_x: -14.1062 v_y: -37.9158 a_0: 60 fric: 1
-unable to load engine noisetheta: 90.5273 v_x: -14.7661 v_y: -37.9097 a_0: 60 fric: 1
-unable to load engine noisetheta: 90.5273 v_x: -15.4261 v_y: -37.9037 a_0: 60 fric: 1
-unable to load engine noisetheta: 90.5273 v_x: -16.0861 v_y: -37.8976 a_0: 60 fric: 1
-unable to load engine noisetheta: 90.5273 v_x: -16.7461 v_y: -37.8915 a_0: 60 fric: 1
-unable to load engine noisetheta: 90.5273 v_x: -17.406 v_y: -37.8854 a_0: 60 fric: 1
-unable to load engine noisetheta: 90.5273 v_x: -18.066 v_y: -37.8794 a_0: 60 fric: 1
-theta: 90.5273 v_x: -18.726 v_y: -37.8733 a_0: 60 fric: 1
-theta: 90.5273 v_x: -19.386 v_y: -37.8672 a_0: 60 fric: 1
-theta: 90.5273 v_x: -20.1659 v_y: -37.86 a_0: 60 fric: 1
-unable to load engine noisetheta: 90.5273 v_x: -20.9459 v_y: -37.8529 a_0: 60 fric: 1
-theta: 90.5273 v_x: -21.6059 v_y: -37.8468 a_0: 60 fric: 1
-theta: 90.5273 v_x: -22.2658 v_y: -37.8407 a_0: 60 fric: 1
-theta: 90.5273 v_x: -22.9258 v_y: -37.8346 a_0: 60 fric: 1
-theta: 90.5273 v_x: -23.5858 v_y: -37.8286 a_0: 60 fric: 1
-theta: 90.5273 v_x: -24.2457 v_y: -37.8225 a_0: 60 fric: 1
-unable to load engine noisetheta: 90.5273 v_x: -24.9057 v_y: -37.8164 a_0: 60 fric: 1
-unable to load engine noisetheta: 90.5273 v_x: -25.6857 v_y: -37.8092 a_0: 60 fric: 1
-unable to load engine noisetheta: 90.5273 v_x: -26.4057 v_y: -37.8026 a_0: 60 fric: 1
-unable to load engine noisetheta: 90.5273 v_x: -27.1256 v_y: -37.796 a_0: 60 fric: 1
-unable to load engine noisetheta: 90.5273 v_x: -27.9056 v_y: -37.7888 a_0: 60 fric: 1
-unable to load engine noisetheta: 90.5273 v_x: -28.6856 v_y: -37.7816 a_0: 60 fric: 1
-theta: 90.5273 v_x: -29.4055 v_y: -37.775 a_0: 60 fric: 1
-theta: 90.5273 v_x: -30.1855 v_y: -37.7678 a_0: 60 fric: 1
-theta: 90.5273 v_x: -30.8455 v_y: -37.7618 a_0: 60 fric: 1
-unable to load engine noisetheta: 90.5273 v_x: -31.5054 v_y: -37.7557 a_0: 60 fric: 1
-theta: 90.5273 v_x: -32.1654 v_y: -37.7496 a_0: 60 fric: 1
-theta: 90.5273 v_x: -32.8254 v_y: -37.7435 a_0: 60 fric: 1
-theta: 90.5273 v_x: -33.4854 v_y: -37.7375 a_0: 60 fric: 1
-theta: 90.5273 v_x: -34.1453 v_y: -37.7314 a_0: 60 fric: 1
-unable to load engine noisetheta: 90.5273 v_x: -34.8053 v_y: -37.7253 a_0: 60 fric: 1
-theta: 90.5273 v_x: -35.4653 v_y: -37.7192 a_0: 60 fric: 1
-unable to load engine noisetheta: 90.5273 v_x: -36.1252 v_y: -37.7132 a_0: 60 fric: 1
-unable to load engine noisetheta: 90.5273 v_x: -36.7852 v_y: -37.7071 a_0: 60 fric: 1
-unable to load engine noisetheta: 90.5273 v_x: -37.4452 v_y: -37.701 a_0: 60 fric: 1
-unable to load engine noisetheta: 90.5273 v_x: -38.2252 v_y: -37.6938 a_0: 60 fric: 1
-unable to load engine noisetheta: 90.5273 v_x: -39.0051 v_y: -37.6867 a_0: 60 fric: 1
-unable to load engine noisetheta: 90.5273 v_x: -39.7851 v_y: -37.6795 a_0: 60 fric: 1
-theta: 90.5273 v_x: -40.5651 v_y: -37.6723 a_0: 60 fric: 1
-theta: 90.5273 v_x: -41.285 v_y: -37.6657 a_0: 60 fric: 1
-theta: 90.5273 v_x: -42.005 v_y: -37.659 a_0: 60 fric: 1
-unable to load engine noisetheta: 90.5273 v_x: -42.785 v_y: -37.6519 a_0: 60 fric: 1
-theta: 90.5273 v_x: -43.5649 v_y: -37.6447 a_0: 60 fric: 1
-theta: 90.5273 v_x: -44.2849 v_y: -37.6381 a_0: 60 fric: 1
-theta: 90.5273 v_x: -45.0649 v_y: -37.6309 a_0: 60 fric: 1
-theta: 90.5273 v_x: -45.8448 v_y: -37.6237 a_0: 60 fric: 1
-theta: 90.5273 v_x: -46.6248 v_y: -37.6165 a_0: 60 fric: 1
-unable to load engine noisetheta: 90.5273 v_x: -47.3448 v_y: -37.6099 a_0: 60 fric: 1
-unable to load engine noisetheta: 90.5273 v_x: -48.0647 v_y: -37.6033 a_0: 60 fric: 1
-unable to load engine noisetheta: 90.5273 v_x: -48.8447 v_y: -37.5961 a_0: 60 fric: 1
-unable to load engine noisetheta: 90.5273 v_x: -49.6247 v_y: -37.5889 a_0: 60 fric: 1
-unable to load engine noisetheta: 90.5273 v_x: -50.3446 v_y: -37.5823 a_0: 60 fric: 1
-unable to load engine noisetheta: 90.5273 v_x: -51.0646 v_y: -37.5757 a_0: 60 fric: 1
-theta: 90.5273 v_x: -51.8446 v_y: -37.5685 a_0: 60 fric: 1
-theta: 90.5273 v_x: -52.6245 v_y: -37.5613 a_0: 60 fric: 1
-theta: 90.5273 v_x: -53.3445 v_y: -37.5547 a_0: 60 fric: 1
-unable to load engine noisetheta: 90.5273 v_x: -54.0645 v_y: -37.548 a_0: 60 fric: 1
-theta: 90.5273 v_x: -54.9644 v_y: -37.5398 a_0: 60 fric: 1
-theta: 90.5273 v_x: -55.7444 v_y: -37.5326 a_0: 60 fric: 1
-theta: 90.5273 v_x: -56.4644 v_y: -37.526 a_0: 60 fric: 1
-theta: 90.5273 v_x: -57.2443 v_y: -37.5188 a_0: 60 fric: 1
-theta: 90.5273 v_x: -58.0243 v_y: -37.5116 a_0: 60 fric: 1
-unable to load engine noisetheta: 90.5273 v_x: -58.8043 v_y: -37.5044 a_0: 60 fric: 1
-unable to load engine noisetheta: 90.5273 v_x: -59.5243 v_y: -37.4978 a_0: 60 fric: 1
-unable to load engine noisetheta: 90.5273 v_x: -60.3042 v_y: -37.4906 a_0: 60 fric: 1
-unable to load engine noisetheta: 90.5273 v_x: -61.0842 v_y: -37.4834 a_0: 60 fric: 1
-unable to load engine noisetheta: 90.5273 v_x: -61.8642 v_y: -37.4763 a_0: 60 fric: 1
-theta: 90.5273 v_x: -62.6441 v_y: -37.4691 a_0: 60 fric: 1
-theta: 90.5273 v_x: -63.4241 v_y: -37.4619 a_0: 60 fric: 1
-theta: 90.5273 v_x: -64.1441 v_y: -37.4553 a_0: 60 fric: 1
-unable to load engine noisetheta: 90.5273 v_x: -64.924 v_y: -37.4481 a_0: 60 fric: 1
-theta: 90.5273 v_x: -65.704 v_y: -37.4409 a_0: 60 fric: 1
-theta: 90.5273 v_x: -66.424 v_y: -37.4343 a_0: 60 fric: 1
-theta: 90.5273 v_x: -67.1439 v_y: -37.4277 a_0: 60 fric: 1
-unable to load engine noisetheta: 90.5273 v_x: -67.9239 v_y: -37.4205 a_0: 60 fric: 1
-theta: 90.5273 v_x: -68.7039 v_y: -37.4133 a_0: 60 fric: 1
-theta: 90.5273 v_x: -69.4238 v_y: -37.4067 a_0: 60 fric: 1
-unable to load engine noisetheta: 90.5273 v_x: -70.1438 v_y: -37.4001 a_0: 60 fric: 1
-unable to load engine noisetheta: 90.5273 v_x: -70.9238 v_y: -37.3929 a_0: 60 fric: 1
-unable to load engine noisetheta: 90.5273 v_x: -71.7637 v_y: -37.3851 a_0: 60 fric: 1
-unable to load engine noisetheta: 90.5273 v_x: -72.4837 v_y: -37.3785 a_0: 60 fric: 1
-unable to load engine noisetheta: 90.5273 v_x: -73.2637 v_y: -37.3713 a_0: 60 fric: 1
-theta: 90.5273 v_x: -74.0436 v_y: -37.3642 a_0: 60 fric: 1
-theta: 90.5273 v_x: -74.8236 v_y: -37.357 a_0: 60 fric: 1
-theta: 90.5273 v_x: -75.5436 v_y: -37.3504 a_0: 60 fric: 1
-unable to load engine noisetheta: 90.5273 v_x: -76.2635 v_y: -37.3437 a_0: 60 fric: 1
-theta: 90.5273 v_x: -77.1035 v_y: -37.336 a_0: 60 fric: 1
-theta: 90.5273 v_x: -77.8835 v_y: -37.3288 a_0: 60 fric: 1
-theta: 90.5273 v_x: -78.6634 v_y: -37.3216 a_0: 60 fric: 1
-theta: 90.5273 v_x: -79.4434 v_y: -37.3145 a_0: 60 fric: 1
-theta: 90.5273 v_x: -80.2234 v_y: -37.3073 a_0: 60 fric: 1
-unable to load engine noisetheta: 90.5273 v_x: -81.0033 v_y: -37.3001 a_0: 60 fric: 1
-unable to load engine noisetheta: 90.5273 v_x: -81.7833 v_y: -37.2929 a_0: 60 fric: 1
-unable to load engine noisetheta: 90.5273 v_x: -82.5633 v_y: -37.2857 a_0: 60 fric: 1
-unable to load engine noisetheta: 90.5273 v_x: -83.3432 v_y: -37.2786 a_0: 60 fric: 1
-unable to load engine noisetheta: 90.5273 v_x: -84.0632 v_y: -37.2719 a_0: 60 fric: 1
-theta: 90.5273 v_x: -84.8432 v_y: -37.2648 a_0: 60 fric: 1
-theta: 90.5273 v_x: -85.6231 v_y: -37.2576 a_0: 60 fric: 1
-theta: 90.5273 v_x: -86.3431 v_y: -37.251 a_0: 60 fric: 1
-unable to load engine noisetheta: 90.5273 v_x: -87.1231 v_y: -37.2438 a_0: 60 fric: 1
-theta: 90.5273 v_x: -87.9031 v_y: -37.2366 a_0: 60 fric: 1
-theta: 90.5273 v_x: -88.683 v_y: -37.2294 a_0: 60 fric: 1
-theta: 90.5273 v_x: -89.403 v_y: -37.2228 a_0: 60 fric: 1
-unable to load engine noisetheta: 90.5273 v_x: -90.123 v_y: -37.2162 a_0: 60 fric: 1
-theta: 90.5273 v_x: -90.9029 v_y: -37.209 a_0: 60 fric: 1
-theta: 90.5273 v_x: -91.6829 v_y: -37.2018 a_0: 60 fric: 1
-unable to load engine noisetheta: 90.5273 v_x: -92.4629 v_y: -37.1946 a_0: 60 fric: 1
-unable to load engine noisetheta: 90.5273 v_x: -93.2428 v_y: -37.1875 a_0: 60 fric: 1
-unable to load engine noisetheta: 90.5273 v_x: -94.0228 v_y: -37.1803 a_0: 60 fric: 1
-unable to load engine noisetheta: 90.5273 v_x: -94.8028 v_y: -37.1731 a_0: 60 fric: 1
-unable to load engine noisetheta: 90.5273 v_x: -95.5227 v_y: -37.1665 a_0: 60 fric: 1
-theta: 90.5273 v_x: -96.3027 v_y: -37.1593 a_0: 60 fric: 1
-theta: 90.5273 v_x: -97.0827 v_y: -37.1521 a_0: 60 fric: 1
-theta: 90.5273 v_x: -97.8626 v_y: -37.1449 a_0: 60 fric: 1
-unable to load engine noisetheta: 90.5273 v_x: -98.6426 v_y: -37.1378 a_0: 60 fric: 1
-theta: 90.5273 v_x: -99.4226 v_y: -37.1306 a_0: 60 fric: 1
-theta: 90.5273 v_x: -100.203 v_y: -37.1234 a_0: 60 fric: 1
-theta: 90.5273 v_x: -100.982 v_y: -37.1162 a_0: 60 fric: 1
-theta: 90.5273 v_x: -101.762 v_y: -37.109 a_0: 60 fric: 1
-theta: 90.5273 v_x: -102.482 v_y: -37.1024 a_0: 60 fric: 1
-unable to load engine noisetheta: 90.5273 v_x: -103.202 v_y: -37.0958 a_0: 60 fric: 1
-unable to load engine noisetheta: 90.5273 v_x: -103.982 v_y: -37.0886 a_0: 60 fric: 1
-unable to load engine noisetheta: 90.5273 v_x: -104.762 v_y: -37.0814 a_0: 60 fric: 1
-unable to load engine noisetheta: 90.5273 v_x: -105.542 v_y: -37.0742 a_0: 60 fric: 1
-unable to load engine noisetheta: 90.5273 v_x: -106.262 v_y: -37.0676 a_0: 60 fric: 1
-unable to load engine noisetheta: 90.5273 v_x: -107.042 v_y: -37.0604 a_0: 60 fric: 1
-theta: 90.5273 v_x: -107.822 v_y: -37.0533 a_0: 60 fric: 1
-theta: 90.5273 v_x: -108.542 v_y: -37.0466 a_0: 60 fric: 1
-theta: 90.5273 v_x: -109.262 v_y: -37.04 a_0: 60 fric: 1
-theta: 90.5273 v_x: -110.042 v_y: -37.0328 a_0: 60 fric: 1
-theta: 90.5273 v_x: -110.822 v_y: -37.0257 a_0: 60 fric: 1
-theta: 90.5273 v_x: -111.602 v_y: -37.0185 a_0: 60 fric: 1
-unable to load engine noisetheta: 90.5273 v_x: -112.322 v_y: -37.0118 a_0: 60 fric: 1
-theta: 90.5273 v_x: -113.102 v_y: -37.0047 a_0: 60 fric: 1
-theta: 90.5273 v_x: -113.882 v_y: -36.9975 a_0: 60 fric: 1
-unable to load engine noisetheta: 90.5273 v_x: -114.662 v_y: -36.9903 a_0: 60 fric: 1
-unable to load engine noisetheta: 90.5273 v_x: -115.442 v_y: -36.9831 a_0: 60 fric: 1
-unable to load engine noisetheta: 90.5273 v_x: -116.222 v_y: -36.976 a_0: 60 fric: 1
-unable to load engine noisetheta: 90.5273 v_x: -117.002 v_y: -36.9688 a_0: 60 fric: 1
-unable to load engine noisetheta: 90.5273 v_x: -117.782 v_y: -36.9616 a_0: 60 fric: 1
-theta: 90.5273 v_x: -118.562 v_y: -36.9544 a_0: 60 fric: 1
-theta: 90.5273 v_x: -119.282 v_y: -36.9478 a_0: 60 fric: 1
-theta: 90.5273 v_x: -120.002 v_y: -36.9412 a_0: 60 fric: 1
-unable to load engine noisetheta: 90.5273 v_x: -120.782 v_y: -36.934 a_0: 60 fric: 1
-theta: 90.5273 v_x: -121.562 v_y: -36.9268 a_0: 60 fric: 1
-theta: 90.5273 v_x: -122.282 v_y: -36.9202 a_0: 60 fric: 1
-theta: 90.5273 v_x: -123.062 v_y: -36.913 a_0: 60 fric: 1
-theta: 90.5273 v_x: -123.842 v_y: -36.9058 a_0: 60 fric: 1
-theta: 90.5273 v_x: -124.681 v_y: -36.8981 a_0: 60 fric: 1
-unable to load engine noisetheta: 90.5273 v_x: -125.401 v_y: -36.8915 a_0: 60 fric: 1
-unable to load engine noisetheta: 90.5273 v_x: -126.121 v_y: -36.8848 a_0: 60 fric: 1
-unable to load engine noisetheta: 90.5273 v_x: -127.021 v_y: -36.8766 a_0: 60 fric: 1
-unable to load engine noisetheta: 90.5273 v_x: -127.741 v_y: -36.8699 a_0: 60 fric: 1
-unable to load engine noisetheta: 90.5273 v_x: -128.401 v_y: -36.8639 a_0: 60 fric: 1
-unable to load engine noisetheta: 90.5273 v_x: -129.061 v_y: -36.8578 a_0: 60 fric: 1
-unable to load engine noisetheta: 90.5273 v_x: -129.721 v_y: -36.8517 a_0: 60 fric: 1
-theta: 89.3814 v_x: -130.381 v_y: -36.8588 a_0: 60 fric: 1
-theta: 89.3814 v_x: -131.041 v_y: -36.866 a_0: 60 fric: 1
-theta: 88.2355 v_x: -131.701 v_y: -36.8863 a_0: 60 fric: 1
-theta: 87.0896 v_x: -132.36 v_y: -36.9198 a_0: 60 fric: 1
-theta: 85.9437 v_x: -133.018 v_y: -36.9665 a_0: 60 fric: 1
-theta: 84.7978 v_x: -133.676 v_y: -37.0263 a_0: 60 fric: 1
-theta: 83.6518 v_x: -134.332 v_y: -37.0993 a_0: 60 fric: 1
-theta: 82.5059 v_x: -135.045 v_y: -37.1932 a_0: 60 fric: 1
-theta: 81.36 v_x: -135.817 v_y: -37.3104 a_0: 60 fric: 1
-theta: 80.2141 v_x: -136.585 v_y: -37.443 a_0: 60 fric: 1
-theta: 79.0682 v_x: -137.292 v_y: -37.5795 a_0: 60 fric: 1
-theta: 77.9223 v_x: -137.996 v_y: -37.7301 a_0: 60 fric: 1
-theta: 76.7763 v_x: -138.756 v_y: -37.9086 a_0: 60 fric: 1
-theta: 75.6304 v_x: -139.511 v_y: -38.1021 a_0: 60 fric: 1
-theta: 74.4845 v_x: -140.205 v_y: -38.2947 a_0: 60 fric: 1
-theta: 73.3386 v_x: -140.895 v_y: -38.5012 a_0: 60 fric: 1
-theta: 72.1927 v_x: -141.637 v_y: -38.7397 a_0: 60 fric: 1
-theta: 71.0468 v_x: -142.375 v_y: -38.9931 a_0: 60 fric: 1
-theta: 69.9009 v_x: -143.051 v_y: -39.2405 a_0: 60 fric: 1
-theta: 68.7549 v_x: -143.722 v_y: -39.5014 a_0: 60 fric: 1
-theta: 67.609 v_x: -144.443 v_y: -39.7985 a_0: 60 fric: 1
-theta: 66.4631 v_x: -145.159 v_y: -40.11 a_0: 60 fric: 1
-theta: 65.3172 v_x: -145.813 v_y: -40.4107 a_0: 60 fric: 1
-theta: 64.1713 v_x: -146.461 v_y: -40.7243 a_0: 60 fric: 1
-theta: 63.0254 v_x: -147.156 v_y: -41.0782 a_0: 60 fric: 1
-theta: 61.8794 v_x: -147.844 v_y: -41.4458 a_0: 60 fric: 1
-theta: 60.7335 v_x: -146.365 v_y: -41.0313 a_0: 0 fric: 0.99
-theta: 59.5876 v_x: -144.902 v_y: -40.621 a_0: 0 fric: 0.99
-theta: 58.4417 v_x: -143.453 v_y: -40.2148 a_0: 0 fric: 0.99
-theta: 57.2958 v_x: -142.018 v_y: -39.8127 a_0: 0 fric: 0.99
-theta: 56.1499 v_x: -140.598 v_y: -39.4145 a_0: 0 fric: 0.99
-theta: 55.0039 v_x: -139.192 v_y: -39.0204 a_0: 0 fric: 0.99
-theta: 53.858 v_x: -137.8 v_y: -38.6302 a_0: 0 fric: 0.99
-theta: 52.7121 v_x: -136.422 v_y: -38.2439 a_0: 0 fric: 0.99
-theta: 51.5662 v_x: -135.058 v_y: -37.8614 a_0: 0 fric: 0.99
-theta: 50.4203 v_x: -133.707 v_y: -37.4828 a_0: 0 fric: 0.99
-theta: 49.2744 v_x: -132.37 v_y: -37.108 a_0: 0 fric: 0.99
-theta: 48.1285 v_x: -131.047 v_y: -36.7369 a_0: 0 fric: 0.99
-theta: 46.9825 v_x: -129.736 v_y: -36.3696 a_0: 0 fric: 0.99
-theta: 45.8366 v_x: -128.439 v_y: -36.0059 a_0: 0 fric: 0.99
-theta: 44.6907 v_x: -127.154 v_y: -35.6458 a_0: 0 fric: 0.99
-theta: 43.5448 v_x: -125.883 v_y: -35.2893 a_0: 0 fric: 0.99
-theta: 42.3989 v_x: -124.624 v_y: -34.9364 a_0: 0 fric: 0.99
-theta: 41.253 v_x: -123.378 v_y: -34.5871 a_0: 0 fric: 0.99
-theta: 40.107 v_x: -122.144 v_y: -34.2412 a_0: 0 fric: 0.99
-theta: 38.9611 v_x: -120.923 v_y: -33.8988 a_0: 0 fric: 0.99
-theta: 37.8152 v_x: -119.713 v_y: -33.5598 a_0: 0 fric: 0.99
-theta: 36.6693 v_x: -118.516 v_y: -33.2242 a_0: 0 fric: 0.99
-theta: 35.5234 v_x: -117.331 v_y: -32.892 a_0: 0 fric: 0.99
-theta: 34.3775 v_x: -116.158 v_y: -32.5631 a_0: 0 fric: 0.99
-theta: 33.2316 v_x: -114.996 v_y: -32.2374 a_0: 0 fric: 0.99
-theta: 32.0856 v_x: -113.846 v_y: -31.915 a_0: 0 fric: 0.99
-theta: 30.9397 v_x: -112.708 v_y: -31.5959 a_0: 0 fric: 0.99
-theta: 29.7938 v_x: -111.581 v_y: -31.2799 a_0: 0 fric: 0.99
-theta: 28.6479 v_x: -110.465 v_y: -30.9671 a_0: 0 fric: 0.99
-theta: 27.502 v_x: -109.36 v_y: -30.6575 a_0: 0 fric: 0.99
-theta: 26.3561 v_x: -108.267 v_y: -30.3509 a_0: 0 fric: 0.99
-theta: 25.2101 v_x: -107.184 v_y: -30.0474 a_0: 0 fric: 0.99
-theta: 24.0642 v_x: -106.112 v_y: -29.7469 a_0: 0 fric: 0.99
-theta: 22.9183 v_x: -105.051 v_y: -29.4494 a_0: 0 fric: 0.99
-theta: 21.7724 v_x: -104 v_y: -29.1549 a_0: 0 fric: 0.99
-theta: 20.6265 v_x: -102.96 v_y: -28.8634 a_0: 0 fric: 0.99
-theta: 19.4806 v_x: -101.931 v_y: -28.5748 a_0: 0 fric: 0.99
-theta: 18.3346 v_x: -100.912 v_y: -28.289 a_0: 0 fric: 0.99
-theta: 17.1887 v_x: -99.9024 v_y: -28.0061 a_0: 0 fric: 0.99
-theta: 16.0428 v_x: -98.9034 v_y: -27.7261 a_0: 0 fric: 0.99
-theta: 14.8969 v_x: -97.9144 v_y: -27.4488 a_0: 0 fric: 0.99
-theta: 13.751 v_x: -96.9352 v_y: -27.1743 a_0: 0 fric: 0.99
-theta: 12.6051 v_x: -95.9659 v_y: -26.9026 a_0: 0 fric: 0.99
-theta: 11.4592 v_x: -95.0062 v_y: -26.6335 a_0: 0 fric: 0.99
-theta: 10.3132 v_x: -94.0562 v_y: -26.3672 a_0: 0 fric: 0.99
-theta: 9.16732 v_x: -93.1156 v_y: -26.1035 a_0: 0 fric: 0.99
-theta: 8.02141 v_x: -92.1844 v_y: -25.8425 a_0: 0 fric: 0.99
-theta: 6.87549 v_x: -91.2626 v_y: -25.5841 a_0: 0 fric: 0.99
-theta: 5.72958 v_x: -90.35 v_y: -25.3282 a_0: 0 fric: 0.99
-theta: 4.58366 v_x: -89.4465 v_y: -25.075 a_0: 0 fric: 0.99
-theta: 3.43775 v_x: -88.552 v_y: -24.8242 a_0: 0 fric: 0.99
-theta: 2.29183 v_x: -87.6665 v_y: -24.576 a_0: 0 fric: 0.99
-theta: 1.14592 v_x: -86.7898 v_y: -24.3302 a_0: 0 fric: 0.99
-theta: -9.93923e-015 v_x: -85.9219 v_y: -24.0869 a_0: 0 fric: 0.99
-theta: -1.14592 v_x: -85.0627 v_y: -23.846 a_0: 0 fric: 0.99
-theta: -2.29183 v_x: -84.2121 v_y: -23.6076 a_0: 0 fric: 0.99
-theta: -3.43775 v_x: -83.37 v_y: -23.3715 a_0: 0 fric: 0.99
-theta: -4.58366 v_x: -82.5363 v_y: -23.1378 a_0: 0 fric: 0.99
-theta: -5.72958 v_x: -81.7109 v_y: -22.9064 a_0: 0 fric: 0.99
-theta: -6.87549 v_x: -80.8938 v_y: -22.6773 a_0: 0 fric: 0.99
-theta: -8.02141 v_x: -80.0849 v_y: -22.4506 a_0: 0 fric: 0.99
-theta: -9.16732 v_x: -79.284 v_y: -22.2261 a_0: 0 fric: 0.99
-theta: -10.3132 v_x: -78.4912 v_y: -22.0038 a_0: 0 fric: 0.99
-theta: -11.4592 v_x: -77.7063 v_y: -21.7838 a_0: 0 fric: 0.99
-theta: -12.6051 v_x: -76.9292 v_y: -21.5659 a_0: 0 fric: 0.99
-theta: -13.751 v_x: -76.1599 v_y: -21.3503 a_0: 0 fric: 0.99
-theta: -14.8969 v_x: -75.3983 v_y: -21.1368 a_0: 0 fric: 0.99
-theta: -16.0428 v_x: -74.6443 v_y: -20.9254 a_0: 0 fric: 0.99
-theta: -17.1887 v_x: -73.8979 v_y: -20.7161 a_0: 0 fric: 0.99
-theta: -18.3346 v_x: -73.1589 v_y: -20.509 a_0: 0 fric: 0.99
-theta: -19.4806 v_x: -72.4273 v_y: -20.3039 a_0: 0 fric: 0.99
-theta: -20.6265 v_x: -71.703 v_y: -20.1009 a_0: 0 fric: 0.99
-theta: -21.7724 v_x: -70.986 v_y: -19.8998 a_0: 0 fric: 0.99
-theta: -22.9183 v_x: -70.2761 v_y: -19.7008 a_0: 0 fric: 0.99
-theta: -24.0642 v_x: -69.5734 v_y: -19.5038 a_0: 0 fric: 0.99
-theta: -25.2101 v_x: -68.8776 v_y: -19.3088 a_0: 0 fric: 0.99
-theta: -26.3561 v_x: -68.1889 v_y: -19.1157 a_0: 0 fric: 0.99
-theta: -27.502 v_x: -67.507 v_y: -18.9246 a_0: 0 fric: 0.99
-theta: -28.6479 v_x: -66.8319 v_y: -18.7353 a_0: 0 fric: 0.99
-theta: -29.7938 v_x: -66.1636 v_y: -18.548 a_0: 0 fric: 0.99
-theta: -30.9397 v_x: -65.502 v_y: -18.3625 a_0: 0 fric: 0.99
-theta: -32.0856 v_x: -64.8469 v_y: -18.1788 a_0: 0 fric: 0.99
-theta: -33.2316 v_x: -64.1985 v_y: -17.9971 a_0: 0 fric: 0.99
-theta: -34.3775 v_x: -63.5565 v_y: -17.8171 a_0: 0 fric: 0.99
-theta: -35.5234 v_x: -62.9209 v_y: -17.6389 a_0: 0 fric: 0.99
-theta: -36.6693 v_x: -62.2917 v_y: -17.4625 a_0: 0 fric: 0.99
-theta: -37.8152 v_x: -61.6688 v_y: -17.2879 a_0: 0 fric: 0.99
-theta: -38.9611 v_x: -61.0521 v_y: -17.115 a_0: 0 fric: 0.99
-theta: -40.107 v_x: -60.4416 v_y: -16.9439 a_0: 0 fric: 0.99
-theta: -41.253 v_x: -59.8372 v_y: -16.7744 a_0: 0 fric: 0.99
-theta: -42.3989 v_x: -59.2388 v_y: -16.6067 a_0: 0 fric: 0.99
-theta: -43.5448 v_x: -58.6464 v_y: -16.4406 a_0: 0 fric: 0.99
-theta: -44.6907 v_x: -58.0599 v_y: -16.2762 a_0: 0 fric: 0.99
-theta: -45.8366 v_x: -57.4793 v_y: -16.1135 a_0: 0 fric: 0.99
-theta: -46.9825 v_x: -56.9046 v_y: -15.9523 a_0: 0 fric: 0.99
-theta: -48.1285 v_x: -56.3355 v_y: -15.7928 a_0: 0 fric: 0.99
-theta: -49.2744 v_x: -55.7721 v_y: -15.6349 a_0: 0 fric: 0.99
-theta: -50.4203 v_x: -55.2144 v_y: -15.4785 a_0: 0 fric: 0.99
-theta: -51.5662 v_x: -54.6623 v_y: -15.3237 a_0: 0 fric: 0.99
-theta: -52.7121 v_x: -54.1157 v_y: -15.1705 a_0: 0 fric: 0.99
-theta: -53.858 v_x: -53.5745 v_y: -15.0188 a_0: 0 fric: 0.99
-theta: -55.0039 v_x: -53.0388 v_y: -14.8686 a_0: 0 fric: 0.99
-theta: -56.1499 v_x: -52.5084 v_y: -14.7199 a_0: 0 fric: 0.99
-theta: -57.2958 v_x: -51.9833 v_y: -14.5727 a_0: 0 fric: 0.99
-theta: -58.4417 v_x: -51.4635 v_y: -14.427 a_0: 0 fric: 0.99
-theta: -59.5876 v_x: -50.9488 v_y: -14.2827 a_0: 0 fric: 0.99
-theta: -60.7335 v_x: -50.4393 v_y: -14.1399 a_0: 0 fric: 0.99
-theta: -61.8794 v_x: -49.9349 v_y: -13.9985 a_0: 0 fric: 0.99
-theta: -63.0254 v_x: -49.4356 v_y: -13.8585 a_0: 0 fric: 0.99
-theta: -64.1713 v_x: -48.9412 v_y: -13.7199 a_0: 0 fric: 0.99
-theta: -65.3172 v_x: -48.4518 v_y: -13.5827 a_0: 0 fric: 0.99
-theta: -66.4631 v_x: -47.9673 v_y: -13.4469 a_0: 0 fric: 0.99
-theta: -67.609 v_x: -47.4876 v_y: -13.3124 a_0: 0 fric: 0.99
-theta: -68.7549 v_x: -47.0128 v_y: -13.1793 a_0: 0 fric: 0.99
-theta: -69.9009 v_x: -46.5426 v_y: -13.0475 a_0: 0 fric: 0.99
-theta: -71.0468 v_x: -46.0772 v_y: -12.917 a_0: 0 fric: 0.99
-theta: -72.1927 v_x: -45.6164 v_y: -12.7879 a_0: 0 fric: 0.99
-theta: -73.3386 v_x: -45.1603 v_y: -12.66 a_0: 0 fric: 0.99
-theta: -74.4845 v_x: -44.7087 v_y: -12.5334 a_0: 0 fric: 0.99
-theta: -75.6304 v_x: -44.2616 v_y: -12.4081 a_0: 0 fric: 0.99
-theta: -76.7763 v_x: -43.819 v_y: -12.284 a_0: 0 fric: 0.99
-theta: -77.9223 v_x: -43.3808 v_y: -12.1611 a_0: 0 fric: 0.99
-theta: -79.0682 v_x: -42.947 v_y: -12.0395 a_0: 0 fric: 0.99
-theta: -80.2141 v_x: -42.5175 v_y: -11.9191 a_0: 0 fric: 0.99
-theta: -81.36 v_x: -42.0923 v_y: -11.7999 a_0: 0 fric: 0.99
-theta: -81.36 v_x: -41.3805 v_y: -11.9081 a_0: 60 fric: 1
-theta: -81.36 v_x: -40.55 v_y: -12.0343 a_0: 60 fric: 1
-theta: -81.36 v_x: -39.7789 v_y: -12.1515 a_0: 60 fric: 1
-theta: -81.36 v_x: -39.0077 v_y: -12.2686 a_0: 60 fric: 1
-theta: -81.36 v_x: -38.2959 v_y: -12.3768 a_0: 60 fric: 1
-theta: -81.36 v_x: -37.5247 v_y: -12.494 a_0: 60 fric: 1
-theta: -81.36 v_x: -36.7536 v_y: -12.6112 a_0: 60 fric: 1
-theta: -81.36 v_x: -35.9824 v_y: -12.7283 a_0: 60 fric: 1
-theta: -81.36 v_x: -35.2113 v_y: -12.8455 a_0: 60 fric: 1
-unable to load engine noisetheta: -81.36 v_x: -34.4995 v_y: -12.9537 a_0: 60 fric: 1
-unable to load engine noisetheta: -81.36 v_x: -33.7283 v_y: -13.0708 a_0: 60 fric: 1
-unable to load engine noisetheta: -81.36 v_x: -32.9572 v_y: -13.188 a_0: 60 fric: 1
-unable to load engine noisetheta: -81.36 v_x: -32.186 v_y: -13.3052 a_0: 60 fric: 1
-unable to load engine noisetheta: -81.36 v_x: -31.4742 v_y: -13.4134 a_0: 60 fric: 1
-unable to load engine noisetheta: -81.36 v_x: -30.703 v_y: -13.5305 a_0: 60 fric: 1
-theta: -81.36 v_x: -29.9319 v_y: -13.6477 a_0: 60 fric: 1
-theta: -81.36 v_x: -29.1608 v_y: -13.7649 a_0: 60 fric: 1
-theta: -81.36 v_x: -28.4489 v_y: -13.8731 a_0: 60 fric: 1
-theta: -81.36 v_x: -27.6778 v_y: -13.9902 a_0: 60 fric: 1
-theta: -81.36 v_x: -26.9066 v_y: -14.1074 a_0: 60 fric: 1
-theta: -81.36 v_x: -26.1355 v_y: -14.2246 a_0: 60 fric: 1
-unable to load engine noisetheta: -81.36 v_x: -25.3643 v_y: -14.3418 a_0: 60 fric: 1
-theta: -81.36 v_x: -24.6525 v_y: -14.4499 a_0: 60 fric: 1
-theta: -81.36 v_x: -23.822 v_y: -14.5761 a_0: 60 fric: 1
-unable to load engine noisetheta: -81.36 v_x: -23.0509 v_y: -14.6933 a_0: 60 fric: 1
-unable to load engine noisetheta: -81.36 v_x: -22.3391 v_y: -14.8014 a_0: 60 fric: 1
-unable to load engine noisetheta: -81.36 v_x: -21.5086 v_y: -14.9276 a_0: 60 fric: 1
-unable to load engine noisetheta: -81.36 v_x: -20.7374 v_y: -15.0448 a_0: 60 fric: 1
-unable to load engine noisetheta: -81.36 v_x: -19.9663 v_y: -15.162 a_0: 60 fric: 1
-theta: -81.36 v_x: -19.1358 v_y: -15.2882 a_0: 60 fric: 1
-theta: -81.36 v_x: -18.424 v_y: -15.3963 a_0: 60 fric: 1
-theta: -81.36 v_x: -17.7122 v_y: -15.5045 a_0: 60 fric: 1
-unable to load engine noisetheta: -81.36 v_x: -16.941 v_y: -15.6217 a_0: 60 fric: 1
-theta: -81.36 v_x: -16.1699 v_y: -15.7389 a_0: 60 fric: 1
-theta: -81.36 v_x: -15.458 v_y: -15.847 a_0: 60 fric: 1
-theta: -81.36 v_x: -14.7462 v_y: -15.9552 a_0: 60 fric: 1
-unable to load engine noisetheta: -81.36 v_x: -13.9751 v_y: -16.0724 a_0: 60 fric: 1
-theta: -81.36 v_x: -13.1446 v_y: -16.1985 a_0: 60 fric: 1
-theta: -81.36 v_x: -12.4328 v_y: -16.3067 a_0: 60 fric: 1
-unable to load engine noisetheta: -81.36 v_x: -11.7209 v_y: -16.4149 a_0: 60 fric: 1
-unable to load engine noisetheta: -81.36 v_x: -10.9498 v_y: -16.532 a_0: 60 fric: 1
-unable to load engine noisetheta: -81.36 v_x: -10.1786 v_y: -16.6492 a_0: 60 fric: 1
-unable to load engine noisetheta: -81.36 v_x: -9.40749 v_y: -16.7664 a_0: 60 fric: 1
-unable to load engine noisetheta: -81.36 v_x: -8.63634 v_y: -16.8836 a_0: 60 fric: 1
-theta: -81.36 v_x: -7.80587 v_y: -17.0098 a_0: 60 fric: 1
-theta: -81.36 v_x: -7.03473 v_y: -17.1269 a_0: 60 fric: 1
-theta: -81.36 v_x: -6.26358 v_y: -17.2441 a_0: 60 fric: 1
-theta: -81.36 v_x: -5.43311 v_y: -17.3703 a_0: 60 fric: 1
-theta: -81.36 v_x: -4.72128 v_y: -17.4785 a_0: 60 fric: 1
-theta: -81.36 v_x: -3.95013 v_y: -17.5956 a_0: 60 fric: 1
-theta: -81.36 v_x: -3.17898 v_y: -17.7128 a_0: 60 fric: 1
-theta: -81.36 v_x: -2.40784 v_y: -17.83 a_0: 60 fric: 1
-unable to load engine noisetheta: -81.36 v_x: -1.63669 v_y: -17.9472 a_0: 60 fric: 1
-unable to load engine noisetheta: -81.36 v_x: -0.924858 v_y: -18.0553 a_0: 60 fric: 1
-unable to load engine noisetheta: -81.36 v_x: -0.153709 v_y: -18.1725 a_0: 60 fric: 1
-unable to load engine noisetheta: -81.36 v_x: 0.617439 v_y: -18.2897 a_0: 60 fric: 1
-unable to load engine noisetheta: -81.36 v_x: 1.38859 v_y: -18.4069 a_0: 60 fric: 1
-theta: -81.36 v_x: 2.15974 v_y: -18.524 a_0: 60 fric: 1
-theta: -81.36 v_x: 2.93088 v_y: -18.6412 a_0: 60 fric: 1
-theta: -81.36 v_x: 3.70203 v_y: -18.7584 a_0: 60 fric: 1
-unable to load engine noisetheta: -81.36 v_x: 4.41386 v_y: -18.8665 a_0: 60 fric: 1
-theta: -81.36 v_x: 5.24433 v_y: -18.9927 a_0: 60 fric: 1
-theta: -81.36 v_x: 5.95616 v_y: -19.1009 a_0: 60 fric: 1
-theta: -81.36 v_x: 6.72731 v_y: -19.2181 a_0: 60 fric: 1
-unable to load engine noisetheta: -81.36 v_x: 7.49846 v_y: -19.3352 a_0: 60 fric: 1
-theta: -81.36 v_x: 8.21028 v_y: -19.4434 a_0: 60 fric: 1
-theta: -81.36 v_x: 8.98143 v_y: -19.5606 a_0: 60 fric: 1
-unable to load engine noisetheta: -81.36 v_x: 9.75258 v_y: -19.6778 a_0: 60 fric: 1
-unable to load engine noisetheta: -81.36 v_x: 10.5237 v_y: -19.7949 a_0: 60 fric: 1
-unable to load engine noisetheta: -81.36 v_x: 11.2949 v_y: -19.9121 a_0: 60 fric: 1
-unable to load engine noisetheta: -81.36 v_x: 12.066 v_y: -20.0293 a_0: 60 fric: 1
-unable to load engine noisetheta: -81.36 v_x: 12.8372 v_y: -20.1465 a_0: 60 fric: 1
-theta: -81.36 v_x: 13.6083 v_y: -20.2636 a_0: 60 fric: 1
-theta: -81.36 v_x: 14.3202 v_y: -20.3718 a_0: 60 fric: 1
-theta: -81.36 v_x: 15.0913 v_y: -20.489 a_0: 60 fric: 1
-unable to load engine noisetheta: -81.36 v_x: 15.8624 v_y: -20.6062 a_0: 60 fric: 1
-theta: -81.36 v_x: 16.6336 v_y: -20.7233 a_0: 60 fric: 1
-theta: -81.36 v_x: 17.4047 v_y: -20.8405 a_0: 60 fric: 1
-theta: -81.36 v_x: 18.1759 v_y: -20.9577 a_0: 60 fric: 1
-theta: -81.36 v_x: 18.8877 v_y: -21.0658 a_0: 60 fric: 1
-theta: -81.36 v_x: 19.6589 v_y: -21.183 a_0: 60 fric: 1
-unable to load engine noisetheta: -81.36 v_x: 20.43 v_y: -21.3002 a_0: 60 fric: 1
-unable to load engine noisetheta: -81.36 v_x: 21.2012 v_y: -21.4174 a_0: 60 fric: 1
-unable to load engine noisetheta: -81.36 v_x: 21.913 v_y: -21.5255 a_0: 60 fric: 1
-unable to load engine noisetheta: -81.36 v_x: 22.6841 v_y: -21.6427 a_0: 60 fric: 1
-unable to load engine noisetheta: -81.36 v_x: 23.4553 v_y: -21.7599 a_0: 60 fric: 1
-unable to load engine noisetheta: -81.36 v_x: 24.2264 v_y: -21.8771 a_0: 60 fric: 1
-theta: -81.36 v_x: 24.9383 v_y: -21.9852 a_0: 60 fric: 1
-theta: -81.36 v_x: 25.7094 v_y: -22.1024 a_0: 60 fric: 1
-theta: -81.36 v_x: 26.4806 v_y: -22.2196 a_0: 60 fric: 1
-theta: -81.36 v_x: 27.2517 v_y: -22.3368 a_0: 60 fric: 1
-theta: -81.36 v_x: 28.0229 v_y: -22.4539 a_0: 60 fric: 1
-theta: -81.36 v_x: 28.794 v_y: -22.5711 a_0: 60 fric: 1
-unable to load engine noisetheta: -81.36 v_x: 29.5652 v_y: -22.6883 a_0: 60 fric: 1
-theta: -81.36 v_x: 30.3363 v_y: -22.8055 a_0: 60 fric: 1
-theta: -81.36 v_x: 31.1075 v_y: -22.9226 a_0: 60 fric: 1
-unable to load engine noisetheta: -81.36 v_x: 31.8786 v_y: -23.0398 a_0: 60 fric: 1
-unable to load engine noisetheta: -81.36 v_x: 32.6498 v_y: -23.157 a_0: 60 fric: 1
-unable to load engine noisetheta: -81.36 v_x: 33.4209 v_y: -23.2742 a_0: 60 fric: 1
-unable to load engine noisetheta: -81.36 v_x: 34.1921 v_y: -23.3913 a_0: 60 fric: 1
-unable to load engine noisetheta: -81.36 v_x: 34.9632 v_y: -23.5085 a_0: 60 fric: 1
-theta: -81.36 v_x: 35.675 v_y: -23.6167 a_0: 60 fric: 1
-theta: -81.36 v_x: 36.4462 v_y: -23.7338 a_0: 60 fric: 1
-theta: -81.36 v_x: 37.2766 v_y: -23.86 a_0: 60 fric: 1
-unable to load engine noisetheta: -81.36 v_x: 37.9885 v_y: -23.9682 a_0: 60 fric: 1
-theta: -81.36 v_x: 38.7596 v_y: -24.0854 a_0: 60 fric: 1
-theta: -81.36 v_x: 39.5308 v_y: -24.2026 a_0: 60 fric: 1
-theta: -81.36 v_x: 40.3019 v_y: -24.3197 a_0: 60 fric: 1
-theta: -81.36 v_x: 41.0731 v_y: -24.4369 a_0: 60 fric: 1
-theta: -81.36 v_x: 40.6623 v_y: -24.1925 a_0: 0 fric: 0.99
-theta: -81.36 v_x: 40.2557 v_y: -23.9506 a_0: 0 fric: 0.99
-theta: -81.36 v_x: 39.8532 v_y: -23.7111 a_0: 0 fric: 0.99
-theta: -81.36 v_x: 39.4546 v_y: -23.474 a_0: 0 fric: 0.99
-theta: -81.36 v_x: 39.0601 v_y: -23.2393 a_0: 0 fric: 0.99
-theta: -81.36 v_x: 38.6695 v_y: -23.0069 a_0: 0 fric: 0.99
-theta: -81.36 v_x: 38.2828 v_y: -22.7768 a_0: 0 fric: 0.99
-theta: -81.36 v_x: 37.9 v_y: -22.549 a_0: 0 fric: 0.99
-theta: -81.36 v_x: 37.521 v_y: -22.3235 a_0: 0 fric: 0.99
-theta: -81.36 v_x: 37.1457 v_y: -22.1003 a_0: 0 fric: 0.99
-theta: -81.36 v_x: 36.7743 v_y: -21.8793 a_0: 0 fric: 0.99
-theta: -81.36 v_x: 36.4065 v_y: -21.6605 a_0: 0 fric: 0.99
-theta: -81.36 v_x: 36.0425 v_y: -21.4439 a_0: 0 fric: 0.99
-theta: -81.36 v_x: 35.6821 v_y: -21.2295 a_0: 0 fric: 0.99
-theta: -81.36 v_x: 35.3252 v_y: -21.0172 a_0: 0 fric: 0.99
-theta: -81.36 v_x: 34.972 v_y: -20.807 a_0: 0 fric: 0.99
-theta: -81.36 v_x: 34.6223 v_y: -20.5989 a_0: 0 fric: 0.99
-theta: -81.36 v_x: 34.276 v_y: -20.3929 a_0: 0 fric: 0.99
-theta: -81.36 v_x: 33.9333 v_y: -20.189 a_0: 0 fric: 0.99
-theta: -81.36 v_x: 33.5939 v_y: -19.9871 a_0: 0 fric: 0.99
-theta: -81.36 v_x: 33.258 v_y: -19.7872 a_0: 0 fric: 0.99
-theta: -81.36 v_x: 32.9254 v_y: -19.5894 a_0: 0 fric: 0.99
-theta: -81.36 v_x: 32.5962 v_y: -19.3935 a_0: 0 fric: 0.99
-theta: -81.36 v_x: 32.2702 v_y: -19.1995 a_0: 0 fric: 0.99
-theta: -81.36 v_x: 31.9475 v_y: -19.0075 a_0: 0 fric: 0.99
-theta: -81.36 v_x: 31.628 v_y: -18.8175 a_0: 0 fric: 0.99
-theta: -81.36 v_x: 31.3118 v_y: -18.6293 a_0: 0 fric: 0.99
-theta: -81.36 v_x: 30.9986 v_y: -18.443 a_0: 0 fric: 0.99
-theta: -81.36 v_x: 30.6887 v_y: -18.2586 a_0: 0 fric: 0.99
-theta: -81.36 v_x: 30.3818 v_y: -18.076 a_0: 0 fric: 0.99
-theta: -81.36 v_x: 30.0779 v_y: -17.8952 a_0: 0 fric: 0.99
-theta: -81.36 v_x: 29.7772 v_y: -17.7163 a_0: 0 fric: 0.99
-theta: -81.36 v_x: 29.4794 v_y: -17.5391 a_0: 0 fric: 0.99
-theta: -81.36 v_x: 29.1846 v_y: -17.3637 a_0: 0 fric: 0.99
-theta: -81.36 v_x: 28.8928 v_y: -17.1901 a_0: 0 fric: 0.99
-theta: -81.36 v_x: 28.6038 v_y: -17.0182 a_0: 0 fric: 0.99
-theta: -81.36 v_x: 28.3178 v_y: -16.848 a_0: 0 fric: 0.99
-theta: -81.36 v_x: 28.0346 v_y: -16.6795 a_0: 0 fric: 0.99
-theta: -81.36 v_x: 27.7543 v_y: -16.5127 a_0: 0 fric: 0.99
-theta: -81.36 v_x: 27.4767 v_y: -16.3476 a_0: 0 fric: 0.99
-theta: -81.36 v_x: 27.202 v_y: -16.1841 a_0: 0 fric: 0.99
-theta: -81.36 v_x: 26.9299 v_y: -16.0223 a_0: 0 fric: 0.99
-theta: -81.36 v_x: 26.6606 v_y: -15.8621 a_0: 0 fric: 0.99
-theta: -81.36 v_x: 26.394 v_y: -15.7034 a_0: 0 fric: 0.99
-theta: -81.36 v_x: 26.1301 v_y: -15.5464 a_0: 0 fric: 0.99
-theta: -81.36 v_x: 25.8688 v_y: -15.3909 a_0: 0 fric: 0.99
-theta: -81.36 v_x: 25.6101 v_y: -15.237 a_0: 0 fric: 0.99
-theta: -81.36 v_x: 25.354 v_y: -15.0847 a_0: 0 fric: 0.99
-theta: -81.36 v_x: 25.1005 v_y: -14.9338 a_0: 0 fric: 0.99
-theta: -81.36 v_x: 24.8495 v_y: -14.7845 a_0: 0 fric: 0.99
-theta: -81.36 v_x: 24.601 v_y: -14.6366 a_0: 0 fric: 0.99
-theta: -81.36 v_x: 24.355 v_y: -14.4903 a_0: 0 fric: 0.99
-theta: -82.5059 v_x: 24.1114 v_y: -14.3454 a_0: 0 fric: 0.99
-theta: -82.5059 v_x: 23.8703 v_y: -14.2019 a_0: 0 fric: 0.99
-theta: -83.6518 v_x: 23.6316 v_y: -14.0599 a_0: 0 fric: 0.99
-theta: -84.7978 v_x: 23.3953 v_y: -13.9193 a_0: 0 fric: 0.99
-theta: -85.9437 v_x: 23.1613 v_y: -13.7801 a_0: 0 fric: 0.99
-theta: -87.0896 v_x: 22.9297 v_y: -13.6423 a_0: 0 fric: 0.99
-theta: -88.2355 v_x: 22.7004 v_y: -13.5059 a_0: 0 fric: 0.99
-theta: -89.3814 v_x: 22.4734 v_y: -13.3708 a_0: 0 fric: 0.99
-theta: -90.5273 v_x: 22.2487 v_y: -13.2371 a_0: 0 fric: 0.99
-theta: -91.6732 v_x: 22.0262 v_y: -13.1047 a_0: 0 fric: 0.99
-theta: -92.8192 v_x: 21.8059 v_y: -12.9737 a_0: 0 fric: 0.99
-theta: -93.9651 v_x: 21.5879 v_y: -12.844 a_0: 0 fric: 0.99
-theta: -95.111 v_x: 21.372 v_y: -12.7155 a_0: 0 fric: 0.99
-theta: -96.2569 v_x: 21.1583 v_y: -12.5884 a_0: 0 fric: 0.99
-theta: -97.4028 v_x: 20.9467 v_y: -12.4625 a_0: 0 fric: 0.99
-theta: -98.5487 v_x: 20.7372 v_y: -12.3378 a_0: 0 fric: 0.99
-theta: -99.6947 v_x: 20.5298 v_y: -12.2145 a_0: 0 fric: 0.99
-theta: -100.841 v_x: 20.3245 v_y: -12.0923 a_0: 0 fric: 0.99
-theta: -101.986 v_x: 20.1213 v_y: -11.9714 a_0: 0 fric: 0.99
-theta: -103.132 v_x: 19.9201 v_y: -11.8517 a_0: 0 fric: 0.99
-theta: -104.278 v_x: 19.7209 v_y: -11.7332 a_0: 0 fric: 0.99
-theta: -104.278 v_x: 19.5237 v_y: -11.6158 a_0: 0 fric: 0.99
-theta: -104.278 v_x: 19.3284 v_y: -11.4997 a_0: 0 fric: 0.99
-theta: -104.278 v_x: 19.1352 v_y: -11.3847 a_0: 0 fric: 0.99
-theta: -104.278 v_x: 18.9438 v_y: -11.2708 a_0: 0 fric: 0.99
-theta: -104.278 v_x: 18.7544 v_y: -11.1581 a_0: 0 fric: 0.99
-theta: -104.278 v_x: 18.5668 v_y: -11.0465 a_0: 0 fric: 0.99
-theta: -104.278 v_x: 18.3812 v_y: -10.9361 a_0: 0 fric: 0.99
-theta: -104.278 v_x: 18.1973 v_y: -10.8267 a_0: 0 fric: 0.99
-theta: -104.278 v_x: 18.0154 v_y: -10.7185 a_0: 0 fric: 0.99
-theta: -104.278 v_x: 17.8352 v_y: -10.6113 a_0: 0 fric: 0.99
-theta: -104.278 v_x: 17.6569 v_y: -10.5052 a_0: 0 fric: 0.99
-theta: -104.278 v_x: 17.4803 v_y: -10.4001 a_0: 0 fric: 0.99
-theta: -104.278 v_x: 17.3055 v_y: -10.2961 a_0: 0 fric: 0.99
-theta: -104.278 v_x: 17.1324 v_y: -10.1931 a_0: 0 fric: 0.99
-theta: -104.278 v_x: 16.9611 v_y: -10.0912 a_0: 0 fric: 0.99
-theta: -104.278 v_x: 16.7915 v_y: -9.9903 a_0: 0 fric: 0.99
-theta: -104.278 v_x: 16.6236 v_y: -9.8904 a_0: 0 fric: 0.99
-theta: -104.278 v_x: 16.4573 v_y: -9.79149 a_0: 0 fric: 0.99
-theta: -104.278 v_x: 16.2928 v_y: -9.69358 a_0: 0 fric: 0.99
-theta: -104.278 v_x: 16.1298 v_y: -9.59664 a_0: 0 fric: 0.99
-theta: -104.278 v_x: 15.9685 v_y: -9.50068 a_0: 0 fric: 0.99
-theta: -104.278 v_x: 15.8089 v_y: -9.40567 a_0: 0 fric: 0.99
-theta: -104.278 v_x: 15.6508 v_y: -9.31161 a_0: 0 fric: 0.99
-theta: -104.278 v_x: 15.4943 v_y: -9.2185 a_0: 0 fric: 0.99
-theta: -104.278 v_x: 15.3393 v_y: -9.12631 a_0: 0 fric: 0.99
-theta: -104.278 v_x: 15.1859 v_y: -9.03505 a_0: 0 fric: 0.99
-theta: -104.278 v_x: 15.0341 v_y: -8.9447 a_0: 0 fric: 0.99
-theta: -104.278 v_x: 14.8837 v_y: -8.85525 a_0: 0 fric: 0.99
-theta: -104.278 v_x: 14.7349 v_y: -8.7667 a_0: 0 fric: 0.99
-theta: -104.278 v_x: 14.5875 v_y: -8.67903 a_0: 0 fric: 0.99
-theta: -104.278 v_x: 14.4417 v_y: -8.59224 a_0: 0 fric: 0.99
-theta: -104.278 v_x: 14.2973 v_y: -8.50632 a_0: 0 fric: 0.99
-theta: -104.278 v_x: 14.1543 v_y: -8.42126 a_0: 0 fric: 0.99
-theta: -104.278 v_x: 14.0127 v_y: -8.33704 a_0: 0 fric: 0.99
-theta: -104.278 v_x: 13.8726 v_y: -8.25367 a_0: 0 fric: 0.99
-theta: -104.278 v_x: 13.7339 v_y: -8.17114 a_0: 0 fric: 0.99
-theta: -104.278 v_x: 13.5965 v_y: -8.08942 a_0: 0 fric: 0.99
-theta: -104.278 v_x: 13.4606 v_y: -8.00853 a_0: 0 fric: 0.99
-theta: -104.278 v_x: 13.326 v_y: -7.92844 a_0: 0 fric: 0.99
-theta: -104.278 v_x: 13.1927 v_y: -7.84916 a_0: 0 fric: 0.99
-theta: -104.278 v_x: 13.0608 v_y: -7.77067 a_0: 0 fric: 0.99
-theta: -104.278 v_x: 12.9302 v_y: -7.69296 a_0: 0 fric: 0.99
-theta: -104.278 v_x: 12.8009 v_y: -7.61603 a_0: 0 fric: 0.99
-theta: -104.278 v_x: 12.6729 v_y: -7.53987 a_0: 0 fric: 0.99
-theta: -104.278 v_x: 12.5461 v_y: -7.46447 a_0: 0 fric: 0.99
-theta: -104.278 v_x: 12.4207 v_y: -7.38983 a_0: 0 fric: 0.99
-theta: -104.278 v_x: 12.2965 v_y: -7.31593 a_0: 0 fric: 0.99
-theta: -104.278 v_x: 12.1735 v_y: -7.24277 a_0: 0 fric: 0.99
-theta: -104.278 v_x: 12.0518 v_y: -7.17034 a_0: 0 fric: 0.99
-theta: -104.278 v_x: 11.9313 v_y: -7.09864 a_0: 0 fric: 0.99
-theta: -104.278 v_x: 11.8119 v_y: -7.02765 a_0: 0 fric: 0.99
-theta: -104.278 v_x: 11.6938 v_y: -6.95738 a_0: 0 fric: 0.99
-theta: -104.278 v_x: 11.5769 v_y: -6.8878 a_0: 0 fric: 0.99
-theta: -104.278 v_x: 11.4611 v_y: -6.81893 a_0: 0 fric: 0.99
-theta: -104.278 v_x: 11.3465 v_y: -6.75074 a_0: 0 fric: 0.99
-theta: -104.278 v_x: 11.233 v_y: -6.68323 a_0: 0 fric: 0.99
-theta: -104.278 v_x: 11.1207 v_y: -6.6164 a_0: 0 fric: 0.99
-theta: -104.278 v_x: 11.0095 v_y: -6.55023 a_0: 0 fric: 0.99
-theta: -104.278 v_x: 10.8994 v_y: -6.48473 a_0: 0 fric: 0.99
-theta: -104.278 v_x: 10.7904 v_y: -6.41988 a_0: 0 fric: 0.99
-theta: -104.278 v_x: 10.6825 v_y: -6.35568 a_0: 0 fric: 0.99
-theta: -104.278 v_x: 10.5757 v_y: -6.29213 a_0: 0 fric: 0.99
-theta: -104.278 v_x: 10.4699 v_y: -6.22921 a_0: 0 fric: 0.99
-theta: -104.278 v_x: 10.3652 v_y: -6.16691 a_0: 0 fric: 0.99
-theta: -104.278 v_x: 10.2616 v_y: -6.10524 a_0: 0 fric: 0.99
-theta: -104.278 v_x: 10.159 v_y: -6.04419 a_0: 0 fric: 0.99
-theta: -104.278 v_x: 10.0574 v_y: -5.98375 a_0: 0 fric: 0.99
-theta: -104.278 v_x: 9.9568 v_y: -5.92391 a_0: 0 fric: 0.99
-theta: -104.278 v_x: 9.85723 v_y: -5.86467 a_0: 0 fric: 0.99
-theta: -104.278 v_x: 9.75866 v_y: -5.80603 a_0: 0 fric: 0.99
-theta: -104.278 v_x: 9.66107 v_y: -5.74797 a_0: 0 fric: 0.99
-theta: -104.278 v_x: 9.56446 v_y: -5.69049 a_0: 0 fric: 0.99
-theta: -104.278 v_x: 9.46881 v_y: -5.63358 a_0: 0 fric: 0.99
-theta: -104.278 v_x: 9.37413 v_y: -5.57725 a_0: 0 fric: 0.99
-theta: -104.278 v_x: 9.28038 v_y: -5.52147 a_0: 0 fric: 0.99
-theta: -104.278 v_x: 9.18758 v_y: -5.46626 a_0: 0 fric: 0.99
-theta: -104.278 v_x: 9.0957 v_y: -5.4116 a_0: 0 fric: 0.99
-theta: -104.278 v_x: 9.00475 v_y: -5.35748 a_0: 0 fric: 0.99
-theta: -104.278 v_x: 8.9147 v_y: -5.30391 a_0: 0 fric: 0.99
-theta: -104.278 v_x: 8.82555 v_y: -5.25087 a_0: 0 fric: 0.99
-theta: -104.278 v_x: 8.7373 v_y: -5.19836 a_0: 0 fric: 0.99
-theta: -104.278 v_x: 8.64992 v_y: -5.14637 a_0: 0 fric: 0.99
-theta: -104.278 v_x: 8.56343 v_y: -5.09491 a_0: 0 fric: 0.99
-theta: -104.278 v_x: 8.47779 v_y: -5.04396 a_0: 0 fric: 0.99
-theta: -104.278 v_x: 8.39301 v_y: -4.99352 a_0: 0 fric: 0.99
-theta: -104.278 v_x: 8.30908 v_y: -4.94359 a_0: 0 fric: 0.99
-theta: -104.278 v_x: 8.22599 v_y: -4.89415 a_0: 0 fric: 0.99
-theta: -104.278 v_x: 8.14373 v_y: -4.84521 a_0: 0 fric: 0.99
-theta: -104.278 v_x: 8.06229 v_y: -4.79676 a_0: 0 fric: 0.99
-theta: -104.278 v_x: 7.98167 v_y: -4.74879 a_0: 0 fric: 0.99
-theta: -104.278 v_x: 7.90186 v_y: -4.7013 a_0: 0 fric: 0.99
-theta: -104.278 v_x: 7.82284 v_y: -4.65429 a_0: 0 fric: 0.99
-theta: -104.278 v_x: 7.74461 v_y: -4.60775 a_0: 0 fric: 0.99
-theta: -104.278 v_x: 7.66716 v_y: -4.56167 a_0: 0 fric: 0.99
-theta: -104.278 v_x: 7.59049 v_y: -4.51605 a_0: 0 fric: 0.99
-theta: -104.278 v_x: 7.51459 v_y: -4.47089 a_0: 0 fric: 0.99
-theta: -104.278 v_x: 7.43944 v_y: -4.42618 a_0: 0 fric: 0.99
-theta: -104.278 v_x: 7.36505 v_y: -4.38192 a_0: 0 fric: 0.99
-theta: -104.278 v_x: 7.2914 v_y: -4.3381 a_0: 0 fric: 0.99
-theta: -104.278 v_x: 7.21848 v_y: -4.29472 a_0: 0 fric: 0.99
-theta: -104.278 v_x: 7.1463 v_y: -4.25177 a_0: 0 fric: 0.99
-theta: -104.278 v_x: 7.07483 v_y: -4.20926 a_0: 0 fric: 0.99
-theta: -104.278 v_x: 7.00408 v_y: -4.16716 a_0: 0 fric: 0.99
-theta: -104.278 v_x: 6.93404 v_y: -4.12549 a_0: 0 fric: 0.99
-theta: -104.278 v_x: 6.8647 v_y: -4.08424 a_0: 0 fric: 0.99
-theta: -104.278 v_x: 6.79606 v_y: -4.04339 a_0: 0 fric: 0.99
-theta: -104.278 v_x: 6.7281 v_y: -4.00296 a_0: 0 fric: 0.99
-theta: -104.278 v_x: 6.66082 v_y: -3.96293 a_0: 0 fric: 0.99
-theta: -104.278 v_x: 6.59421 v_y: -3.9233 a_0: 0 fric: 0.99
-theta: -104.278 v_x: 6.52826 v_y: -3.88407 a_0: 0 fric: 0.99
-theta: -104.278 v_x: 6.46298 v_y: -3.84523 a_0: 0 fric: 0.99
-theta: -104.278 v_x: 6.39835 v_y: -3.80677 a_0: 0 fric: 0.99
-theta: -104.278 v_x: 6.33437 v_y: -3.76871 a_0: 0 fric: 0.99
-theta: -104.278 v_x: 6.27103 v_y: -3.73102 a_0: 0 fric: 0.99
-theta: -104.278 v_x: 6.20831 v_y: -3.69371 a_0: 0 fric: 0.99
-theta: -104.278 v_x: 6.14623 v_y: -3.65677 a_0: 0 fric: 0.99
-theta: -104.278 v_x: 6.08477 v_y: -3.62021 a_0: 0 fric: 0.99
-theta: -104.278 v_x: 6.02392 v_y: -3.584 a_0: 0 fric: 0.99
-theta: -104.278 v_x: 5.96368 v_y: -3.54816 a_0: 0 fric: 0.99
-theta: -104.278 v_x: 5.90405 v_y: -3.51268 a_0: 0 fric: 0.99
-theta: -104.278 v_x: 5.84501 v_y: -3.47755 a_0: 0 fric: 0.99
-theta: -104.278 v_x: 5.78656 v_y: -3.44278 a_0: 0 fric: 0.99
-theta: -104.278 v_x: 5.72869 v_y: -3.40835 a_0: 0 fric: 0.99
-theta: -104.278 v_x: 5.6714 v_y: -3.37427 a_0: 0 fric: 0.99
-theta: -104.278 v_x: 5.61469 v_y: -3.34053 a_0: 0 fric: 0.99
-theta: -104.278 v_x: 5.55854 v_y: -3.30712 a_0: 0 fric: 0.99
-theta: -104.278 v_x: 5.50296 v_y: -3.27405 a_0: 0 fric: 0.99
-theta: -104.278 v_x: 5.44793 v_y: -3.24131 a_0: 0 fric: 0.99
-theta: -104.278 v_x: 5.39345 v_y: -3.2089 a_0: 0 fric: 0.99
-theta: -104.278 v_x: 5.33951 v_y: -3.17681 a_0: 0 fric: 0.99
-theta: -104.278 v_x: 5.28612 v_y: -3.14504 a_0: 0 fric: 0.99
-theta: -104.278 v_x: 5.23326 v_y: -3.11359 a_0: 0 fric: 0.99
-theta: -104.278 v_x: 5.18092 v_y: -3.08245 a_0: 0 fric: 0.99
-theta: -104.278 v_x: 5.12912 v_y: -3.05163 a_0: 0 fric: 0.99
-theta: -104.278 v_x: 5.07782 v_y: -3.02111 a_0: 0 fric: 0.99
-theta: -104.278 v_x: 5.02705 v_y: -2.9909 a_0: 0 fric: 0.99
-theta: -104.278 v_x: 4.97678 v_y: -2.96099 a_0: 0 fric: 0.99
-theta: -104.278 v_x: 4.92701 v_y: -2.93138 a_0: 0 fric: 0.99
-theta: -104.278 v_x: 4.87774 v_y: -2.90207 a_0: 0 fric: 0.99
-theta: -104.278 v_x: 4.82896 v_y: -2.87305 a_0: 0 fric: 0.99
-theta: -104.278 v_x: 4.78067 v_y: -2.84432 a_0: 0 fric: 0.99
-theta: -104.278 v_x: 4.73286 v_y: -2.81587 a_0: 0 fric: 0.99
-theta: -104.278 v_x: 4.68554 v_y: -2.78771 a_0: 0 fric: 0.99
-theta: -104.278 v_x: 4.63868 v_y: -2.75984 a_0: 0 fric: 0.99
-theta: -104.278 v_x: 4.59229 v_y: -2.73224 a_0: 0 fric: 0.99
-theta: -104.278 v_x: 4.54637 v_y: -2.70492 a_0: 0 fric: 0.99
-theta: -104.278 v_x: 4.50091 v_y: -2.67787 a_0: 0 fric: 0.99
-theta: -104.278 v_x: 4.4559 v_y: -2.65109 a_0: 0 fric: 0.99
-theta: -104.278 v_x: 4.41134 v_y: -2.62458 a_0: 0 fric: 0.99
-theta: -104.278 v_x: 4.36722 v_y: -2.59833 a_0: 0 fric: 0.99
-theta: -104.278 v_x: 4.32355 v_y: -2.57235 a_0: 0 fric: 0.99
-theta: -104.278 v_x: 4.28032 v_y: -2.54662 a_0: 0 fric: 0.99
-theta: -104.278 v_x: 4.23751 v_y: -2.52116 a_0: 0 fric: 0.99
-theta: -104.278 v_x: 4.19514 v_y: -2.49595 a_0: 0 fric: 0.99
-theta: -104.278 v_x: 4.15319 v_y: -2.47099 a_0: 0 fric: 0.99
-theta: -104.278 v_x: 4.11166 v_y: -2.44628 a_0: 0 fric: 0.99
-theta: -104.278 v_x: 4.07054 v_y: -2.42181 a_0: 0 fric: 0.99
-theta: -104.278 v_x: 4.02983 v_y: -2.3976 a_0: 0 fric: 0.99
-theta: -104.278 v_x: 3.98954 v_y: -2.37362 a_0: 0 fric: 0.99
-theta: -104.278 v_x: 3.94964 v_y: -2.34988 a_0: 0 fric: 0.99
-theta: -104.278 v_x: 3.91014 v_y: -2.32639 a_0: 0 fric: 0.99
-theta: -104.278 v_x: 3.87104 v_y: -2.30312 a_0: 0 fric: 0.99
-theta: -104.278 v_x: 3.83233 v_y: -2.28009 a_0: 0 fric: 0.99
-theta: -104.278 v_x: 3.79401 v_y: -2.25729 a_0: 0 fric: 0.99
-theta: -104.278 v_x: 3.75607 v_y: -2.23472 a_0: 0 fric: 0.99
-theta: -104.278 v_x: 3.71851 v_y: -2.21237 a_0: 0 fric: 0.99
-theta: -104.278 v_x: 3.68132 v_y: -2.19025 a_0: 0 fric: 0.99
-theta: -104.278 v_x: 3.64451 v_y: -2.16834 a_0: 0 fric: 0.99
-theta: -104.278 v_x: 3.60806 v_y: -2.14666 a_0: 0 fric: 0.99
-theta: -104.278 v_x: 3.57198 v_y: -2.12519 a_0: 0 fric: 0.99
-theta: -104.278 v_x: 3.53626 v_y: -2.10394 a_0: 0 fric: 0.99
-theta: -104.278 v_x: 3.5009 v_y: -2.0829 a_0: 0 fric: 0.99
-theta: -104.278 v_x: 3.46589 v_y: -2.06207 a_0: 0 fric: 0.99
-theta: -104.278 v_x: 3.43123 v_y: -2.04145 a_0: 0 fric: 0.99
-theta: -104.278 v_x: 3.39692 v_y: -2.02104 a_0: 0 fric: 0.99
-theta: -104.278 v_x: 3.36295 v_y: -2.00083 a_0: 0 fric: 0.99
-theta: -104.278 v_x: 3.32932 v_y: -1.98082 a_0: 0 fric: 0.99
-theta: -104.278 v_x: 3.29603 v_y: -1.96101 a_0: 0 fric: 0.99
-theta: -104.278 v_x: 3.26307 v_y: -1.9414 a_0: 0 fric: 0.99
-theta: -104.278 v_x: 3.23044 v_y: -1.92199 a_0: 0 fric: 0.99
-theta: -104.278 v_x: 3.19813 v_y: -1.90277 a_0: 0 fric: 0.99
-theta: -104.278 v_x: 3.16615 v_y: -1.88374 a_0: 0 fric: 0.99
-theta: -104.278 v_x: 3.13449 v_y: -1.8649 a_0: 0 fric: 0.99
-theta: -104.278 v_x: 3.10315 v_y: -1.84625 a_0: 0 fric: 0.99
-theta: -104.278 v_x: 3.07211 v_y: -1.82779 a_0: 0 fric: 0.99
-theta: -104.278 v_x: 3.04139 v_y: -1.80951 a_0: 0 fric: 0.99
-theta: -104.278 v_x: 3.01098 v_y: -1.79142 a_0: 0 fric: 0.99
-theta: -104.278 v_x: 2.98087 v_y: -1.7735 a_0: 0 fric: 0.99
-theta: -104.278 v_x: 2.95106 v_y: -1.75577 a_0: 0 fric: 0.99
-theta: -104.278 v_x: 2.92155 v_y: -1.73821 a_0: 0 fric: 0.99
-theta: -104.278 v_x: 2.89233 v_y: -1.72083 a_0: 0 fric: 0.99
-theta: -104.278 v_x: 2.86341 v_y: -1.70362 a_0: 0 fric: 0.99
-theta: -104.278 v_x: 2.83478 v_y: -1.68658 a_0: 0 fric: 0.99
-theta: -104.278 v_x: 2.80643 v_y: -1.66972 a_0: 0 fric: 0.99
-theta: -104.278 v_x: 2.77837 v_y: -1.65302 a_0: 0 fric: 0.99
-theta: -104.278 v_x: 2.75058 v_y: -1.63649 a_0: 0 fric: 0.99
-theta: -104.278 v_x: 2.72308 v_y: -1.62013 a_0: 0 fric: 0.99
-theta: -104.278 v_x: 2.69584 v_y: -1.60392 a_0: 0 fric: 0.99
-theta: -104.278 v_x: 2.66889 v_y: -1.58789 a_0: 0 fric: 0.99
-theta: -104.278 v_x: 2.6422 v_y: -1.57201 a_0: 0 fric: 0.99
-theta: -104.278 v_x: 2.61578 v_y: -1.55629 a_0: 0 fric: 0.99
-theta: -104.278 v_x: 2.58962 v_y: -1.54072 a_0: 0 fric: 0.99
-theta: -104.278 v_x: 2.56372 v_y: -1.52532 a_0: 0 fric: 0.99
-theta: -104.278 v_x: 2.53808 v_y: -1.51006 a_0: 0 fric: 0.99
-theta: -104.278 v_x: 2.5127 v_y: -1.49496 a_0: 0 fric: 0.99
-theta: -104.278 v_x: 2.48758 v_y: -1.48001 a_0: 0 fric: 0.99
-theta: -104.278 v_x: 2.4627 v_y: -1.46521 a_0: 0 fric: 0.99
-theta: -104.278 v_x: 2.43807 v_y: -1.45056 a_0: 0 fric: 0.99
-theta: -104.278 v_x: 2.41369 v_y: -1.43606 a_0: 0 fric: 0.99
-theta: -104.278 v_x: 2.38956 v_y: -1.42169 a_0: 0 fric: 0.99
-theta: -104.278 v_x: 2.36566 v_y: -1.40748 a_0: 0 fric: 0.99
-theta: -104.278 v_x: 2.342 v_y: -1.3934 a_0: 0 fric: 0.99
-theta: -104.278 v_x: 2.31858 v_y: -1.37947 a_0: 0 fric: 0.99
-theta: -104.278 v_x: 2.2954 v_y: -1.36567 a_0: 0 fric: 0.99
-theta: -104.278 v_x: 2.27244 v_y: -1.35202 a_0: 0 fric: 0.99
-theta: -104.278 v_x: 2.24972 v_y: -1.3385 a_0: 0 fric: 0.99
-theta: -104.278 v_x: 2.22722 v_y: -1.32511 a_0: 0 fric: 0.99
-theta: -104.278 v_x: 2.20495 v_y: -1.31186 a_0: 0 fric: 0.99
-theta: -104.278 v_x: 2.1829 v_y: -1.29874 a_0: 0 fric: 0.99
-theta: -104.278 v_x: 2.16107 v_y: -1.28575 a_0: 0 fric: 0.99
-theta: -104.278 v_x: 2.13946 v_y: -1.2729 a_0: 0 fric: 0.99
-theta: -104.278 v_x: 2.11807 v_y: -1.26017 a_0: 0 fric: 0.99
-theta: -104.278 v_x: 2.09689 v_y: -1.24757 a_0: 0 fric: 0.99
-theta: -104.278 v_x: 2.07592 v_y: -1.23509 a_0: 0 fric: 0.99
-theta: -104.278 v_x: 2.05516 v_y: -1.22274 a_0: 0 fric: 0.99
-theta: -104.278 v_x: 2.03461 v_y: -1.21051 a_0: 0 fric: 0.99
-theta: -104.278 v_x: 2.01426 v_y: -1.19841 a_0: 0 fric: 0.99
-theta: -104.278 v_x: 1.99412 v_y: -1.18642 a_0: 0 fric: 0.99
-theta: -104.278 v_x: 1.97418 v_y: -1.17456 a_0: 0 fric: 0.99
-theta: -104.278 v_x: 1.95443 v_y: -1.16281 a_0: 0 fric: 0.99
-theta: -104.278 v_x: 1.93489 v_y: -1.15119 a_0: 0 fric: 0.99
-theta: -104.278 v_x: 1.91554 v_y: -1.13967 a_0: 0 fric: 0.99
-theta: -104.278 v_x: 1.89639 v_y: -1.12828 a_0: 0 fric: 0.99
-theta: -104.278 v_x: 1.87742 v_y: -1.11699 a_0: 0 fric: 0.99
-theta: -104.278 v_x: 1.85865 v_y: -1.10582 a_0: 0 fric: 0.99
-theta: -104.278 v_x: 1.84006 v_y: -1.09477 a_0: 0 fric: 0.99
-theta: -104.278 v_x: 1.82166 v_y: -1.08382 a_0: 0 fric: 0.99
-theta: -104.278 v_x: 1.80344 v_y: -1.07298 a_0: 0 fric: 0.99
-theta: -104.278 v_x: 1.78541 v_y: -1.06225 a_0: 0 fric: 0.99
-theta: -104.278 v_x: 1.76756 v_y: -1.05163 a_0: 0 fric: 0.99
-theta: -104.278 v_x: 1.74988 v_y: -1.04111 a_0: 0 fric: 0.99
-theta: -104.278 v_x: 1.73238 v_y: -1.0307 a_0: 0 fric: 0.99
-theta: -104.278 v_x: 1.71506 v_y: -1.02039 a_0: 0 fric: 0.99
-theta: -104.278 v_x: 1.69791 v_y: -1.01019 a_0: 0 fric: 0.99
-theta: -104.278 v_x: 1.68093 v_y: -1.00009 a_0: 0 fric: 0.99
-theta: -104.278 v_x: 1.66412 v_y: -0.990087 a_0: 0 fric: 0.99
-theta: -104.278 v_x: 1.64748 v_y: -0.980186 a_0: 0 fric: 0.99
-theta: -104.278 v_x: 1.631 v_y: -0.970384 a_0: 0 fric: 0.99
-theta: -104.278 v_x: 1.61469 v_y: -0.96068 a_0: 0 fric: 0.99
-theta: -104.278 v_x: 1.59855 v_y: -0.951073 a_0: 0 fric: 0.99
-theta: -104.278 v_x: 1.58256 v_y: -0.941563 a_0: 0 fric: 0.99
-theta: -104.278 v_x: 1.56673 v_y: -0.932147 a_0: 0 fric: 0.99
-theta: -104.278 v_x: 1.55107 v_y: -0.922826 a_0: 0 fric: 0.99
-theta: -104.278 v_x: 1.53556 v_y: -0.913597 a_0: 0 fric: 0.99
-theta: -104.278 v_x: 1.5202 v_y: -0.904461 a_0: 0 fric: 0.99
-theta: -104.278 v_x: 1.505 v_y: -0.895417 a_0: 0 fric: 0.99
+theta: 0 v_x: 0 v_y: 0 a_0: 0 fric: 1
+theta: 0 v_x: 0 v_y: 0 a_0: 0 fric: 1
+theta: 0 v_x: 0 v_y: 0 a_0: 0 fric: 1
+theta: 0 v_x: 0 v_y: 0 a_0: 0 fric: 1
+theta: 0 v_x: 0 v_y: 0 a_0: 0 fric: 1
+theta: 0 v_x: 0 v_y: 0 a_0: 0 fric: 1
+theta: 0 v_x: 0 v_y: 0 a_0: 0 fric: 1
+theta: 0 v_x: 0 v_y: 0 a_0: 0 fric: 1
+theta: 0 v_x: 0 v_y: 0 a_0: 0 fric: 1
+theta: 0 v_x: 0 v_y: 0 a_0: 0 fric: 1
+theta: 0 v_x: 0 v_y: 0 a_0: 0 fric: 1
+theta: 0 v_x: 0 v_y: 0 a_0: 0 fric: 1
+theta: 0 v_x: 0 v_y: 0 a_0: 0 fric: 1
+theta: 0 v_x: 0 v_y: 0 a_0: 0 fric: 1
+theta: 0 v_x: 0 v_y: 0 a_0: 0 fric: 1
+theta: 0 v_x: 0 v_y: 0 a_0: 0 fric: 1
+theta: 0 v_x: 0 v_y: 0 a_0: 0 fric: 1
+theta: 0 v_x: 0 v_y: 0 a_0: 0 fric: 1
+theta: 0 v_x: 0 v_y: 0 a_0: 0 fric: 1
+theta: 0 v_x: 0 v_y: 0 a_0: 0 fric: 1
+theta: 0 v_x: 0 v_y: 0 a_0: 0 fric: 1
+theta: 0 v_x: 0 v_y: 0 a_0: 0 fric: 1
+theta: 0 v_x: 0 v_y: 0 a_0: 0 fric: 1
+theta: 0 v_x: 0 v_y: 0 a_0: 0 fric: 1
+theta: 0 v_x: 0 v_y: 0 a_0: 0 fric: 1
+theta: 0 v_x: 0 v_y: 0 a_0: 0 fric: 1
+theta: 0 v_x: 0 v_y: 0 a_0: 0 fric: 1
+theta: 0 v_x: 0 v_y: 0 a_0: 0 fric: 1
+theta: 0 v_x: 0 v_y: 0 a_0: 0 fric: 1
+theta: 0 v_x: 0 v_y: 0 a_0: 0 fric: 1
+theta: 0 v_x: 0 v_y: 0 a_0: 0 fric: 1
+theta: 0 v_x: 0 v_y: 0 a_0: 0 fric: 1
+theta: 0 v_x: 0 v_y: 0 a_0: 0 fric: 1
+theta: 0 v_x: 0 v_y: 0 a_0: 0 fric: 1
+theta: 0 v_x: 0 v_y: 0 a_0: 0 fric: 1
+theta: 0 v_x: 0 v_y: 0 a_0: 0 fric: 1
+theta: 0 v_x: 0 v_y: 0 a_0: 0 fric: 1
+theta: 0 v_x: 0 v_y: 0 a_0: 0 fric: 1
+theta: 0 v_x: 0 v_y: 0 a_0: 0 fric: 1
+theta: 0 v_x: 0 v_y: 0 a_0: 0 fric: 1
+theta: 0 v_x: 0 v_y: 0 a_0: 0 fric: 1
+theta: 0 v_x: 0 v_y: 0 a_0: 0 fric: 1
+theta: 0 v_x: 0 v_y: 0 a_0: 0 fric: 1
+theta: 0 v_x: 0 v_y: 0 a_0: 0 fric: 1
+theta: 0 v_x: 0 v_y: 0 a_0: 0 fric: 1
+theta: 0 v_x: 0 v_y: 0 a_0: 0 fric: 1
+theta: 0 v_x: 0 v_y: 0 a_0: 0 fric: 1
+theta: 0 v_x: 0 v_y: 0 a_0: 0 fric: 1
+theta: 0 v_x: 0 v_y: 0 a_0: 0 fric: 1
+theta: 0 v_x: 0 v_y: 0 a_0: 0 fric: 1
+theta: 0 v_x: 0 v_y: 0 a_0: 0 fric: 1
+theta: 0 v_x: 0 v_y: 0 a_0: 0 fric: 1
+theta: 0 v_x: 0 v_y: 0 a_0: 0 fric: 1
+theta: 0 v_x: 0 v_y: 0 a_0: 0 fric: 1
+theta: 0 v_x: 0 v_y: 0 a_0: 0 fric: 1
+theta: 0 v_x: 0 v_y: 0 a_0: 0 fric: 1
+theta: 0 v_x: 0 v_y: 0 a_0: 0 fric: 1
+theta: 0 v_x: 0 v_y: 0 a_0: 0 fric: 1
+theta: 0 v_x: 0 v_y: 0 a_0: 0 fric: 1
+theta: 0 v_x: 0 v_y: 0 a_0: 0 fric: 1
+theta: 0 v_x: 0 v_y: 0 a_0: 0 fric: 1
+theta: 0 v_x: 0 v_y: 0 a_0: 0 fric: 1
+theta: 0 v_x: 0 v_y: 0 a_0: 0 fric: 1
+theta: 0 v_x: 0 v_y: 0 a_0: 0 fric: 1
+theta: 0 v_x: 0 v_y: 0 a_0: 0 fric: 1
+theta: 0 v_x: 0 v_y: 0 a_0: 0 fric: 1
+theta: 0 v_x: 0 v_y: 0 a_0: 0 fric: 1
+theta: 0 v_x: 0 v_y: 0 a_0: 0 fric: 1
+theta: 0 v_x: 0 v_y: 0 a_0: 0 fric: 1
+theta: 0 v_x: 0 v_y: 0 a_0: 0 fric: 1
+theta: 0 v_x: 0 v_y: 0 a_0: 0 fric: 1
+theta: 0 v_x: 0 v_y: 0 a_0: 0 fric: 1
+theta: 0 v_x: 0 v_y: 0 a_0: 0 fric: 1
+theta: 0 v_x: 0 v_y: 0 a_0: 0 fric: 1
+theta: 0 v_x: 0 v_y: 0 a_0: 0 fric: 1
+theta: 0 v_x: 0 v_y: 0 a_0: 0 fric: 1
+theta: 0 v_x: 0 v_y: 0 a_0: 0 fric: 1
+theta: 0 v_x: 0 v_y: 0 a_0: 0 fric: 1
+theta: 0 v_x: 0 v_y: 0 a_0: 0 fric: 1
+theta: 0 v_x: 0 v_y: 0 a_0: 0 fric: 1
+theta: 0 v_x: 0 v_y: 0 a_0: 0 fric: 1
+theta: 0 v_x: 0 v_y: 0 a_0: 0 fric: 1
+theta: 0 v_x: 0 v_y: 0 a_0: 0 fric: 1
+theta: 0 v_x: 0 v_y: 0 a_0: 0 fric: 1
+theta: 0 v_x: 0 v_y: 0 a_0: 0 fric: 1
+theta: 0 v_x: 0 v_y: 0 a_0: 0 fric: 1
+theta: 0 v_x: 0 v_y: 0 a_0: 0 fric: 1
+theta: 0 v_x: 0 v_y: 0 a_0: 0 fric: 1
+theta: 0 v_x: 0 v_y: 0 a_0: 0 fric: 1
+theta: 0 v_x: 0 v_y: 0 a_0: 0 fric: 1
+theta: 0 v_x: 0 v_y: 0 a_0: 0 fric: 1
+theta: 0 v_x: 0 v_y: 0 a_0: 0 fric: 1
+theta: 0 v_x: 0 v_y: 0 a_0: 0 fric: 1
+theta: 0 v_x: 0 v_y: 0 a_0: 0 fric: 1
+theta: 0 v_x: 0 v_y: 0 a_0: 0 fric: 1
+theta: 0 v_x: 0 v_y: 0 a_0: 0 fric: 1
+theta: 0 v_x: 0 v_y: 0 a_0: 0 fric: 1
+theta: 0 v_x: 0 v_y: 0 a_0: 0 fric: 1
+theta: 0 v_x: 0 v_y: 0 a_0: 0 fric: 1
+theta: 0 v_x: 0 v_y: 0 a_0: 0 fric: 1
+theta: 0 v_x: 0 v_y: 0 a_0: 0 fric: 1
+theta: 0 v_x: 0 v_y: 0 a_0: 0 fric: 1
+theta: 0 v_x: 0 v_y: 0 a_0: 0 fric: 1
+theta: 0 v_x: 0 v_y: 0 a_0: 0 fric: 1
+theta: 0 v_x: 0 v_y: 0 a_0: 0 fric: 1
+theta: 0 v_x: 0 v_y: 0 a_0: 0 fric: 1
+theta: 0 v_x: 0 v_y: 0 a_0: 0 fric: 1
+theta: 0 v_x: 0 v_y: 0 a_0: 0 fric: 1
+theta: 0 v_x: 0 v_y: 0 a_0: 0 fric: 1
+theta: 0 v_x: 0 v_y: 0 a_0: 0 fric: 1
+theta: 0 v_x: 0 v_y: 0 a_0: 0 fric: 1
+theta: 0 v_x: 0 v_y: 0 a_0: 0 fric: 1
+theta: 0 v_x: 0 v_y: 0 a_0: 0 fric: 1
+theta: 0 v_x: 0 v_y: 0 a_0: 0 fric: 1
+theta: 0 v_x: 0 v_y: 0 a_0: 0 fric: 1
+theta: 0 v_x: 0 v_y: 0 a_0: 0 fric: 1
+theta: 0 v_x: 0 v_y: 0 a_0: 0 fric: 1
+theta: 0 v_x: 0 v_y: 0 a_0: 0 fric: 1
+theta: 0 v_x: 0 v_y: 0 a_0: 0 fric: 1
+theta: 0 v_x: 0 v_y: 0 a_0: 0 fric: 1
+theta: 0 v_x: 0 v_y: 0 a_0: 0 fric: 1
+theta: 0 v_x: 0 v_y: 0 a_0: 0 fric: 1
+theta: 0 v_x: 0 v_y: 0 a_0: 0 fric: 1
+theta: 0 v_x: 0 v_y: 0 a_0: 0 fric: 1
+theta: 0 v_x: 0 v_y: 0 a_0: 0 fric: 1
+theta: 0 v_x: 0 v_y: 0 a_0: 0 fric: 1
+theta: 0 v_x: 0 v_y: 0 a_0: 0 fric: 1
+theta: 0 v_x: 0 v_y: 0 a_0: 0 fric: 1
+theta: 0 v_x: 0 v_y: 0 a_0: 0 fric: 1
+theta: 0 v_x: 0 v_y: 0 a_0: 0 fric: 1
+theta: 0 v_x: 0 v_y: 0 a_0: 0 fric: 1
+theta: 0 v_x: 0 v_y: 0 a_0: 0 fric: 1
+theta: 0 v_x: 0 v_y: 0 a_0: 0 fric: 1
+theta: 0 v_x: 0 v_y: 0 a_0: 0 fric: 1
+theta: 0 v_x: 0 v_y: 0 a_0: 0 fric: 1
+theta: 0 v_x: 0 v_y: 0 a_0: 0 fric: 1
+theta: 0 v_x: 0 v_y: 0 a_0: 0 fric: 1
+theta: 0 v_x: 0 v_y: 0 a_0: 0 fric: 1
+theta: 0 v_x: 0 v_y: 0 a_0: 0 fric: 1
+theta: 0 v_x: 0 v_y: 0 a_0: 0 fric: 1
+theta: 0 v_x: 0 v_y: 0 a_0: 0 fric: 1
+theta: 0 v_x: 0 v_y: 0 a_0: 0 fric: 1
+theta: 0 v_x: 0 v_y: 0 a_0: 0 fric: 1
+theta: 0 v_x: 0 v_y: 0 a_0: 0 fric: 1
+theta: 0 v_x: 0 v_y: 0 a_0: 0 fric: 1
+theta: 0 v_x: 0 v_y: 0 a_0: 0 fric: 1
+theta: 0 v_x: 0 v_y: 0 a_0: 0 fric: 1
+theta: 0 v_x: 0 v_y: 0 a_0: 0 fric: 1
+theta: 0 v_x: 0 v_y: 0 a_0: 0 fric: 1
+theta: 0 v_x: 0 v_y: 0 a_0: 0 fric: 1
+theta: 0 v_x: 0 v_y: 0 a_0: 0 fric: 1
+theta: 0 v_x: 0 v_y: 0 a_0: 0 fric: 1
+theta: 0 v_x: 0 v_y: 0 a_0: 0 fric: 1
+theta: 0 v_x: 0 v_y: 0 a_0: 0 fric: 1
+theta: 0 v_x: 0 v_y: 0 a_0: 0 fric: 1
+theta: 0 v_x: 0 v_y: 0 a_0: 0 fric: 1
+theta: 0 v_x: 0 v_y: 0 a_0: 0 fric: 1
+theta: 0 v_x: 0 v_y: 0 a_0: 0 fric: 1
+theta: 0 v_x: 0 v_y: 0 a_0: 0 fric: 1
+theta: 0 v_x: 0 v_y: 0 a_0: 0 fric: 1
+theta: 0 v_x: 0 v_y: 0 a_0: 0 fric: 1
+theta: 0 v_x: 0 v_y: 0 a_0: 0 fric: 1
+theta: 0 v_x: 0 v_y: 0 a_0: 0 fric: 1
+theta: 0 v_x: 0 v_y: 0 a_0: 0 fric: 1
+theta: 0 v_x: 0 v_y: 0 a_0: 0 fric: 1
+theta: 0 v_x: 0 v_y: 0 a_0: 0 fric: 1
+theta: 0 v_x: 0 v_y: 0 a_0: 0 fric: 1
+theta: 0 v_x: 0 v_y: 0 a_0: 0 fric: 1
+theta: 0 v_x: 0 v_y: 0 a_0: 0 fric: 1
+theta: 0 v_x: 0 v_y: 0 a_0: 0 fric: 1
+theta: 0 v_x: 0 v_y: 0 a_0: 0 fric: 1
+theta: 0 v_x: 0 v_y: 0 a_0: 0 fric: 1
+theta: 0 v_x: 0 v_y: 0 a_0: 0 fric: 1
+theta: 0 v_x: 0 v_y: 0 a_0: 0 fric: 1
+theta: 0 v_x: 0 v_y: 0 a_0: 0 fric: 1
+theta: 0 v_x: 0 v_y: 0 a_0: 0 fric: 1
+theta: 0 v_x: 0 v_y: 0 a_0: 0 fric: 1
+theta: 0 v_x: 0 v_y: 0 a_0: 0 fric: 1
+theta: 0 v_x: 0 v_y: 0 a_0: 0 fric: 1
+theta: 0 v_x: 0 v_y: 0 a_0: 0 fric: 1
+theta: 0 v_x: 0 v_y: 0 a_0: 0 fric: 1
+theta: 0 v_x: 0 v_y: 0 a_0: 0 fric: 1
+theta: 0 v_x: 0 v_y: 0 a_0: 0 fric: 1
+theta: 0 v_x: 0 v_y: 0 a_0: 0 fric: 1
+theta: 0 v_x: 0 v_y: 0 a_0: 0 fric: 1
+theta: 0 v_x: 0 v_y: 0 a_0: 0 fric: 1
+theta: 0 v_x: 0 v_y: 0 a_0: 0 fric: 1
+theta: 0 v_x: 0 v_y: 0 a_0: 0 fric: 1
+theta: 0 v_x: 0 v_y: 0 a_0: 0 fric: 1
+theta: 0 v_x: 0 v_y: 0 a_0: 0 fric: 1
+theta: 0 v_x: 0 v_y: 0 a_0: 0 fric: 1
+theta: 0 v_x: 0 v_y: 0 a_0: 0 fric: 1
+theta: 0 v_x: 0 v_y: 0 a_0: 0 fric: 1
+theta: 0 v_x: 0 v_y: 0 a_0: 0 fric: 1
+theta: 0 v_x: 0 v_y: 0 a_0: 0 fric: 1
+theta: 0 v_x: 0 v_y: 0 a_0: 0 fric: 1
+theta: 0 v_x: 0 v_y: 0 a_0: 0 fric: 1
+theta: 0 v_x: 0 v_y: 0 a_0: 0 fric: 1
+theta: 0 v_x: 0 v_y: 0 a_0: 0 fric: 1
+theta: 0 v_x: 0 v_y: 0 a_0: 0 fric: 1
+theta: 0 v_x: 0 v_y: 0 a_0: 0 fric: 1
+theta: 0 v_x: 0 v_y: 0 a_0: 0 fric: 1
+theta: 0 v_x: 0 v_y: 0 a_0: 0 fric: 1
+theta: 0 v_x: 0 v_y: 0 a_0: 0 fric: 1
+theta: 0 v_x: 0 v_y: 0 a_0: 0 fric: 1
+theta: 0 v_x: 0 v_y: 0 a_0: 0 fric: 1
+theta: 0 v_x: 0 v_y: 0 a_0: 0 fric: 1
+theta: 0 v_x: 0 v_y: 0 a_0: 0 fric: 1
+theta: 0 v_x: 0 v_y: 0 a_0: 0 fric: 1
+theta: 0 v_x: 0 v_y: 0 a_0: 0 fric: 1
+theta: 0 v_x: 0 v_y: 0 a_0: 0 fric: 1
+theta: 0 v_x: 0 v_y: 0 a_0: 0 fric: 1
+theta: 0 v_x: 0 v_y: 0 a_0: 0 fric: 1
+theta: 0 v_x: 0 v_y: 0 a_0: 0 fric: 1
+theta: 0 v_x: 0 v_y: 0 a_0: 0 fric: 1
+theta: 0 v_x: 0 v_y: 0 a_0: 0 fric: 1
+theta: 0 v_x: 0 v_y: 0 a_0: 0 fric: 1
+theta: 0 v_x: 0 v_y: 0 a_0: 0 fric: 1
+theta: 0 v_x: 0 v_y: 0 a_0: 0 fric: 1
+theta: 0 v_x: 0 v_y: 0 a_0: 0 fric: 1
+theta: 0 v_x: 0 v_y: 0 a_0: 0 fric: 1
+theta: 0 v_x: 0 v_y: 0 a_0: 0 fric: 1
+theta: 0 v_x: 0 v_y: 0 a_0: 0 fric: 1
+theta: 0 v_x: 0 v_y: 0 a_0: 0 fric: 1
+theta: 0 v_x: 0 v_y: 0 a_0: 0 fric: 1
+theta: 0 v_x: 0 v_y: 0 a_0: 0 fric: 1
+theta: 0 v_x: 0 v_y: 0 a_0: 0 fric: 1
+theta: 0 v_x: 0 v_y: 0 a_0: 0 fric: 1
+theta: 0 v_x: 0 v_y: 0 a_0: 0 fric: 1
+theta: 0 v_x: 0 v_y: 0 a_0: 0 fric: 1
+theta: 0 v_x: 0 v_y: 0 a_0: 0 fric: 1
+theta: 0 v_x: 0 v_y: 0 a_0: 0 fric: 1
+theta: 0 v_x: 0 v_y: 0 a_0: 0 fric: 1
+theta: 0 v_x: 0 v_y: 0 a_0: 0 fric: 1
+theta: 0 v_x: 0 v_y: 0 a_0: 0 fric: 1
+theta: 0 v_x: 0 v_y: 0 a_0: 0 fric: 1
+theta: 0 v_x: 0 v_y: 0 a_0: 0 fric: 1
+theta: 0 v_x: 0 v_y: 0 a_0: 0 fric: 1
+theta: 0 v_x: 0 v_y: 0 a_0: 0 fric: 1
+theta: 0 v_x: 0 v_y: 0 a_0: 0 fric: 1
+theta: 0 v_x: 0 v_y: 0 a_0: 0 fric: 1
+theta: 0 v_x: 0 v_y: 0 a_0: 0 fric: 1
+theta: 0 v_x: 0 v_y: 0 a_0: 0 fric: 1
+theta: 0 v_x: 0 v_y: 0 a_0: 0 fric: 1
+theta: 0 v_x: 0 v_y: 0 a_0: 0 fric: 1
+theta: 0 v_x: 0 v_y: 0 a_0: 0 fric: 1
+theta: 0 v_x: 0 v_y: 0 a_0: 0 fric: 1
+theta: 0 v_x: 0 v_y: 0 a_0: 0 fric: 1
+theta: 0 v_x: 0 v_y: 0 a_0: 0 fric: 1
+theta: 0 v_x: 0 v_y: 0 a_0: 0 fric: 1
+theta: 0 v_x: 0 v_y: 0 a_0: 0 fric: 1
+theta: 0 v_x: 0 v_y: 0 a_0: 0 fric: 1
+theta: 0 v_x: 0 v_y: 0 a_0: 0 fric: 1
+theta: 0 v_x: 0 v_y: 0 a_0: 0 fric: 1
+theta: 0 v_x: 0 v_y: 0 a_0: 0 fric: 1
+theta: 0 v_x: 0 v_y: 0 a_0: 0 fric: 1
+theta: 0 v_x: 0 v_y: 0 a_0: 0 fric: 1
+theta: 0 v_x: 0 v_y: 0 a_0: 0 fric: 1
+theta: 0 v_x: 0 v_y: 0 a_0: 0 fric: 1
+theta: 0 v_x: 0 v_y: 0 a_0: 0 fric: 1
+theta: 0 v_x: 0 v_y: 0 a_0: 0 fric: 1
+theta: 0 v_x: 0 v_y: 0 a_0: 0 fric: 1
+theta: 0 v_x: 0 v_y: 0 a_0: 0 fric: 1
+theta: 0 v_x: 0 v_y: 0 a_0: 0 fric: 1
+theta: 0 v_x: 0 v_y: 0 a_0: 0 fric: 1
+theta: 0 v_x: 0 v_y: 0 a_0: 0 fric: 1
+theta: 0 v_x: 0 v_y: 0 a_0: 0 fric: 1
+theta: 0 v_x: 0 v_y: 0 a_0: 0 fric: 1
+theta: 0 v_x: 0 v_y: 0 a_0: 0 fric: 1
+theta: 0 v_x: 0 v_y: 0 a_0: 0 fric: 1
+theta: 0 v_x: 0 v_y: 0 a_0: 0 fric: 1
+theta: 0 v_x: 0 v_y: 0 a_0: 0 fric: 1
+theta: 0 v_x: 0 v_y: 0 a_0: 0 fric: 1
+theta: 0 v_x: 0 v_y: 0 a_0: 0 fric: 1
+theta: 0 v_x: 0 v_y: 0 a_0: 0 fric: 1
+theta: 0 v_x: 0 v_y: 0 a_0: 0 fric: 1
+theta: 0 v_x: 0 v_y: 0 a_0: 0 fric: 1
+theta: 0 v_x: 0 v_y: 0 a_0: 0 fric: 1
+theta: 0 v_x: 0 v_y: 0 a_0: 0 fric: 1
+theta: 0 v_x: 0 v_y: 0 a_0: 0 fric: 1
+theta: 0 v_x: 0 v_y: 0 a_0: 0 fric: 1
+theta: 0 v_x: 0 v_y: 0 a_0: 0 fric: 1
+theta: 0 v_x: 0 v_y: 0 a_0: 0 fric: 1
+theta: 0 v_x: 0 v_y: 0 a_0: 0 fric: 1
+theta: 0 v_x: 0 v_y: 0 a_0: 0 fric: 1
+theta: 0 v_x: 0 v_y: 0 a_0: 0 fric: 1
+theta: 0 v_x: 0 v_y: 0 a_0: 0 fric: 1
+theta: 0 v_x: 0 v_y: 0 a_0: 0 fric: 1
+theta: 0 v_x: 0 v_y: 0 a_0: 0 fric: 1
+theta: 0 v_x: 0 v_y: 0 a_0: 0 fric: 1
+theta: 0 v_x: 0 v_y: 0 a_0: 0 fric: 1
+theta: 0 v_x: 0 v_y: 0 a_0: 0 fric: 1
+theta: 0 v_x: 0 v_y: 0 a_0: 0 fric: 1
+theta: 0 v_x: 0 v_y: 0 a_0: 0 fric: 1
+theta: 0 v_x: 0 v_y: 0 a_0: 0 fric: 1
+theta: 0 v_x: 0 v_y: 0 a_0: 0 fric: 1
+theta: 0 v_x: 0 v_y: 0 a_0: 0 fric: 1
+theta: 0 v_x: 0 v_y: 0 a_0: 0 fric: 1
+theta: 0 v_x: 0 v_y: 0 a_0: 0 fric: 1
+theta: 0 v_x: 0 v_y: 0 a_0: 0 fric: 1
+theta: 0 v_x: 0 v_y: 0 a_0: 0 fric: 1
+theta: 0 v_x: 0 v_y: 0 a_0: 0 fric: 1
+theta: 0 v_x: 0 v_y: 0 a_0: 0 fric: 1
+theta: 0 v_x: 0 v_y: 0 a_0: 0 fric: 1
+theta: 0 v_x: 0 v_y: 0 a_0: 0 fric: 1
+theta: 0 v_x: 0 v_y: 0 a_0: 0 fric: 1
+theta: 0 v_x: 0 v_y: 0 a_0: 0 fric: 1
+theta: 0 v_x: 0 v_y: 0 a_0: 0 fric: 1
+theta: 0 v_x: 0 v_y: 0 a_0: 0 fric: 1
+theta: 0 v_x: 0 v_y: 0 a_0: 0 fric: 1
+theta: 0 v_x: 0 v_y: 0 a_0: 0 fric: 1
+theta: 0 v_x: 0 v_y: 0 a_0: 0 fric: 1
+theta: 0 v_x: 0 v_y: 0 a_0: 0 fric: 1
+theta: 0 v_x: 0 v_y: 0 a_0: 0 fric: 1
+theta: 0 v_x: 0 v_y: 0 a_0: 0 fric: 1
+theta: 0 v_x: 0 v_y: 0 a_0: 0 fric: 1
+theta: 0 v_x: 0 v_y: 0 a_0: 0 fric: 1
+theta: 0 v_x: 0 v_y: 0 a_0: 0 fric: 1
+theta: 0 v_x: 0 v_y: 0 a_0: 0 fric: 1
+theta: 0 v_x: 0 v_y: 0 a_0: 0 fric: 1
+theta: 0 v_x: 0 v_y: 0 a_0: 0 fric: 1
+theta: 0 v_x: 0 v_y: 0 a_0: 0 fric: 1
+theta: 0 v_x: 0 v_y: 0 a_0: 0 fric: 1
+theta: 0 v_x: 0 v_y: 0 a_0: 0 fric: 1
+theta: 0 v_x: 0 v_y: 0 a_0: 0 fric: 1
+theta: 0 v_x: 0 v_y: 0 a_0: 0 fric: 1
+theta: 0 v_x: 0 v_y: 0 a_0: 0 fric: 1
+theta: 0 v_x: 0 v_y: 0 a_0: 0 fric: 1
+theta: 0 v_x: 0 v_y: 0 a_0: 0 fric: 1
+theta: 0 v_x: 0 v_y: 0 a_0: 0 fric: 1
+theta: 0 v_x: 0 v_y: 0 a_0: 0 fric: 1
+theta: 0 v_x: 0 v_y: 0 a_0: 0 fric: 1
+theta: 0 v_x: 0 v_y: 0 a_0: 0 fric: 1
+theta: 0 v_x: 0 v_y: 0 a_0: 0 fric: 1
+theta: 0 v_x: 0 v_y: 0 a_0: 0 fric: 1
+theta: 0 v_x: 0 v_y: 0 a_0: 0 fric: 1
+theta: 0 v_x: 0 v_y: 0 a_0: 0 fric: 1
+theta: 0 v_x: 0 v_y: 0 a_0: 0 fric: 1
+theta: 0 v_x: 0 v_y: 0 a_0: 0 fric: 1
+theta: 0 v_x: 0 v_y: 0 a_0: 0 fric: 1
+theta: 0 v_x: 0 v_y: 0 a_0: 0 fric: 1
+theta: 0 v_x: 0 v_y: 0 a_0: 0 fric: 1
+theta: 0 v_x: 0 v_y: 0 a_0: 0 fric: 1
+theta: 0 v_x: 0 v_y: 0 a_0: 0 fric: 1
+theta: 0 v_x: 0 v_y: 0 a_0: 0 fric: 1
+theta: 0 v_x: 0 v_y: 0 a_0: 0 fric: 1
+theta: 0 v_x: 0 v_y: 0 a_0: 0 fric: 1
+theta: 0 v_x: 0 v_y: 0 a_0: 0 fric: 1
+theta: 0 v_x: 0 v_y: 0 a_0: 0 fric: 1
+theta: 0 v_x: 0 v_y: 0 a_0: 0 fric: 1
+theta: 0 v_x: 0 v_y: 0 a_0: 0 fric: 1
+theta: 0 v_x: 0 v_y: 0 a_0: 0 fric: 1
+theta: 0 v_x: 0 v_y: 0 a_0: 0 fric: 1
+theta: 0 v_x: 0 v_y: 0 a_0: 0 fric: 1
+theta: 0 v_x: 0 v_y: 0 a_0: 0 fric: 1
+theta: 0 v_x: 0 v_y: 0 a_0: 0 fric: 1
+theta: 0 v_x: 0 v_y: 0 a_0: 0 fric: 1
+theta: 0 v_x: 0 v_y: 0 a_0: 0 fric: 1
+theta: 0 v_x: 0 v_y: 0 a_0: 0 fric: 1
+theta: 0 v_x: 0 v_y: 0 a_0: 0 fric: 1
+theta: 0 v_x: 0 v_y: 0 a_0: 0 fric: 1
+theta: 0 v_x: 0 v_y: 0 a_0: 0 fric: 1
+theta: 0 v_x: 0 v_y: 0 a_0: 0 fric: 1
+theta: 0 v_x: 0 v_y: 0 a_0: 0 fric: 1
+theta: 0 v_x: 0 v_y: 0 a_0: 0 fric: 1
+theta: 0 v_x: 0 v_y: 0 a_0: 0 fric: 1
+theta: 0 v_x: 0 v_y: 0 a_0: 0 fric: 1
+theta: 0 v_x: 0 v_y: 0 a_0: 0 fric: 1
+theta: 0 v_x: 0 v_y: 0 a_0: 0 fric: 1
+theta: 0 v_x: 0 v_y: 0 a_0: 0 fric: 1
+theta: 0 v_x: 0 v_y: 0 a_0: 0 fric: 1
+theta: 0 v_x: 0 v_y: 0 a_0: 0 fric: 1
+theta: 0 v_x: 0 v_y: 0 a_0: 0 fric: 1
+theta: 0 v_x: 0 v_y: 0 a_0: 0 fric: 1
+theta: 0 v_x: 0 v_y: 0 a_0: 0 fric: 1
+theta: 0 v_x: 0 v_y: 0 a_0: 0 fric: 1
+theta: 0 v_x: 0 v_y: 0 a_0: 0 fric: 1
+theta: 0 v_x: 0 v_y: 0 a_0: 0 fric: 1
+theta: 0 v_x: 0 v_y: 0 a_0: 0 fric: 1
+theta: 0 v_x: 0 v_y: 0 a_0: 0 fric: 1
+theta: 0 v_x: 0 v_y: 0 a_0: 0 fric: 1
+theta: 0 v_x: 0 v_y: 0 a_0: 0 fric: 1
+theta: 0 v_x: 0 v_y: 0 a_0: 0 fric: 1
+theta: 0 v_x: 0 v_y: 0 a_0: 0 fric: 1
+theta: 0 v_x: 0 v_y: 0 a_0: 0 fric: 1
+theta: 0 v_x: 0 v_y: 0 a_0: 0 fric: 1
+theta: 0 v_x: 0 v_y: 0 a_0: 0 fric: 1
+theta: 0 v_x: 0 v_y: 0 a_0: 0 fric: 1
+theta: 0 v_x: 0 v_y: 0 a_0: 0 fric: 1
+theta: 0 v_x: 0 v_y: 0 a_0: 0 fric: 1
+theta: 0 v_x: 0 v_y: 0 a_0: 0 fric: 1
+theta: 0 v_x: 0 v_y: 0 a_0: 0 fric: 1
+theta: 0 v_x: 0 v_y: 0 a_0: 0 fric: 1
+theta: 0 v_x: 0 v_y: 0 a_0: 0 fric: 1
+theta: 0 v_x: 0 v_y: 0 a_0: 0 fric: 1
+theta: 0 v_x: 0 v_y: 0 a_0: 0 fric: 1
+theta: 0 v_x: 0 v_y: 0 a_0: 0 fric: 1
+theta: 0 v_x: 0 v_y: 0 a_0: 0 fric: 1
+theta: 0 v_x: 0 v_y: 0 a_0: 0 fric: 1
+theta: 0 v_x: 0 v_y: 0 a_0: 0 fric: 1
+theta: 0 v_x: 0 v_y: 0 a_0: 0 fric: 1
+theta: 0 v_x: 0 v_y: 0 a_0: 0 fric: 1
+theta: 0 v_x: 0 v_y: 0 a_0: 0 fric: 1
+theta: 0 v_x: 0 v_y: 0 a_0: 0 fric: 1
+theta: 0 v_x: 0 v_y: 0 a_0: 0 fric: 1
+theta: 0 v_x: 0 v_y: 0 a_0: 0 fric: 1
+theta: 0 v_x: 0 v_y: 0 a_0: 0 fric: 1
+theta: 0 v_x: 0 v_y: 0 a_0: 0 fric: 1
+theta: 0 v_x: 0 v_y: 0 a_0: 0 fric: 1
+theta: 0 v_x: 0 v_y: 0 a_0: 0 fric: 1
+theta: 0 v_x: 0 v_y: 0 a_0: 0 fric: 1
+theta: 0 v_x: 0 v_y: 0 a_0: 0 fric: 1
+theta: 0 v_x: 0 v_y: 0 a_0: 0 fric: 1
+theta: 0 v_x: 0 v_y: 0 a_0: 0 fric: 1
+theta: 0 v_x: 0 v_y: 0 a_0: 0 fric: 1
+theta: 0 v_x: 0 v_y: 0 a_0: 0 fric: 1
+theta: 0 v_x: 0 v_y: 0 a_0: 0 fric: 1
+theta: 0 v_x: 0 v_y: 0 a_0: 0 fric: 1
+theta: 0 v_x: 0 v_y: 0 a_0: 0 fric: 1
+theta: 0 v_x: 0 v_y: 0 a_0: 0 fric: 1
+theta: 0 v_x: 0 v_y: 0 a_0: 0 fric: 1
+theta: 0 v_x: 0 v_y: 0 a_0: 0 fric: 1
+theta: 0 v_x: 0 v_y: 0 a_0: 0 fric: 1
+theta: 0 v_x: 0 v_y: 0 a_0: 0 fric: 1
+theta: 0 v_x: 0 v_y: 0 a_0: 0 fric: 1
+theta: 0 v_x: 0 v_y: 0 a_0: 0 fric: 1
+theta: 0 v_x: 0 v_y: 0 a_0: 0 fric: 1
+theta: 0 v_x: 0 v_y: 0 a_0: 0 fric: 1
+theta: 0 v_x: 0 v_y: 0 a_0: 0 fric: 1
+theta: 0 v_x: 0 v_y: 0 a_0: 0 fric: 1
+theta: 0 v_x: 0 v_y: 0 a_0: 0 fric: 1
+theta: 0 v_x: 0 v_y: 0 a_0: 0 fric: 1
+theta: 0 v_x: 0 v_y: 0 a_0: 0 fric: 1
+theta: 0 v_x: 0 v_y: 0 a_0: 0 fric: 1
+theta: 0 v_x: 0 v_y: 0 a_0: 0 fric: 1
+theta: 0 v_x: 0 v_y: 0 a_0: 0 fric: 1
+theta: 0 v_x: 0 v_y: 0 a_0: 0 fric: 1
+theta: 0 v_x: 0 v_y: 0 a_0: 0 fric: 1
+theta: 0 v_x: 0 v_y: 0 a_0: 0 fric: 1
+theta: 0 v_x: 0 v_y: 0 a_0: 0 fric: 1
+theta: 0 v_x: 0 v_y: 0 a_0: 0 fric: 1
+theta: 0 v_x: 0 v_y: 0 a_0: 0 fric: 1
+theta: 0 v_x: 0 v_y: 0 a_0: 0 fric: 1
+theta: 0 v_x: 0 v_y: 0 a_0: 0 fric: 1
+theta: 0 v_x: 0 v_y: 0 a_0: 0 fric: 1
+theta: 0 v_x: 0 v_y: 0 a_0: 0 fric: 1
+theta: 0 v_x: 0 v_y: 0 a_0: 0 fric: 1
+theta: 0 v_x: 0 v_y: 0 a_0: 0 fric: 1
+theta: 0 v_x: 0 v_y: 0 a_0: 0 fric: 1
+theta: 0 v_x: 0 v_y: 0 a_0: 0 fric: 1
+theta: 0 v_x: 0 v_y: 0 a_0: 0 fric: 1
+theta: 0 v_x: 0 v_y: 0 a_0: 0 fric: 1
+theta: 0 v_x: 0 v_y: 0 a_0: 0 fric: 1
+theta: 0 v_x: 0 v_y: 0 a_0: 0 fric: 1
+theta: 0 v_x: 0 v_y: 0 a_0: 0 fric: 1
+theta: 0 v_x: 0 v_y: 0 a_0: 0 fric: 1
+theta: 0 v_x: 0 v_y: 0 a_0: 0 fric: 1
+theta: 0 v_x: 0 v_y: 0 a_0: 0 fric: 1
+theta: 0 v_x: 0 v_y: 0 a_0: 0 fric: 1
+theta: 0 v_x: 0 v_y: 0 a_0: 0 fric: 1
+theta: 0 v_x: 0 v_y: 0 a_0: 0 fric: 1
+theta: 0 v_x: 0 v_y: 0 a_0: 0 fric: 1
+theta: 0 v_x: 0 v_y: 0 a_0: 0 fric: 1
+theta: 0 v_x: 0 v_y: 0 a_0: 0 fric: 1
+theta: 0 v_x: 0 v_y: 0 a_0: 0 fric: 1
+theta: 0 v_x: 0 v_y: 0 a_0: 0 fric: 1
+theta: 0 v_x: 0 v_y: 0 a_0: 0 fric: 1
+theta: 0 v_x: 0 v_y: 0 a_0: 0 fric: 1
+theta: 0 v_x: 0 v_y: 0 a_0: 0 fric: 1
+theta: 0 v_x: 0 v_y: 0 a_0: 0 fric: 1
+theta: 0 v_x: 0 v_y: 0 a_0: 0 fric: 1
+theta: 0 v_x: 0 v_y: 0 a_0: 0 fric: 1
+theta: 0 v_x: 0 v_y: 0 a_0: 0 fric: 1
+theta: 0 v_x: 0 v_y: 0 a_0: 0 fric: 1
+theta: 0 v_x: 0 v_y: 0 a_0: 0 fric: 1
+theta: 0 v_x: 0 v_y: 0 a_0: 0 fric: 1
+theta: 0 v_x: 0 v_y: 0 a_0: 0 fric: 1
+theta: 0 v_x: 0 v_y: 0 a_0: 0 fric: 1

@@ -22,6 +22,7 @@ private:
 	//SDL_Surface* rotate;
 	
 	Mix_Chunk* engine;
+	Mix_Chunk* bulletSound;
     
     ////////////////////////// timer attributes to keep track of movement
     long int start, end;

@@ -45,6 +45,7 @@ bool Game::Init() //Set up the SDL and load resources
 	SDL_WM_SetCaption("Asteroids_N_Stuff", NULL); 
 	
 	engine = Mix_LoadWAV("../sound/engine.wav");//sets our engine noise
+	bulletSound = Mix_LoadWAV("../sound/shipFire.wav");//sets bullet sound
 	
     CSurface::Transparent(asteroidImage, 255, 0, 255);
     //CSurface::Transparent(playerShip, 255, 0, 255);
@@ -89,7 +90,7 @@ void Game::Event(SDL_Event* _Event) //Check for events
 		{
 			case SDLK_ESCAPE: Running = false;
 				break;
-			case SDLK_SPACE: 
+			case SDLK_m: 
 				if(playing == false)
 				{
 					play_audio(); //will be replaced later
@@ -116,6 +117,8 @@ void Game::Event(SDL_Event* _Event) //Check for events
 			case SDLK_d: //cout << "d\n"; //turn +theta
 				player_ship.rotate(-.02);
 				break;		
+			case SDLK_SPACE:
+				play_sound(bulletSound);
 			default: //do nothing;
 				break;
 		}
