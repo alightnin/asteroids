@@ -17,13 +17,11 @@ private:
 private:
     SDL_Surface* background;
     SDL_Surface* asteroidImage;
-    //SDL_Surface* playerShip;
     SDL_Surface* aiShip;
-	//SDL_Surface* rotate;
 	
 	Mix_Chunk* engine;
 	Mix_Chunk* bulletSound;
-    
+	Mix_Music* track;
     ////////////////////////// timer attributes to keep track of movement
     long int start, end;
     double deltaTime;

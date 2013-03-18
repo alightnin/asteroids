@@ -57,18 +57,10 @@ void ship::rotate(double theta_n_stuff)
 
 void ship::update(double dt)
 {
-	//if(theta_rad > (2 * pi)) theta_rad = 0;
-	//else if(theta_rad < 0) theta_rad = 2 * pi;
+	if(theta_rad > (2 * pi)) theta_rad = 0; //keep theta between 0 and 2 pi
+	else if(theta_rad < 0) theta_rad = 2 * pi;
 	theta_deg = (theta_rad * 180) / pi; //Convert to degree pi for rotozoom
 	ship_img = rotozoomSurface(ship_buf,theta_deg, 1.0, 0); //call to update the rotation of the ship
-
-	/*
-	v_theta_rad+= a_theta_rad* dt; //Calculate velocity as the integral of accelaration
-	v_x = sin(theta) * v_theta; //Calculate x-axis velocity
-	v_y = cos(theta) * v_theta; //Calculate y-axis velocity
-	p_x += v_x * dt; //convert velocity to position x-axis
-	p_y += v_y * dt; //convert velocity to position y-axis
-	*/
 	
 	p_x += v_x * dt;
 	p_y += v_y * dt;
@@ -83,26 +75,17 @@ void ship::update(double dt)
 	if(p_x > SCREENWIDTH) p_x = 0;
 	if(p_y < 0) p_y = SCREENHEIGHT;
 	if(p_y > SCREENHEIGHT) p_y = 0;
-	//if(theta_rad> 2 * PI) theta_rad= 0;
-	//else if(theta_rad< 0) theta_rad= 2 * PI;
-	/*
-	if(a_0 == 0) //slow the ship down over time
-	{
-		cout << "V: " << v_x << ", " << v_y  << endl;
-		if(v_theta_rad> 0) v_theta_rad-= DRAG;
-		else if(v_theta_rad< 0) v_theta_rad+= DRAG;
-	}*/
 	
 	/*
-	if((cos(theta) * v_y) + (sin(theta) * v_x) > 300)
+	if((-sin(theta_rad) * v_y) + (cos(theta_rad) * v_x) > 500)
 	{
-		v_y = (300 * cos(theta));
-		v_x = (300 * sin(theta));
+		v_y = (500 * -sin(theta_rad));
+		v_x = (500 * cos(theta_rad));
 	}
-	else if((cos(theta) * v_y) + (sin(theta) * v_x) < -300)
+	else if((-sin(theta_rad) * v_y) + (cos(theta_rad) * v_x) < 500)
 	{
-		v_y = (-300 * cos(theta));
-		v_x = (-300 * sin(theta));
+		v_y = (-500 * -sin(theta_rad));
+		v_x = (-500 * cos(theta_rad));
 	}
 	*/
 }

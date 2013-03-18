@@ -1,8 +1,4 @@
-#include "../includes/mixer.h"
-
-//The music that will be played
-Mix_Music *music = NULL; 
-Mix_Chunk *sound = NULL;
+#include "../includes/mixer.h" 
 
 //added to Init video function
 /*
@@ -26,10 +22,11 @@ bool check_files() //FINISH ME
 void cleanup_audio()
 {
 	//Close SDL_Mixer
-	Mix_FreeChunk(sound);
+	//Mix_FreeChunk(sound);
 	Mix_CloseAudio();
 }
 
+/*
 bool load_file(char* filepath) // Loads the file passed into the fcn into memory
 {
 	bool success = true;
@@ -38,21 +35,17 @@ bool load_file(char* filepath) // Loads the file passed into the fcn into memory
 	if(music == NULL) success = false;
 	return success;
 }
-bool play_sound(Mix_Chunk* sound)
+*/
+bool play_fx(Mix_Chunk* fx)
 {
-	if(Mix_PlayChannel(-1, sound, 0) == -1) 
-	{
-		printf("unable to load engine noise");
-		return false;
-	}
+	if(Mix_PlayChannel(-1, fx, 0) == -1) return false;
 	return true;
 }
 
-bool play_audio()
+bool play_track(Mix_Music* track)
 {
-	bool success = true;
-	if(Mix_PlayMusic(music, 1) == -1) success = false;	
-	return success;
+	if(Mix_PlayMusic(track, 1) == -1) return false;
+	return true;
 }
 
 bool stop_audio() //FINISH ME

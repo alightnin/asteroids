@@ -42,10 +42,10 @@ bool Game::Init() //Set up the SDL and load resources
         return false;
     }*/
 
-	SDL_WM_SetCaption("Asteroids_N_Stuff", NULL); 
-	
-	engine = Mix_LoadWAV("../sound/engine.wav");//sets our engine noise
+	SDL_WM_SetCaption("Asteroids_N_Stuff", NULL);
 	bulletSound = Mix_LoadWAV("../sound/shipFire.wav");//sets bullet sound
+	engine = Mix_LoadWAV("../sound/engine.wav");//sets our engine noise
+	track = Mix_LoadMUS("../sound/nopsled_k3rb3ros_chris_epic_remix.mp3");
 	
     CSurface::Transparent(asteroidImage, 255, 0, 255);
     //CSurface::Transparent(playerShip, 255, 0, 255);
@@ -60,6 +60,8 @@ bool Game::Init() //Set up the SDL and load resources
     p_x = SCREENWIDTH / 2, p_y = SCREENHEIGHT / 2; //init position
     start = end = 0;
     */
+	
+	play_track(track); //start audio play
 
     return true;
 }
@@ -93,32 +95,32 @@ void Game::Event(SDL_Event* _Event) //Check for events
 			case SDLK_m: 
 				if(playing == false)
 				{
-					play_audio(); //will be replaced later
+					//play_audio(); //will be replaced later
 					playing = true;
 				}
 				else
 				{
-					stop_audio();
+					//stop_audio();
 					playing = false;
 				}
 				break;
 			case SDLK_w: 
 				player_ship.accelerate(60);
-				play_sound(engine);
+				play_fx(engine);
 				//a_theta += .05;	
 				break;
 			case SDLK_a: 
-				player_ship.rotate(.02);
+				player_ship.rotate(.05);
 				//theta+= (PI * .7);				
 				break;
 			case SDLK_s: //cout << "s\n"; //slow down
 				player_ship.accelerate(-35);
 				break;
 			case SDLK_d: //cout << "d\n"; //turn +theta
-				player_ship.rotate(-.02);
+				player_ship.rotate(-.05);
 				break;		
 			case SDLK_SPACE:
-				play_sound(bulletSound);
+				play_fx(bulletSound);
 			default: //do nothing;
 				break;
 		}
