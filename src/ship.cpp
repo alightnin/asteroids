@@ -47,7 +47,7 @@ bool ship::is_ok()
 void ship::render(SDL_Surface* screen)
 {
 	//update me
-	CSurface::Draw(screen, ship_img, p_x, p_y);
+	CSurface::Draw(screen, ship_img, p_x-(ship_img->w/2), p_y-(ship_img->h/2));
 }
 
 void ship::rotate(double theta_n_stuff)
