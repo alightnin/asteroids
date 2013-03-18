@@ -113,6 +113,7 @@ void Game::Event(SDL_Event* _Event) //Check for events
 				break;
 			case SDLK_s: //cout << "s\n"; //slow down
 				player_ship.accelerate(-35);
+				play_sound(engine);
 				break;
 			case SDLK_d: //cout << "d\n"; //turn +theta
 				player_ship.rotate(-.02);
