@@ -20,6 +20,8 @@ private:
     //SDL_Surface* playerShip;
     SDL_Surface* aiShip;
 	//SDL_Surface* rotate;
+	
+	Mix_Chunk* engine;
     
     ////////////////////////// timer attributes to keep track of movement
     long int start, end;

@@ -44,12 +44,14 @@ bool Game::Init() //Set up the SDL and load resources
 
 	SDL_WM_SetCaption("Asteroids_N_Stuff", NULL); 
 	
+	engine = Mix_LoadWAV("../sound/engine.wav");//sets our engine noise
+	
     CSurface::Transparent(asteroidImage, 255, 0, 255);
     //CSurface::Transparent(playerShip, 255, 0, 255);
     SDL_EnableKeyRepeat(1, SDL_DEFAULT_REPEAT_INTERVAL / 3);
     
 	playing = false;
-    
+	
 	/*
     a_theta = 0; //init acceleration 
     v_x = 0, v_y = 0, v_theta = 0; //init velocity
@@ -76,6 +78,7 @@ void Game::Cleanup() //Free all SDL resources
 
 void Game::Event(SDL_Event* _Event) //Check for events
 {
+	
     if(_Event->type == SDL_QUIT)
     {
 		Running = false;
@@ -100,7 +103,7 @@ void Game::Event(SDL_Event* _Event) //Check for events
 				break;
 			case SDLK_w: 
 				player_ship.accelerate(60);
-				play_engine();
+				play_sound(engine);
 				//a_theta += .05;	
 				break;
 			case SDLK_a: 

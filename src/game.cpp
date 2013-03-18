@@ -25,7 +25,6 @@ int Game::Execute() //main game function
     end = 0;
     
     if(load_file("../music/Toxicity.mp3") == true);//printf("File succesfully loaded\n");
-	
     SDL_Event _Event;
     while(Running) //Main game loop
     {
